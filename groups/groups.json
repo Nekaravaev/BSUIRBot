@@ -1,0 +1,3616 @@
+{
+    "studentGroup": [
+        {
+            "id": "21411",
+            "name": "560801",
+            "course": "1",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20103"
+        },
+        {
+            "id": "20169",
+            "name": "212602",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20013"
+        },
+        {
+            "id": "20079",
+            "name": "110201",
+            "course": "5",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20014"
+        },
+        {
+            "id": "20088",
+            "name": "112601",
+            "course": "5",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20013"
+        },
+        {
+            "id": "20089",
+            "name": "113201",
+            "course": "5",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20018"
+        },
+        {
+            "id": "20090",
+            "name": "113202",
+            "course": "5",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20018"
+        },
+        {
+            "id": "20086",
+            "name": "112501",
+            "course": "5",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20015"
+        },
+        {
+            "id": "20087",
+            "name": "112502",
+            "course": "5",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20015"
+        },
+        {
+            "id": "20081",
+            "name": "110901",
+            "course": "5",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20010"
+        },
+        {
+            "id": "20082",
+            "name": "110902",
+            "course": "5",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20010"
+        },
+        {
+            "id": "20083",
+            "name": "111101",
+            "course": "5",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20016"
+        },
+        {
+            "id": "20084",
+            "name": "111801",
+            "course": "5",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20012"
+        },
+        {
+            "id": "20166",
+            "name": "211801",
+            "course": "4",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20012"
+        },
+        {
+            "id": "20164",
+            "name": "210901",
+            "course": "4",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20010"
+        },
+        {
+            "id": "21416",
+            "name": "533701",
+            "course": "1",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20129"
+        },
+        {
+            "id": "21410",
+            "name": "562901",
+            "course": "1",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20102"
+        },
+        {
+            "id": "21408",
+            "name": "562101",
+            "course": "1",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20100"
+        },
+        {
+            "id": "21407",
+            "name": "563401",
+            "course": "1",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20099"
+        },
+        {
+            "id": "20165",
+            "name": "211101",
+            "course": "4",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20016"
+        },
+        {
+            "id": "20172",
+            "name": "213501",
+            "course": "4",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20011"
+        },
+        {
+            "id": "20161",
+            "name": "210201",
+            "course": "4",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20014"
+        },
+        {
+            "id": "20168",
+            "name": "212601",
+            "course": "4",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20013"
+        },
+        {
+            "id": "20170",
+            "name": "213201",
+            "course": "4",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20018"
+        },
+        {
+            "id": "20171",
+            "name": "213202",
+            "course": "4",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20018"
+        },
+        {
+            "id": "20167",
+            "name": "212501",
+            "course": "4",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20015"
+        },
+        {
+            "id": "21022",
+            "name": "311801",
+            "course": "3",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20012"
+        },
+        {
+            "id": "21021",
+            "name": "312601",
+            "course": "3",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20013"
+        },
+        {
+            "id": "21020",
+            "name": "310201",
+            "course": "3",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20014"
+        },
+        {
+            "id": "21019",
+            "name": "313801",
+            "course": "3",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20082"
+        },
+        {
+            "id": "21096",
+            "name": "313802",
+            "course": "3",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20082"
+        },
+        {
+            "id": "21017",
+            "name": "311101",
+            "course": "3",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20016"
+        },
+        {
+            "id": "21016",
+            "name": "313201",
+            "course": "3",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20018"
+        },
+        {
+            "id": "21083",
+            "name": "313202",
+            "course": "3",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20018"
+        },
+        {
+            "id": "21024",
+            "name": "310901",
+            "course": "3",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20010"
+        },
+        {
+            "id": "21023",
+            "name": "313501",
+            "course": "3",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20011"
+        },
+        {
+            "id": "21409",
+            "name": "563101",
+            "course": "1",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20101"
+        },
+        {
+            "id": "21412",
+            "name": "563001",
+            "course": "1",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20104"
+        },
+        {
+            "id": "21388",
+            "name": "561401",
+            "course": "1",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20030"
+        },
+        {
+            "id": "21365",
+            "name": "550501",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21426",
+            "name": "550701",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20147"
+        },
+        {
+            "id": "21376",
+            "name": "551001",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21371",
+            "name": "553501",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21172",
+            "name": "461401",
+            "course": "2",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20030"
+        },
+        {
+            "id": "21167",
+            "name": "460801",
+            "course": "2",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20103"
+        },
+        {
+            "id": "21168",
+            "name": "463101",
+            "course": "2",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20101"
+        },
+        {
+            "id": "21171",
+            "name": "462101",
+            "course": "2",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20100"
+        },
+        {
+            "id": "21169",
+            "name": "463001",
+            "course": "2",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20104"
+        },
+        {
+            "id": "21166",
+            "name": "462901",
+            "course": "2",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20102"
+        },
+        {
+            "id": "21128",
+            "name": "433702",
+            "course": "2",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20129"
+        },
+        {
+            "id": "21127",
+            "name": "433701",
+            "course": "2",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20129"
+        },
+        {
+            "id": "21378",
+            "name": "551003",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21379",
+            "name": "551004",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21377",
+            "name": "551002",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21380",
+            "name": "551005",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21381",
+            "name": "551006",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21372",
+            "name": "553502",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21373",
+            "name": "553503",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21374",
+            "name": "553504",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21375",
+            "name": "553505",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21156",
+            "name": "450501",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21257",
+            "name": "450701",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20147"
+        },
+        {
+            "id": "21196",
+            "name": "450504",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21197",
+            "name": "450505",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21194",
+            "name": "450502",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21195",
+            "name": "450503",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21154",
+            "name": "451001",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21155",
+            "name": "453501",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21239",
+            "name": "453505",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21238",
+            "name": "453504",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21237",
+            "name": "453503",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21236",
+            "name": "453502",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21068",
+            "name": "350504",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21258",
+            "name": "350701",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20147"
+        },
+        {
+            "id": "21070",
+            "name": "350506",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21069",
+            "name": "350505",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21027",
+            "name": "350501",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21067",
+            "name": "350503",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21066",
+            "name": "350502",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21025",
+            "name": "351001",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21153",
+            "name": "410901",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20010"
+        },
+        {
+            "id": "21151",
+            "name": "411801",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20012"
+        },
+        {
+            "id": "21248",
+            "name": "411101",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20140"
+        },
+        {
+            "id": "21152",
+            "name": "410101",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20011"
+        },
+        {
+            "id": "21246",
+            "name": "414301",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20138"
+        },
+        {
+            "id": "21252",
+            "name": "414302",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20138"
+        },
+        {
+            "id": "21145",
+            "name": "413301",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20018"
+        },
+        {
+            "id": "21211",
+            "name": "413302",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20018"
+        },
+        {
+            "id": "21149",
+            "name": "410201",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20139"
+        },
+        {
+            "id": "21150",
+            "name": "412601",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20013"
+        },
+        {
+            "id": "21148",
+            "name": "413801",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20082"
+        },
+        {
+            "id": "21224",
+            "name": "413802",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20082"
+        },
+        {
+            "id": "21192",
+            "name": "451005",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21193",
+            "name": "451006",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21189",
+            "name": "451002",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21190",
+            "name": "451003",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21191",
+            "name": "451004",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21366",
+            "name": "550502",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21367",
+            "name": "550503",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21368",
+            "name": "550504",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21369",
+            "name": "550505",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21026",
+            "name": "353501",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21364",
+            "name": "512601",
+            "course": "1",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20013"
+        },
+        {
+            "id": "21363",
+            "name": "511801",
+            "course": "1",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20012"
+        },
+        {
+            "id": "21427",
+            "name": "510201",
+            "course": "1",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20139"
+        },
+        {
+            "id": "21424",
+            "name": "511101",
+            "course": "1",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20140"
+        },
+        {
+            "id": "21428",
+            "name": "513301",
+            "course": "1",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20018"
+        },
+        {
+            "id": "21403",
+            "name": "513802",
+            "course": "1",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20082"
+        },
+        {
+            "id": "21402",
+            "name": "513801",
+            "course": "1",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20082"
+        },
+        {
+            "id": "21362",
+            "name": "510101",
+            "course": "1",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20011"
+        },
+        {
+            "id": "21421",
+            "name": "514301",
+            "course": "1",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20138"
+        },
+        {
+            "id": "21422",
+            "name": "514302",
+            "course": "1",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20138"
+        },
+        {
+            "id": "21361",
+            "name": "510901",
+            "course": "1",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20010"
+        },
+        {
+            "id": "20210",
+            "name": "251001",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "20216",
+            "name": "253501",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "20133",
+            "name": "153501",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21038",
+            "name": "360801",
+            "course": "3",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20103"
+        },
+        {
+            "id": "21037",
+            "name": "362901",
+            "course": "3",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20102"
+        },
+        {
+            "id": "21059",
+            "name": "333701",
+            "course": "3",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20129"
+        },
+        {
+            "id": "21041",
+            "name": "363401",
+            "course": "3",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20099"
+        },
+        {
+            "id": "21042",
+            "name": "362101",
+            "course": "3",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20100"
+        },
+        {
+            "id": "21108",
+            "name": "333702",
+            "course": "3",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20129"
+        },
+        {
+            "id": "20135",
+            "name": "153503",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "20134",
+            "name": "153502",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "20127",
+            "name": "151001",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "20131",
+            "name": "151005",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "20130",
+            "name": "151004",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "20129",
+            "name": "151003",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "20128",
+            "name": "151002",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21357",
+            "name": "572301",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21394",
+            "name": "573602",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20070"
+        },
+        {
+            "id": "21393",
+            "name": "573601",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20070"
+        },
+        {
+            "id": "21040",
+            "name": "363001",
+            "course": "3",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20104"
+        },
+        {
+            "id": "21395",
+            "name": "573901",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20071"
+        },
+        {
+            "id": "21043",
+            "name": "361401",
+            "course": "3",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20030"
+        },
+        {
+            "id": "21039",
+            "name": "363101",
+            "course": "3",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20101"
+        },
+        {
+            "id": "21399",
+            "name": "574001",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20072"
+        },
+        {
+            "id": "21071",
+            "name": "361402",
+            "course": "3",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20030"
+        },
+        {
+            "id": "20189",
+            "name": "230801",
+            "course": "4",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20000"
+        },
+        {
+            "id": "20221",
+            "name": "260801",
+            "course": "4",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20033"
+        },
+        {
+            "id": "20226",
+            "name": "262901",
+            "course": "4",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20035"
+        },
+        {
+            "id": "20225",
+            "name": "262101",
+            "course": "4",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20032"
+        },
+        {
+            "id": "20230",
+            "name": "263401",
+            "course": "4",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20031"
+        },
+        {
+            "id": "20223",
+            "name": "261402",
+            "course": "2",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20030"
+        },
+        {
+            "id": "20190",
+            "name": "230802",
+            "course": "4",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20000"
+        },
+        {
+            "id": "20229",
+            "name": "263101",
+            "course": "4",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20036"
+        },
+        {
+            "id": "20227",
+            "name": "263001",
+            "course": "4",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20034"
+        },
+        {
+            "id": "20222",
+            "name": "261401",
+            "course": "4",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20030"
+        },
+        {
+            "id": "20204",
+            "name": "250501",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "20205",
+            "name": "250502",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "20206",
+            "name": "250503",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "20207",
+            "name": "250504",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21259",
+            "name": "250701",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20147"
+        },
+        {
+            "id": "20173",
+            "name": "213502",
+            "course": "2",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20011"
+        },
+        {
+            "id": "20162",
+            "name": "210202",
+            "course": "4",
+            "facultyId": "20017",
+            "specialityDepartmentEducationFormId": "20014"
+        },
+        {
+            "id": "20122",
+            "name": "150502",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "20123",
+            "name": "150503",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21260",
+            "name": "150701",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20147"
+        },
+        {
+            "id": "21143",
+            "name": "472301",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "20138",
+            "name": "160801",
+            "course": "5",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20033"
+        },
+        {
+            "id": "20107",
+            "name": "130801",
+            "course": "5",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20000"
+        },
+        {
+            "id": "21144",
+            "name": "473601",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20070"
+        },
+        {
+            "id": "20108",
+            "name": "130802",
+            "course": "5",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20000"
+        },
+        {
+            "id": "20142",
+            "name": "162901",
+            "course": "5",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20035"
+        },
+        {
+            "id": "20141",
+            "name": "162101",
+            "course": "5",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20032"
+        },
+        {
+            "id": "20147",
+            "name": "163401",
+            "course": "5",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20031"
+        },
+        {
+            "id": "20143",
+            "name": "163001",
+            "course": "5",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20034"
+        },
+        {
+            "id": "20145",
+            "name": "163101",
+            "course": "5",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20036"
+        },
+        {
+            "id": "20139",
+            "name": "161401",
+            "course": "5",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20030"
+        },
+        {
+            "id": "20140",
+            "name": "161402",
+            "course": "5",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20030"
+        },
+        {
+            "id": "21141",
+            "name": "473901",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20071"
+        },
+        {
+            "id": "21142",
+            "name": "474001",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20072"
+        },
+        {
+            "id": "21014",
+            "name": "372301",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21015",
+            "name": "373601",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20070"
+        },
+        {
+            "id": "21012",
+            "name": "373901",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20071"
+        },
+        {
+            "id": "21013",
+            "name": "374001",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20072"
+        },
+        {
+            "id": "21084",
+            "name": "373904",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20071"
+        },
+        {
+            "id": "21081",
+            "name": "373902",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20071"
+        },
+        {
+            "id": "21082",
+            "name": "373903",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20071"
+        },
+        {
+            "id": "20241",
+            "name": "273601",
+            "course": "4",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20070"
+        },
+        {
+            "id": "20237",
+            "name": "272301",
+            "course": "4",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "20240",
+            "name": "272304",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "20228",
+            "name": "263011",
+            "course": "4",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20133"
+        },
+        {
+            "id": "20224",
+            "name": "261411",
+            "course": "4",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20132"
+        },
+        {
+            "id": "20178",
+            "name": "220611",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20136"
+        },
+        {
+            "id": "20144",
+            "name": "163011",
+            "course": "5",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20133"
+        },
+        {
+            "id": "21244",
+            "name": "463011",
+            "course": "2",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20131"
+        },
+        {
+            "id": "20238",
+            "name": "272302",
+            "course": "4",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "20239",
+            "name": "272303",
+            "course": "4",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21243",
+            "name": "420611",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20136"
+        },
+        {
+            "id": "20231",
+            "name": "271501",
+            "course": "4",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20009"
+        },
+        {
+            "id": "21123",
+            "name": "363011",
+            "course": "3",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20131"
+        },
+        {
+            "id": "20234",
+            "name": "272201",
+            "course": "4",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20008"
+        },
+        {
+            "id": "20233",
+            "name": "271503",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20009"
+        },
+        {
+            "id": "21122",
+            "name": "320611",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20136"
+        },
+        {
+            "id": "20235",
+            "name": "272202",
+            "course": "4",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20008"
+        },
+        {
+            "id": "20236",
+            "name": "272203",
+            "course": "4",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20008"
+        },
+        {
+            "id": "20148",
+            "name": "171501",
+            "course": "5",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20009"
+        },
+        {
+            "id": "20150",
+            "name": "171503",
+            "course": "5",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20009"
+        },
+        {
+            "id": "20149",
+            "name": "171502",
+            "course": "5",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20009"
+        },
+        {
+            "id": "20156",
+            "name": "172301",
+            "course": "5",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21383",
+            "name": "540301",
+            "course": "1",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20024"
+        },
+        {
+            "id": "21405",
+            "name": "544101",
+            "course": "1",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20095"
+        },
+        {
+            "id": "21386",
+            "name": "541301",
+            "course": "1",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20028"
+        },
+        {
+            "id": "21430",
+            "name": "543201",
+            "course": "1",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20025"
+        },
+        {
+            "id": "21382",
+            "name": "542701",
+            "course": "1",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20023"
+        },
+        {
+            "id": "21387",
+            "name": "541201",
+            "course": "1",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20029"
+        },
+        {
+            "id": "21406",
+            "name": "541501",
+            "course": "1",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20096"
+        },
+        {
+            "id": "21404",
+            "name": "540401",
+            "course": "1",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20094"
+        },
+        {
+            "id": "21385",
+            "name": "542801",
+            "course": "1",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20026"
+        },
+        {
+            "id": "21418",
+            "name": "534201",
+            "course": "1",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20130"
+        },
+        {
+            "id": "20242",
+            "name": "273602",
+            "course": "4",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20070"
+        },
+        {
+            "id": "20158",
+            "name": "172303",
+            "course": "5",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "20157",
+            "name": "172302",
+            "course": "5",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21355",
+            "name": "521901",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20005"
+        },
+        {
+            "id": "21349",
+            "name": "522402",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "21348",
+            "name": "522401",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "21350",
+            "name": "522403",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "21061",
+            "name": "351002",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21062",
+            "name": "351003",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21063",
+            "name": "351004",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21065",
+            "name": "351006",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21064",
+            "name": "351005",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "21359",
+            "name": "572303",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21358",
+            "name": "572302",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21397",
+            "name": "573903",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20071"
+        },
+        {
+            "id": "21396",
+            "name": "573902",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20071"
+        },
+        {
+            "id": "21112",
+            "name": "353502",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21401",
+            "name": "574003",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20072"
+        },
+        {
+            "id": "21400",
+            "name": "574002",
+            "course": "1",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20072"
+        },
+        {
+            "id": "21113",
+            "name": "353503",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21215",
+            "name": "472302",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21114",
+            "name": "353504",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21115",
+            "name": "353505",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21162",
+            "name": "442801",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20026"
+        },
+        {
+            "id": "21161",
+            "name": "440401",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20094"
+        },
+        {
+            "id": "21160",
+            "name": "441501",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20096"
+        },
+        {
+            "id": "21159",
+            "name": "441301",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20028"
+        },
+        {
+            "id": "21158",
+            "name": "441201",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20029"
+        },
+        {
+            "id": "21188",
+            "name": "434201",
+            "course": "2",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20130"
+        },
+        {
+            "id": "21157",
+            "name": "444101",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20095"
+        },
+        {
+            "id": "20214",
+            "name": "251005",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "20213",
+            "name": "251004",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "20212",
+            "name": "251003",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "20215",
+            "name": "251006",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "20211",
+            "name": "251002",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20022"
+        },
+        {
+            "id": "20220",
+            "name": "253505",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "20218",
+            "name": "253503",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "20219",
+            "name": "253504",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "20217",
+            "name": "253502",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20021"
+        },
+        {
+            "id": "21431",
+            "name": "524401",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20203"
+        },
+        {
+            "id": "21216",
+            "name": "472303",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21353",
+            "name": "521702",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "21352",
+            "name": "521701",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "21354",
+            "name": "521703",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "21218",
+            "name": "473602",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20070"
+        },
+        {
+            "id": "21165",
+            "name": "442701",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20023"
+        },
+        {
+            "id": "21163",
+            "name": "443201",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20025"
+        },
+        {
+            "id": "21164",
+            "name": "440301",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20024"
+        },
+        {
+            "id": "21219",
+            "name": "440302",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20024"
+        },
+        {
+            "id": "21343",
+            "name": "520601",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21089",
+            "name": "372304",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21088",
+            "name": "372303",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21087",
+            "name": "372302",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20007"
+        },
+        {
+            "id": "21090",
+            "name": "373602",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20070"
+        },
+        {
+            "id": "21345",
+            "name": "520603",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21344",
+            "name": "520602",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21346",
+            "name": "520604",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21212",
+            "name": "473904",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20071"
+        },
+        {
+            "id": "21209",
+            "name": "473902",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20071"
+        },
+        {
+            "id": "21210",
+            "name": "473903",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20071"
+        },
+        {
+            "id": "21213",
+            "name": "474002",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20072"
+        },
+        {
+            "id": "21214",
+            "name": "474003",
+            "course": "2",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20072"
+        },
+        {
+            "id": "21085",
+            "name": "374002",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20072"
+        },
+        {
+            "id": "21086",
+            "name": "374003",
+            "course": "3",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20072"
+        },
+        {
+            "id": "21138",
+            "name": "422401",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "21204",
+            "name": "422403",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "21203",
+            "name": "422402",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "21137",
+            "name": "421901",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20005"
+        },
+        {
+            "id": "20232",
+            "name": "271502",
+            "course": "4",
+            "facultyId": "20012",
+            "specialityDepartmentEducationFormId": "20009"
+        },
+        {
+            "id": "21140",
+            "name": "420601",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21208",
+            "name": "421703",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "21207",
+            "name": "421702",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "21139",
+            "name": "421701",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "21201",
+            "name": "420603",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21200",
+            "name": "420602",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21202",
+            "name": "420604",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21033",
+            "name": "342801",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20026"
+        },
+        {
+            "id": "21032",
+            "name": "340401",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20094"
+        },
+        {
+            "id": "21031",
+            "name": "341501",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20096"
+        },
+        {
+            "id": "21060",
+            "name": "334201",
+            "course": "3",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20130"
+        },
+        {
+            "id": "21254",
+            "name": "344102",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20095"
+        },
+        {
+            "id": "21028",
+            "name": "344101",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20095"
+        },
+        {
+            "id": "21030",
+            "name": "341301",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20028"
+        },
+        {
+            "id": "21029",
+            "name": "341201",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20029"
+        },
+        {
+            "id": "21011",
+            "name": "320601",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21010",
+            "name": "321701",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "21079",
+            "name": "321702",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "21080",
+            "name": "321703",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "21009",
+            "name": "322401",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "20174",
+            "name": "220601",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "20181",
+            "name": "221703",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "20179",
+            "name": "221701",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "20176",
+            "name": "220603",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "20177",
+            "name": "220604",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "20175",
+            "name": "220602",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "20180",
+            "name": "221702",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "21036",
+            "name": "342701",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20023"
+        },
+        {
+            "id": "21091",
+            "name": "340302",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20024"
+        },
+        {
+            "id": "21253",
+            "name": "340303",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20024"
+        },
+        {
+            "id": "21035",
+            "name": "340301",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20024"
+        },
+        {
+            "id": "21034",
+            "name": "343201",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20025"
+        },
+        {
+            "id": "20185",
+            "name": "222401",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "20182",
+            "name": "221901",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20005"
+        },
+        {
+            "id": "20188",
+            "name": "222404",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "20186",
+            "name": "222402",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "20187",
+            "name": "222403",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "20183",
+            "name": "221902",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20005"
+        },
+        {
+            "id": "20184",
+            "name": "221903",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20005"
+        },
+        {
+            "id": "21075",
+            "name": "322402",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "21076",
+            "name": "322403",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "21077",
+            "name": "322404",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "21417",
+            "name": "533702",
+            "course": "1",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20129"
+        },
+        {
+            "id": "21008",
+            "name": "321901",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20005"
+        },
+        {
+            "id": "21078",
+            "name": "321902",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20005"
+        },
+        {
+            "id": "21557",
+            "name": "5\u041c0101",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20148"
+        },
+        {
+            "id": "21606",
+            "name": "5\u041c3001",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20187"
+        },
+        {
+            "id": "21610",
+            "name": "5\u041c3201",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20211"
+        },
+        {
+            "id": "21586",
+            "name": "5\u041c2001",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20210"
+        },
+        {
+            "id": "21567",
+            "name": "5\u041c0801",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20219"
+        },
+        {
+            "id": "21582",
+            "name": "5\u041c1701",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20167"
+        },
+        {
+            "id": "21561",
+            "name": "5\u041c0301",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20146"
+        },
+        {
+            "id": "21590",
+            "name": "5\u041c2201",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20174"
+        },
+        {
+            "id": "21618",
+            "name": "5\u041c3601",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20194"
+        },
+        {
+            "id": "21588",
+            "name": "5\u041c2101",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20172"
+        },
+        {
+            "id": "21602",
+            "name": "5\u041c2801",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20182"
+        },
+        {
+            "id": "21621",
+            "name": "5\u041c1001",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20223"
+        },
+        {
+            "id": "21612",
+            "name": "5\u041c3301",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20216"
+        },
+        {
+            "id": "21616",
+            "name": "5\u041c3501",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20217"
+        },
+        {
+            "id": "21576",
+            "name": "5\u041c1301",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20218"
+        },
+        {
+            "id": "21569",
+            "name": "5\u041c0901",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20221"
+        },
+        {
+            "id": "21572",
+            "name": "5\u041c1101",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20158"
+        },
+        {
+            "id": "21578",
+            "name": "5\u041c1501",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20163"
+        },
+        {
+            "id": "21585",
+            "name": "5\u041c1901",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20220"
+        },
+        {
+            "id": "21604",
+            "name": "5\u041c2901",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20184"
+        },
+        {
+            "id": "21600",
+            "name": "5\u041c2701",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20180"
+        },
+        {
+            "id": "21565",
+            "name": "5\u041c0701",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20154"
+        },
+        {
+            "id": "21574",
+            "name": "5\u041c1201",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20160"
+        },
+        {
+            "id": "21598",
+            "name": "5\u041c2601",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20178"
+        },
+        {
+            "id": "21563",
+            "name": "5\u041c0401",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20222"
+        },
+        {
+            "id": "21584",
+            "name": "5\u041c1801",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20169"
+        },
+        {
+            "id": "21559",
+            "name": "5\u041c0201",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20150"
+        },
+        {
+            "id": "21072",
+            "name": "320602",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21073",
+            "name": "320603",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21074",
+            "name": "320604",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21121",
+            "name": "320605",
+            "course": "3",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "21623",
+            "name": "5\u041c3701",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20226"
+        },
+        {
+            "id": "20197",
+            "name": "241301",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20028"
+        },
+        {
+            "id": "20198",
+            "name": "241302",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20028"
+        },
+        {
+            "id": "20196",
+            "name": "241201",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20029"
+        },
+        {
+            "id": "21614",
+            "name": "5\u041c3401",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20191"
+        },
+        {
+            "id": "21580",
+            "name": "5\u041c1601",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20165"
+        },
+        {
+            "id": "20192",
+            "name": "240101",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20096"
+        },
+        {
+            "id": "20193",
+            "name": "240102",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20225"
+        },
+        {
+            "id": "20200",
+            "name": "242801",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20026"
+        },
+        {
+            "id": "20091",
+            "name": "120601",
+            "course": "5",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "20094",
+            "name": "120604",
+            "course": "5",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "20093",
+            "name": "120603",
+            "course": "5",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "20092",
+            "name": "120602",
+            "course": "5",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20002"
+        },
+        {
+            "id": "20194",
+            "name": "240301",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20024"
+        },
+        {
+            "id": "20199",
+            "name": "242701",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20023"
+        },
+        {
+            "id": "20195",
+            "name": "240302",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20024"
+        },
+        {
+            "id": "20203",
+            "name": "243302",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20025"
+        },
+        {
+            "id": "20202",
+            "name": "243301",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20025"
+        },
+        {
+            "id": "20095",
+            "name": "121701",
+            "course": "5",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "20096",
+            "name": "121702",
+            "course": "5",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20004"
+        },
+        {
+            "id": "20102",
+            "name": "122401",
+            "course": "5",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "20099",
+            "name": "121901",
+            "course": "5",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20005"
+        },
+        {
+            "id": "20101",
+            "name": "121903",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20005"
+        },
+        {
+            "id": "20100",
+            "name": "121902",
+            "course": "5",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20005"
+        },
+        {
+            "id": "20105",
+            "name": "122404",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "20106",
+            "name": "122405",
+            "course": "2",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "20103",
+            "name": "122402",
+            "course": "5",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "20104",
+            "name": "122403",
+            "course": "5",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20003"
+        },
+        {
+            "id": "20112",
+            "name": "140301",
+            "course": "5",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20024"
+        },
+        {
+            "id": "20117",
+            "name": "142701",
+            "course": "5",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20023"
+        },
+        {
+            "id": "20120",
+            "name": "143301",
+            "course": "5",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20025"
+        },
+        {
+            "id": "20115",
+            "name": "141301",
+            "course": "5",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20028"
+        },
+        {
+            "id": "20113",
+            "name": "141201",
+            "course": "5",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20029"
+        },
+        {
+            "id": "20110",
+            "name": "140101",
+            "course": "5",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20096"
+        },
+        {
+            "id": "20111",
+            "name": "140102",
+            "course": "5",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20225"
+        },
+        {
+            "id": "20118",
+            "name": "142801",
+            "course": "5",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20026"
+        },
+        {
+            "id": "20109",
+            "name": "131201",
+            "course": "5",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20001"
+        },
+        {
+            "id": "20191",
+            "name": "231201",
+            "course": "4",
+            "facultyId": "20000",
+            "specialityDepartmentEducationFormId": "20001"
+        },
+        {
+            "id": "21558",
+            "name": "5\u041c0111",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20149"
+        },
+        {
+            "id": "21625",
+            "name": "5\u041c0112",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20149"
+        },
+        {
+            "id": "21613",
+            "name": "5\u041c3311",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20190"
+        },
+        {
+            "id": "21617",
+            "name": "5\u041c3511",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20193"
+        },
+        {
+            "id": "21570",
+            "name": "5\u041c0911",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20157"
+        },
+        {
+            "id": "21607",
+            "name": "5\u041c3011",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20188"
+        },
+        {
+            "id": "21575",
+            "name": "5\u041c1211",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20161"
+        },
+        {
+            "id": "21573",
+            "name": "5\u041c1111",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20159"
+        },
+        {
+            "id": "21624",
+            "name": "5\u041c3711",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20227"
+        },
+        {
+            "id": "21579",
+            "name": "5\u041c1511",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20164"
+        },
+        {
+            "id": "21599",
+            "name": "5\u041c2611",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20179"
+        },
+        {
+            "id": "21603",
+            "name": "5\u041c2811",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20183"
+        },
+        {
+            "id": "21583",
+            "name": "5\u041c1711",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20168"
+        },
+        {
+            "id": "21605",
+            "name": "5\u041c2911",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20185"
+        },
+        {
+            "id": "21619",
+            "name": "5\u041c3611",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20195"
+        },
+        {
+            "id": "21627",
+            "name": "5\u041c3612",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20195"
+        },
+        {
+            "id": "21566",
+            "name": "5\u041c0711",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20155"
+        },
+        {
+            "id": "21611",
+            "name": "5\u041c3211",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20189"
+        },
+        {
+            "id": "21620",
+            "name": "5\u041c1911",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20170"
+        },
+        {
+            "id": "21587",
+            "name": "5\u041c2011",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20171"
+        },
+        {
+            "id": "21589",
+            "name": "5\u041c2111",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20173"
+        },
+        {
+            "id": "21591",
+            "name": "5\u041c2211",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20175"
+        },
+        {
+            "id": "21560",
+            "name": "5\u041c0211",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20151"
+        },
+        {
+            "id": "21562",
+            "name": "5\u041c0311",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20152"
+        },
+        {
+            "id": "21564",
+            "name": "5\u041c0411",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20153"
+        },
+        {
+            "id": "21626",
+            "name": "5\u041c2212",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20175"
+        },
+        {
+            "id": "21581",
+            "name": "5\u041c1611",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20166"
+        },
+        {
+            "id": "21593",
+            "name": "5\u041c2311",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20176"
+        },
+        {
+            "id": "21628",
+            "name": "5\u043c2312",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20176"
+        },
+        {
+            "id": "21595",
+            "name": "5\u041c2411",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20177"
+        },
+        {
+            "id": "21609",
+            "name": "5\u041c3111",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20186"
+        },
+        {
+            "id": "21615",
+            "name": "5\u041c3411",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20192"
+        },
+        {
+            "id": "21440",
+            "name": "481061",
+            "course": "2",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21442",
+            "name": "481063",
+            "course": "2",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21641",
+            "name": "481064",
+            "course": "2",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21441",
+            "name": "481062",
+            "course": "2",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21443",
+            "name": "480561",
+            "course": "2",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20197"
+        },
+        {
+            "id": "21444",
+            "name": "480562",
+            "course": "2",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20197"
+        },
+        {
+            "id": "21516",
+            "name": "381061",
+            "course": "3",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21517",
+            "name": "381062",
+            "course": "3",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21518",
+            "name": "381063",
+            "course": "3",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21519",
+            "name": "381064",
+            "course": "3",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21515",
+            "name": "380961",
+            "course": "3",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20198"
+        },
+        {
+            "id": "21520",
+            "name": "382461",
+            "course": "3",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20199"
+        },
+        {
+            "id": "21521",
+            "name": "382462",
+            "course": "3",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20199"
+        },
+        {
+            "id": "21513",
+            "name": "380561",
+            "course": "3",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20197"
+        },
+        {
+            "id": "21514",
+            "name": "380562",
+            "course": "3",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20197"
+        },
+        {
+            "id": "21643",
+            "name": "380563",
+            "course": "3",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20197"
+        },
+        {
+            "id": "21432",
+            "name": "581061",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21433",
+            "name": "581062",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21434",
+            "name": "581063",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21435",
+            "name": "581064",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21642",
+            "name": "581065",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21438",
+            "name": "580561",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20197"
+        },
+        {
+            "id": "21439",
+            "name": "580562",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20197"
+        },
+        {
+            "id": "21437",
+            "name": "580961",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20198"
+        },
+        {
+            "id": "21524",
+            "name": "281011",
+            "course": "4",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21525",
+            "name": "281012",
+            "course": "4",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21526",
+            "name": "281013",
+            "course": "4",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20207"
+        },
+        {
+            "id": "21528",
+            "name": "282411",
+            "course": "4",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20199"
+        },
+        {
+            "id": "21522",
+            "name": "280511",
+            "course": "4",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20197"
+        },
+        {
+            "id": "21523",
+            "name": "280512",
+            "course": "4",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20197"
+        },
+        {
+            "id": "20629",
+            "name": "222431",
+            "course": "4",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20067"
+        },
+        {
+            "id": "20121",
+            "name": "150501",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20019"
+        },
+        {
+            "id": "21539",
+            "name": "344701",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20245"
+        },
+        {
+            "id": "21530",
+            "name": "244701",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20245"
+        },
+        {
+            "id": "21532",
+            "name": "144501",
+            "course": "5",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20243"
+        },
+        {
+            "id": "21533",
+            "name": "144701",
+            "course": "5",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20245"
+        },
+        {
+            "id": "21392",
+            "name": "550531",
+            "course": "1",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20068"
+        },
+        {
+            "id": "21130",
+            "name": "450531",
+            "course": "2",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20068"
+        },
+        {
+            "id": "21001",
+            "name": "350531",
+            "course": "3",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20068"
+        },
+        {
+            "id": "20630",
+            "name": "250531",
+            "course": "4",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20068"
+        },
+        {
+            "id": "20628",
+            "name": "150531",
+            "course": "5",
+            "facultyId": "20026",
+            "specialityDepartmentEducationFormId": "20068"
+        },
+        {
+            "id": "21544",
+            "name": "544601",
+            "course": "1",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20244"
+        },
+        {
+            "id": "21548",
+            "name": "544501",
+            "course": "1",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20243"
+        },
+        {
+            "id": "21543",
+            "name": "444601",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20244"
+        },
+        {
+            "id": "21542",
+            "name": "444501",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20243"
+        },
+        {
+            "id": "21552",
+            "name": "444701",
+            "course": "2",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20245"
+        },
+        {
+            "id": "21535",
+            "name": "344501",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20243"
+        },
+        {
+            "id": "21666",
+            "name": "524402",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20203"
+        },
+        {
+            "id": "21540",
+            "name": "344601",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20244"
+        },
+        {
+            "id": "21541",
+            "name": "344602",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20244"
+        },
+        {
+            "id": "21529",
+            "name": "244501",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20243"
+        },
+        {
+            "id": "21536",
+            "name": "244691",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20246"
+        },
+        {
+            "id": "21534",
+            "name": "144601",
+            "course": "5",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20244"
+        },
+        {
+            "id": "21537",
+            "name": "244791",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20248"
+        },
+        {
+            "id": "21538",
+            "name": "244591",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20247"
+        },
+        {
+            "id": "21531",
+            "name": "244601",
+            "course": "4",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20244"
+        },
+        {
+            "id": "21667",
+            "name": "340409",
+            "course": "3",
+            "facultyId": "20035",
+            "specialityDepartmentEducationFormId": "20254"
+        },
+        {
+            "id": "21639",
+            "name": "503341",
+            "course": "1",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20052"
+        },
+        {
+            "id": "21415",
+            "name": "500441",
+            "course": "1",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20116"
+        },
+        {
+            "id": "21425",
+            "name": "500241",
+            "course": "1",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20141"
+        },
+        {
+            "id": "21391",
+            "name": "502441",
+            "course": "1",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20040"
+        },
+        {
+            "id": "21414",
+            "name": "500841",
+            "course": "1",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20108"
+        },
+        {
+            "id": "21413",
+            "name": "503041",
+            "course": "1",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20107"
+        },
+        {
+            "id": "21390",
+            "name": "500541",
+            "course": "1",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20037"
+        },
+        {
+            "id": "21681",
+            "name": "581071",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20209"
+        },
+        {
+            "id": "21674",
+            "name": "581971",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20230"
+        },
+        {
+            "id": "21675",
+            "name": "581972",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20230"
+        },
+        {
+            "id": "21676",
+            "name": "583371",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20231"
+        },
+        {
+            "id": "21677",
+            "name": "583372",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20231"
+        },
+        {
+            "id": "21678",
+            "name": "583971",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20232"
+        },
+        {
+            "id": "21679",
+            "name": "583871",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20229"
+        },
+        {
+            "id": "21680",
+            "name": "580971",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20204"
+        },
+        {
+            "id": "21682",
+            "name": "581072",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20209"
+        },
+        {
+            "id": "21683",
+            "name": "581073",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20209"
+        },
+        {
+            "id": "21684",
+            "name": "581074",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20209"
+        },
+        {
+            "id": "21685",
+            "name": "581075",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20209"
+        },
+        {
+            "id": "21686",
+            "name": "582471",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20233"
+        },
+        {
+            "id": "21688",
+            "name": "582371",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20208"
+        },
+        {
+            "id": "21687",
+            "name": "582472",
+            "course": "1",
+            "facultyId": "20033",
+            "specialityDepartmentEducationFormId": "20234"
+        },
+        {
+            "id": "21695",
+            "name": "5\u041c2511",
+            "course": "1",
+            "facultyId": "20054",
+            "specialityDepartmentEducationFormId": "20196"
+        },
+        {
+            "id": "21653",
+            "name": "504541",
+            "course": "1",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20251"
+        },
+        {
+            "id": "21658",
+            "name": "504641",
+            "course": "1",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20252"
+        },
+        {
+            "id": "21692",
+            "name": "404541",
+            "course": "2",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20251"
+        },
+        {
+            "id": "21662",
+            "name": "404741",
+            "course": "2",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20253"
+        },
+        {
+            "id": "21670",
+            "name": "404641",
+            "course": "2",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20252"
+        },
+        {
+            "id": "21690",
+            "name": "304541",
+            "course": "3",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20251"
+        },
+        {
+            "id": "21691",
+            "name": "304542",
+            "course": "3",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20251"
+        },
+        {
+            "id": "21668",
+            "name": "304741",
+            "course": "3",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20253"
+        },
+        {
+            "id": "21671",
+            "name": "304641",
+            "course": "3",
+            "facultyId": "20004",
+            "specialityDepartmentEducationFormId": "20252"
+        },
+        {
+            "id": "21420",
+            "name": "520611",
+            "course": "1",
+            "facultyId": "20005",
+            "specialityDepartmentEducationFormId": "20136"
+        },
+        {
+            "id": "21419",
+            "name": "563011",
+            "course": "1",
+            "facultyId": "20040",
+            "specialityDepartmentEducationFormId": "20131"
+        }
+    ]
+}

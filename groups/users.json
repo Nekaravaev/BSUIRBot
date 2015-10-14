@@ -1,0 +1,59 @@
+{
+    "groups": {
+        "581062": [
+            {
+                "user_id": -4376451,
+                "group_id": "581062",
+                "username": "Karavay",
+                "display_name": "Andrew",
+                "status": 2,
+                "cron": 0
+            },
+            {
+                "user_id": -17020741,
+                "group_id": "581062",
+                "username": "Karavay",
+                "display_name": "Andrew",
+                "status": 2,
+                "cron": 0
+            },
+            {
+                "user_id": 83758829,
+                "group_id": "581062",
+                "username": null,
+                "display_name": "Sergei",
+                "status": 2,
+                "cron": 0
+            },
+            {
+                "user_id": 747013,
+                "group_id": "581062",
+                "username": "Karavay",
+                "display_name": "Karavaev",
+                "status": 2,
+                "cron": 0
+            }
+        ],
+        "temp": [
+            {
+                "user_id": 747013,
+                "group_id": "temp",
+                "username": "Karavay",
+                "display_name": "Karavaev",
+                "status": 1,
+                "cron": 0
+            }
+        ],
+        "": [
+            {
+                "user_id": 747013,
+                "group_id": null,
+                "username": "Karavay",
+                "display_name": "Karavaev",
+                "status": 3,
+                "cron": 0
+            }
+        ]
+    },
+    "users": 7
+}
