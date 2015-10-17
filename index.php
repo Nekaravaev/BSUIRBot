@@ -37,7 +37,7 @@ class BSUIRbot {
 
            if ($message == '/tomorrow' || $message == '/tomorrow@BSUIRBot') {
                $week = floor(date("j")/7) + 1;
-               $day = date('w') + 2;
+               $day = date('w');
                $user = $this->getCurrentUser($chat);
                $reply = $this->parseSchedule($this->getGroupSchedule($this->getGroupID($user['group_id']),$day,$week));
            }
@@ -141,16 +141,16 @@ class BSUIRbot {
            return ($group_id) ? $group_id->id : false;
         }
 
-        public function getGroupSchedule($group_id, $weekday = false, $week = false){
+        public function getGroupSchedule($group_id, $dayweek = false, $week = false){
             if (!$week) {
-                $week = floor(date("j")/7) + 2;
+                $week = floor(date("j")/7) + 1;
             }
             $weekDays = array('Воскресенье', 'Понедельник', 'Вторник', 'Среда',
                 'Четверг', 'Пятница', 'Суббота');
-            if(!$weekday) {
-                $today = $weekDays[date('w') + 1];
+            if(!$dayweek) {
+                $today = $weekDays[date('w')];
             } else {
-                $today = $weekDays[$weekday + 1];
+                $today = $weekDays[$dayweek + 1];
             }
             $xml = simplexml_load_file("http://www.bsuir.by/schedule/rest/schedule/$group_id");
             foreach ($xml->scheduleModel as $day) {
