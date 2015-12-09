@@ -6,7 +6,6 @@
  * Time: 4:16 PM
  */
 date_default_timezone_set('Europe/Kaliningrad');
-<<<<<<< HEAD
 require_once "autoload.php";
     // init
     $bot = new Bot(''); //inser yours bot token
