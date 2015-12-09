@@ -18,6 +18,5 @@ Bot for BSUIR's students. Display schedule by date.
 ### Some info ###
 
 * Not require database, use json for store data (lol);
-<<<<<<< HEAD
 * Latest version 0.2;
 * Developed by Andrew Karavaev
