@@ -6,6 +6,7 @@
  * Time: 4:16 PM
  */
 date_default_timezone_set('Europe/Kaliningrad');
+<<<<<<< HEAD
 require_once "autoload.php";
     // init
     $bot = new Bot(''); //inser yours bot token
@@ -15,7 +16,7 @@ require_once "autoload.php";
     $schedule = new BSUIR();
     $yes = array('yes', 'Yes', 'Да', 'да', 'Да.', 'да.', 'yes.' ,'Yes.');
     $no  = array('no', 'No', 'Нет', 'нет', 'нет.', 'Нет.', 'no.', 'No.', 'Nope.');
-    // 
+    //
 
     if ($message == '/today' || $message == '/today@BSUIRBot') {
         $september = new DateTime('01.09.'.date('Y'));
