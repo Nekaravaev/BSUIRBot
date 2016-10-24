@@ -11,7 +11,7 @@ Bot for BSUIR's students. Display schedule by date.
 * Buy hosting, domain and SSL-certificate for WebHook;
 * Upload repo in private folder, disallow it for bots in robots.txt;
 * Register bot via @BotFather in Telegram;
-* Insert token ($prodtoken);
+* Insert token (var $bot);
 * Set Telegram API's Webhook;
 * Enjoy your bot.
 

@@ -8,12 +8,12 @@
 
 class Cron {
     function __construct(){
-      return $this->updateGroups();
+     // return $this->updateGroups();
     }
 
     protected function updateGroups() {
         $xml = simplexml_load_file('http://www.bsuir.by/schedule/rest/studentGroup');
-        $groups = fopen("../groups/groups.json", "w");
+        $groups = fopen("../info/groups.json", "w");
         $result = fwrite($groups, json_encode($xml));
         fclose($groups);
         return $result;
@@ -21,5 +21,3 @@ class Cron {
 }
 
 new Cron();
-
-?>

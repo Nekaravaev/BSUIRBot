@@ -8,22 +8,33 @@
 
 class Bot {
     protected $token = '';
-    
+    public  $debugchat = -4376451; //747013;
+
     /* init, set token  */
     function __construct($token){
         $this->token = $token;
     }
 
-    public function returnMessageInfo($message) {
-        return array($message->message->chat->id,
-                     $message->message->from->username,
-                     $message->message->from->first_name,
-                     $message->message->text,
-                     $message->message->message_id,
-                     $message);
+    public function returnMessageInfo($message)
+    {
+        if (!empty($message->message->chat->id)){
+            $return = array(
+                $message->message->chat->id,
+                $message->message->from->username,
+                $message->message->from->first_name,
+                $message->message->text,
+                $message->message->message_id,
+                $message
+            );
+        }
+        else
+            $return = false;
+
+        return $return;
     }
 
-    public function sendSticker($chat, $sticker){
+    public function sendSticker($chat, $sticker)
+    {
         $res = array(
             'chat_id' => $chat,
             'sticker' => $sticker
@@ -31,7 +42,8 @@ class Bot {
         return $this->sendRequest(true, array('method' => 'sendSticker', 'params' => http_build_query($res), 'token' => $this->token));
     }
 
-    public function sendMessage($chat, $reply){
+    public function sendMessage($chat, $reply)
+    {
         $res = array(
             'chat_id' => $chat,
             'text' => $reply
@@ -39,7 +51,8 @@ class Bot {
         return $this->sendRequest(true, array('method' => 'sendMessage', 'params' => http_build_query($res), 'token' => $this->token));
     }
 
-    public function forwardMessage($from_chat_id, $message_id , $reply){
+    public function forwardMessage($from_chat_id, $message_id , $reply)
+    {
         $res = array(
             'chat_id' => $this->debugchat,
             'from_chat_id' => $from_chat_id,
@@ -51,10 +64,12 @@ class Bot {
 
     public function sendRequest($telegram = true, $params, $assoc = false)
     {
-        if ($telegram){
+        if ($telegram)
+        {
             $url = "https://api.telegram.org/bot$this->token/".$params['method'];
             $post = $params['params'];
-        } else
+        }
+        else
         {
             $url  = $params['url'];
             $post = $params['params'];
@@ -62,7 +77,8 @@ class Bot {
         return $this->curl($url, $post, $assoc);
     }
 
-    private function curl($url, $params, $assoc) {
+    private function curl($url, $params, $assoc = false)
+    {
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HEADER, 0);
