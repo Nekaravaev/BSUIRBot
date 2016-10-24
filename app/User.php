@@ -93,11 +93,14 @@ class User {
                 'status'       => $params['status'],
                 'cron'         => $params['cron']
             );
-            if (!$this->getGroup($params['gid']))
+            if (!$this->getGroup($params['gid'])){
                 $users['groups'][$params['gid']] = array();
+            }
+
             array_push($users['groups'][$params['gid']], $newUser);
             $usersCount = (int) $users['users'];
             $users['users'] = $usersCount + 1;
+            
             $groups = fopen($this->folder."/users.json", "w");
             $result = fwrite($groups, json_encode($users, JSON_PRETTY_PRINT));
             fclose($groups);
