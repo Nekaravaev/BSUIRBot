@@ -38,14 +38,6 @@ class BSUIR {
             'Четверг', 'Пятница', 'Суббота');
         $today = $weekDays[trim($day)];
         $week = trim($week);
-//        if (!$week) {
-//            $week = ceil((date("d") - date("w")) / 7);
-//        }
-//        if(!$dayweek) {
-//            $today = $weekDays[date('w')];
-//        } else {
-//            $today = $weekDays[$dayweek];
-//        }
 
         $xml = simplexml_load_file("http://www.bsuir.by/schedule/rest/schedule/$group_id");
         foreach ($xml->scheduleModel as $singleDay) {
