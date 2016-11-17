@@ -8,21 +8,19 @@
 
 class BSUIR {
 
+
+    public function __construct($folder = 'info')
+    {
+        if( !empty ( $folder ) )
+        {
+            $this->folder = $folder;
+        }
+    }
+
     public function getDate($tommorow = false)
     {
-
-        $startYear = ((int)date('m') < 9) ? date('Y')-1 : date('Y');
-        $now = date_create(date('d-m-Y', strtotime('now')));
-        $september = date_create('01-09-'.$startYear);
-        $dateDifference = date_diff($now, $september);
-        $daysFrom = $dateDifference->days;
-        $weekNumber = 0;
-
-        for ($i = 1; $i <= $daysFrom; $i++)
-        {
-            $weekNumber++;
-            if ($weekNumber > 4) $weekNumber = 1;
-        }
+		$date = ($tommorow) ? date('d.m.Y', strtotime('tomorrow')) : date('d.m.Y');
+	    $weekNumber = file_get_contents("https://www.bsuir.by/schedule/rest/currentWeek/date/$date");
         $dayNumber = ($tommorow) ? date('w', strtotime('tomorrow')) : date('w');
 
         return array(
@@ -61,7 +59,7 @@ class BSUIR {
 
     public function getGroupID($group_name)
     {
-        $groups = json_decode(file_get_contents("info/groups.json"));
+        $groups = json_decode(file_get_contents($this->folder."/groups.json"));
         foreach ($groups->studentGroup as $group){
             if ($group->name == $group_name) {
                 $group_id = $group;

@@ -77,7 +77,7 @@ class Bot {
         return $this->curl($url, $post, $assoc);
     }
 
-    private function curl($url, $params, $assoc = false)
+    public function curl($url, $params, $assoc = false)
     {
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

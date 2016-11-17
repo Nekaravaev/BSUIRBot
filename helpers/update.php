@@ -5,7 +5,12 @@
  * Date: 12.9.15
  * Time: 1.02.
  */
-require_once '../autoload.php';
+$loadDir = '../app';
+$classes = glob($loadDir.'/*.php');
+foreach ($classes as $class) {
+    require_once $class;
+}
+
 
 class Cron
 {
@@ -27,15 +32,15 @@ class Cron
 
 new Cron();
 
-$userClass = new User('info');
+$userClass = new User('../info');
+$schedule = new BSUIR('../info');
 $bot = new Bot('128735339:AAH1WyvktGZayrLDJe-SdeulXxGEEQaxN8M');
-$schedule = new BSUIR();
 
 $cronUsers = $userClass->getCronUsers();
 $date = $schedule->getDate();
 
 foreach ($cronUsers as $user) {
     $msg = 'Доброе утро, '.$user->{'display_name'}.PHP_EOL.
-         'Сегодня твои занятия:'.PHP_EOL.$schedule->parseSchedule($schedule->getGroupSchedule($user->{'group_id'}, $date['day'], $date['week']));
+         'Сегодня твои занятия:'.PHP_EOL.$schedule->parseSchedule($schedule->getGroupSchedule($schedule->getGroupID($user->{'group_id'}), $date['day'], $date['week']));
     $bot->sendMessage($user->{'user_id'}, $msg);
 }

@@ -50,7 +50,7 @@ class User
         if ($usersList) {
             foreach ($usersList->groups as $groups) {
                 foreach ($groups as $user) {
-                    if ($user->cron && $user->group_id != 'temp') {
+                    if ((boolean) $user->cron == true && $user->group_id != 'temp') {
                         $cronUsers[] = $user;
                     }
                 }

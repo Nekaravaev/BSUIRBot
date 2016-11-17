@@ -35,6 +35,11 @@ if ($message == '/today') {
     }
 }
 
+if ($message == '/date') {
+	$date = $schedule->getDate();
+	$reply = "Сегодня ".$date['day']." день".PHP_EOL.$date['week']." недели".PHP_EOL;
+}
+
 if ($message == '/tomorrow') {
     if ($currentUser) {
         $date = $schedule->getDate(true);
@@ -74,7 +79,7 @@ if ($message == '/start') {
             'username' => $username,
             'display_name' => $name,
             'status' => 1,
-            'cron' => 0
+            'cron' => 1
         ));
         $bot->sendSticker($chat, 'BQADAgADQQADSEvvAQ1q8f_OrLAaAg');
     } else {
@@ -93,12 +98,12 @@ if (is_numeric($message)) {
             'username' => $username,
             'display_name' => $name,
             'status' => 2,
-            'cron' => 0
+            'cron' => 1
         ));
 }
 
 if ((in_array(trim($message), $phrase['yes']) || in_array(trim($message), $phrase['no'])) && $currentUser->{'status'} > 1) {
-    $cron  = (in_array(trim($message), $phrase['yes'])) ? true : false;
+    $cron  = (in_array(trim($message), $phrase['yes'])) ? "1" : "0";
     $reply = $phrase['settingsSaved'];
     $user->manageUser($chat, array(
         'gid' => $currentUser->{'group_id'},
@@ -117,6 +122,6 @@ if ($message == '/about') {
 
 // here we start to send msgs
 
-$bot->forwardMessage($bot->debugchat, $message_id, json_encode($message_raw));
+$bot->forwardMessage($bot->debugchat, $message_id, json_encode($message_raw, JSON_UNESCAPED_UNICODE));
 $bot->sendMessage($chat, $reply);
-$debugBot->sendMessage($bot->debugchat, json_encode($message_raw));
+$debugBot->sendMessage($bot->debugchat, json_encode($message_raw, JSON_UNESCAPED_UNICODE));

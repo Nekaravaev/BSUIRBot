@@ -1,7 +1,57 @@
 {
     "groups": {
         "temp": [
+            {
+                "user_id": 747013,
+                "group_id": "temp",
+                "username": "Karavay",
+                "display_name": "Andrey",
+                "status": 1,
+                "cron": 0
+            },
+            {
+                "user_id": 252690937,
+                "group_id": "temp",
+                "username": "XIXIXIXIX",
+                "display_name": "\u0454\u2113\u0432\u03b1g\u043d\u2202\u03b1\u2202\u03b9",
+                "status": 1,
+                "cron": 0
+            },
+            {
+                "user_id": 252690937,
+                "group_id": "temp",
+                "username": "XIXIXIXIX",
+                "display_name": "\u0454\u2113\u0432\u03b1g\u043d\u2202\u03b1\u2202\u03b9",
+                "status": 1,
+                "cron": 0
+            },
+            {
+                "user_id": 252690937,
+                "group_id": "temp",
+                "username": "XIXIXIXIX",
+                "display_name": "\u0454\u2113\u0432\u03b1g\u043d\u2202\u03b1\u2202\u03b9",
+                "status": 1,
+                "cron": 0
+            },
+            {
+                "user_id": 252690937,
+                "group_id": "temp",
+                "username": "XIXIXIXIX",
+                "display_name": "\u0454\u2113\u0432\u03b1g\u043d\u2202\u03b1\u2202\u03b9",
+                "status": 1,
+                "cron": 0
+            }
+        ],
+        "581062": [
+            {
+                "user_id": 747013,
+                "group_id": "581062",
+                "username": "Karavay",
+                "display_name": "Andrey",
+                "status": 2,
+                "cron": true
+            }
         ]
     },
-    "users": 0
+    "users": 1
 }
