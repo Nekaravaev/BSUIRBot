@@ -1,0 +1,21 @@
+{
+    "name": "karavaev/bsuir",
+    "description": "BSUIR bot for telegram",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew",
+            "email": "andrewnyash@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+     "autoload": {
+         "psr-4": {
+             "bsuir\\": "",
+             "drivers\\": "",
+             "helpers\\": ""
+         }
+     }
+}

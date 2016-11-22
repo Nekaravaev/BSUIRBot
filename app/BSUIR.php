@@ -6,8 +6,9 @@
  * Time: 10.48
  */
 
-class BSUIR {
+namespace bsuir\app;
 
+class BSUIR {
 
     public function __construct($folder = 'info')
     {

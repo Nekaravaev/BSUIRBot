@@ -5,10 +5,12 @@
  * Date: 7/25/2015
  * Time: 4:16 PM
  */
-
 date_default_timezone_set("Europe/Minsk");
-require_once "autoload.php";
-require_once "helpers/phrases.php";
+
+require __DIR__ . '/vendor/autoload.php';
+use bsuir\app\{Bot, BSUIR};
+use bsuir\drivers\Redis\{User};	
+use bsuir\helpers\Phrases;
 
 // init
 $bot      = new Bot('128735339:AAH1WyvktGZayrLDJe-SdeulXxGEEQaxN8M');
@@ -16,7 +18,9 @@ $debugBot = new Bot('89856014:AAGKnvayT242euRHofVyygmVODCjtEoJXEU');
 list($chat, $username, $name, $message, $message_id, $message_raw) = $bot->returnMessageInfo(json_decode(file_get_contents('php://input')));
 $user  = new User('info');
 $schedule = new BSUIR();
-$reply = $phrase['command404'];
+$phrase = new Phrases();
+	
+$reply = $phrase::getPhrase('command404');
 
 $currentUser = $user->getCurrentUser($chat);
 if ($currentUser)
@@ -31,7 +35,7 @@ if ($message == '/today') {
         $date = $schedule->getDate();
         $reply = $schedule->parseSchedule($schedule->getGroupSchedule($userGroupID, $date['day'], $date['week']));
     } else {
-        $reply = $phrase['user404'];
+        $reply = $phrase::getPhrase('user404');
     }
 }
 
@@ -45,12 +49,12 @@ if ($message == '/tomorrow') {
         $date = $schedule->getDate(true);
         $reply = $schedule->parseSchedule($schedule->getGroupSchedule($userGroupID, $date['day'], $date['week']));
     } else {
-        $reply = $phrase['user404'];
+        $reply = $phrase::getPhrase('user404');
     }
 }
 
 if ($message == '/get') {
-    $reply = $phrase['get404'];
+    $reply = $phrase::getPhrase('get404');
 }
 
 if (preg_match('/^\/get [1-7] [1-4]/', $message)) {
@@ -59,7 +63,7 @@ if (preg_match('/^\/get [1-7] [1-4]/', $message)) {
         $week = substr($message, 7, 1);
         $reply = $schedule->parseSchedule($schedule->getGroupSchedule($userGroupID, $day, $week));
     } else {
-        $reply = $phrase['user404'];
+        $reply = $phrase::getPhrase('user404');
     }
 }
 
@@ -87,12 +91,12 @@ if ($message == '/start') {
              $date = $schedule->getDate();
              $reply = $schedule->parseSchedule($schedule->getGroupSchedule($userGroupID, $date['day'], $date['week']));
          } else
-             $reply = $phrase['group404'];
+             $reply = $phrase::getPhrase('group404');
     }
 }
 
 if (is_numeric($message)) {
-        $reply = $phrase['groupSaved'];
+        $reply = $phrase::getPhrase('groupSaved');
         $user->manageUser($chat, array(
             'gid' => $message,
             'username' => $username,
@@ -102,9 +106,9 @@ if (is_numeric($message)) {
         ));
 }
 
-if ((in_array(trim($message), $phrase['yes']) || in_array(trim($message), $phrase['no'])) && $currentUser->{'status'} > 1) {
-    $cron  = (in_array(trim($message), $phrase['yes'])) ? "1" : "0";
-    $reply = $phrase['settingsSaved'];
+if ((in_array(trim($message), $phrase::getPhrase('yes')) || in_array(trim($message), $phrase::getPhrase('no'))) && $currentUser->{'status'} > 1) {
+    $cron  = (in_array(trim($message), $phrase::getPhrase('yes'))) ? "1" : "0";
+    $reply = $phrase::getPhrase('settingsSaved');
     $user->manageUser($chat, array(
         'gid' => $currentUser->{'group_id'},
         'username' => $username,

@@ -5,6 +5,9 @@
  * Date: 21.10.15
  * Time: 10.47.
  */
+
+namespace bsuir\drivers\Json;
+
 class User
 {
     public $folder = 'info';

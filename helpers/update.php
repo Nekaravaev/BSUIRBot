@@ -5,11 +5,6 @@
  * Date: 12.9.15
  * Time: 1.02.
  */
-$loadDir = '../app';
-$classes = glob($loadDir.'/*.php');
-foreach ($classes as $class) {
-    require_once $class;
-}
 
 
 class Cron
