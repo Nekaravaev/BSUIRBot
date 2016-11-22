@@ -6,13 +6,19 @@
 	 * Time: 8:42 PM
 	 */
 
-namespace bsuir\drivers\Redis;
+namespace bsuir\drivers;
 
+class Redis {
 
-class User {
+	public $redis;
 
-	function __construct() {
+	public function __construct() {
+		$this->redis = new \Redis();
+		$this->redis->connect('127.0.0.1', 6379);
+	}
 
+	public function ping() {
+		return $this->redis->ping();
 	}
 
 }

@@ -10,12 +10,11 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+    },
      "autoload": {
          "psr-4": {
-             "bsuir\\": "",
-             "drivers\\": "",
-             "helpers\\": ""
+             "bsuir\\": ""
          }
      }
 }

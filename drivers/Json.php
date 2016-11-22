@@ -6,9 +6,9 @@
  * Time: 10.47.
  */
 
-namespace bsuir\drivers\Json;
+namespace bsuir\drivers;
 
-class User
+class Json
 {
     public $folder = 'info';
 
