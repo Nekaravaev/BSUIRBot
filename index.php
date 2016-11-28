@@ -6,7 +6,6 @@
  * Time: 4:16 PM
  */
 date_default_timezone_set("Europe/Minsk");
-
 require __DIR__ . '/vendor/autoload.php';
 use bsuir\app\Bot;
 use bsuir\app\BSUIR;
@@ -27,7 +26,7 @@ $reply = $phrase::getPhrase('command404');
 $currentUser = $user->getCurrentUser($chat);
 if ($currentUser)
 {
-    $userGroupID = $schedule->getGroupID($currentUser->group_id);
+    $userGroupID = $schedule->getGroupID($currentUser['group_id']);
 }
 
 //act by message
@@ -77,12 +76,12 @@ if ($message == '/me')
 {
     if ($currentUser)
     {
-        $reply = json_encode($currentUser);
+        $reply = json_encode($currentUser, JSON_UNESCAPED_UNICODE);
     }
 }
 
 if ($message == '/start') {
-    if (!$currentUser || $currentUser->{'status'} == 0) {
+    if (!$currentUser || $currentUser['status'] == 0) {
         $reply = "Привет, $name!" . PHP_EOL . "Введи номер группы. 👆";
         $user->manageUser($chat, array(
             'gid' => 'temp',
@@ -93,7 +92,7 @@ if ($message == '/start') {
         ));
         $bot->sendSticker($chat, 'BQADAgADQQADSEvvAQ1q8f_OrLAaAg');
     } else {
-         if ($currentUser->group_id) {
+         if ($currentUser['group_id']) {
              $date = $schedule->getDate();
              $reply = $schedule->parseSchedule($schedule->getGroupSchedule($userGroupID, $date['day'], $date['week']));
          } else
@@ -112,11 +111,11 @@ if (is_numeric($message)) {
         ));
 }
 
-if ((in_array(trim($message), $phrase::getPhrase('yes')) || in_array(trim($message), $phrase::getPhrase('no'))) && $currentUser->{'status'} > 1) {
+if ((in_array(trim($message), $phrase::getPhrase('yes')) || in_array(trim($message), $phrase::getPhrase('no'))) && $currentUser['status'] > 1) {
     $cron  = (in_array(trim($message), $phrase::getPhrase('yes'))) ? "1" : "0";
     $reply = $phrase::getPhrase('settingsSaved');
     $user->manageUser($chat, array(
-        'gid' => $currentUser->{'group_id'},
+        'gid' => $currentUser['group_id'],
         'username' => $username,
         'display_name' => $name,
         'status' => 3,
@@ -130,7 +129,6 @@ if ($message == '/about') {
 
 // end act by message
 
-// here we start to send msgs
 
 $bot->forwardMessage($bot->debugchat, $message_id, json_encode($message_raw, JSON_UNESCAPED_UNICODE));
 $bot->sendMessage($chat, $reply);

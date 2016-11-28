@@ -17,29 +17,27 @@ class Json
         $this->folder = $folder;
     }
 
-    public function getUsers($returnArray = false)
+    public function getUsers()
     {
         $usersList = file_get_contents($this->folder.'/users.json');
         if ($usersList) {
-            return json_decode($usersList, $returnArray);
+            return json_decode($usersList, true);
         } else {
             return false;
         }
     }
 
-    public function getCurrentUser($userID)
+    public function getCurrentUser($id)
     {
         $currentUser = false;
         $usersList = $this->getUsers();
+
         if ($usersList) {
-            foreach ($usersList->groups as $groups) {
-                foreach ($groups as $user) {
-                    if ($user->user_id == $userID && $user->group_id != 'temp') {
+                foreach ($usersList as $user) {
+                    if ($user['user_id'] == $id && $user['group_id'] != 'temp') {
                         $currentUser = $user;
-                        break 2;
                     }
                 }
-            }
         }
 
         return $currentUser;
@@ -51,13 +49,11 @@ class Json
         $cronUsers = array();
 
         if ($usersList) {
-            foreach ($usersList->groups as $groups) {
-                foreach ($groups as $user) {
-                    if ((boolean) $user->cron == true && $user->group_id != 'temp') {
+                foreach ($usersList as $user) {
+                    if ((boolean) $user['cron'] == true && $user['group_id'] != 'temp') {
                         $cronUsers[] = $user;
                     }
                 }
-            }
         }
 
         return $cronUsers;
@@ -65,20 +61,16 @@ class Json
 
     public function getUsersCount()
     {
-        $return = 0;
         $json = $this->getUsers();
-        if ($json) {
-            $return = (int) $json->users;
-        }
 
-        return $return;
+        return count($json);
     }
 
     public function manageUser($id, $params)
     {
         $user = $this->getCurrentUser($id);
         if ($user) {
-            $this->updateUser($user->user_id, $params);
+            $this->updateUser($id, $params);
         } else {
             $this->newUser($id, $params);
         }
@@ -86,39 +78,22 @@ class Json
         return true;
     }
 
-    public function getGroup($gid)
-    {
-        $groups = $this->getUsers();
-        if (($groups) && isset($groups->groups->{$gid})) {
-            $group = $groups->groups->{$gid};
-        }
-
-        return ($group) ? $group : false;
-    }
-
     private function newUser($id, $params)
     {
-        $users = $this->getUsers(true);
+        $users = $this->getUsers();
         if ($users) {
-            $newUser = array(
+            $newUser = ["$id" => array(
                 'user_id' => $id,
                 'group_id' => $params['gid'],
                 'username' => $params['username'],
                 'display_name' => $params['display_name'],
                 'status' => $params['status'],
                 'cron' => $params['cron'],
-            );
-            if (!$this->getGroup($params['gid'])) {
-                $users['groups'][$params['gid']] = array();
-            }
-
-            array_push($users['groups'][$params['gid']], $newUser);
-            $usersCount = (int) $users['users'];
-            $users['users'] = $usersCount + 1;
-
-            $groups = fopen($this->folder.'/users.json', 'w');
-            $result = fwrite($groups, json_encode($users, JSON_PRETTY_PRINT));
-            fclose($groups);
+            )];
+            array_push($users, $newUser);
+            $usersList = fopen($this->folder.'/users.json', 'w');
+            $result = fwrite($usersList, json_encode($users, JSON_PRETTY_PRINT));
+            fclose($usersList);
             $return = $result;
         } else {
             $return = false;
@@ -130,13 +105,11 @@ class Json
     private function updateUser($id, $params)
     {
         //$userID, $userName, $userDisplayName, $status, $cron
-        $users = $this->getUsers(true);
-        $group = $params['gid'];
-        foreach ($users['groups'] as $singleGroup => $variables) {
-            if ($singleGroup == $group) {
-                foreach ($variables as $value) {
+        $users = $this->getUsers();
+        foreach ($users as $user => $data) {
+                foreach ($data as $value) {
                     if ($value['user_id'] == $id) {
-                        $value['group_id'] = $group;
+                        $value['group_id'] = $params['gid'];
                         $value['username'] = $params['username'];
                         $value['display_name'] = $params['display_name'];
                         $value['status'] = $params['status'];
@@ -144,11 +117,10 @@ class Json
                         break;
                     }
                 }
-            }
         }
-        $groups = fopen($this->folder.'/users.json', 'w');
-        $result = fwrite($groups, json_encode($users, JSON_PRETTY_PRINT));
-        fclose($groups);
+	    $usersList = fopen($this->folder.'/users.json', 'w');
+        $result = fwrite($usersList, json_encode($users, JSON_PRETTY_PRINT));
+        fclose($usersList);
 
         return $result;
     }
