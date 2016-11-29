@@ -2,3 +2,4 @@
 test.php
 app/webhook.php
 vendor/
+/info/config.json

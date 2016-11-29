@@ -7,15 +7,20 @@
  */
 date_default_timezone_set("Europe/Minsk");
 require __DIR__ . '/vendor/autoload.php';
-use bsuir\app\Bot;
+use bsuir\app\Telegram as Bot;
 use bsuir\app\BSUIR;
 use bsuir\drivers\Redis as User;
 use bsuir\helpers\Phrases;
 
 // init
-$bot      = new Bot('128735339:AAH1WyvktGZayrLDJe-SdeulXxGEEQaxN8M');
-$debugBot = new Bot('89856014:AAGKnvayT242euRHofVyygmVODCjtEoJXEU');
-list($chat, $username, $name, $message, $message_id, $message_raw) = $bot->returnMessageInfo(json_decode(file_get_contents('php://input')));
+$config   = json_decode(file_get_contents('info/config.json'));
+$token    = $config->telegram->token;
+$debugToken = $config->telegram->debugToken;
+
+$bot      = new Bot($token);
+$debugBot = new Bot($debugToken);
+	list( $chat, $username, $name, $message, $message_id, $message_raw ) = $bot->returnMessageInfo( json_decode( file_get_contents( 'php://input' ) ) );
+
 
 $user  = new User('info');
 $schedule = new BSUIR();
