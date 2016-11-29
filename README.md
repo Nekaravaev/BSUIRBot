@@ -12,12 +12,12 @@ Bot for BSUIR's students. Display schedule by date.
 * Install redis server and phpredis extension. 
 * Upload repo in private folder, disallow it for bots in robots.txt;
 * Register bot via @BotFather in Telegram;
-* Insert token in *Bot* class init (var $bot);
+* Fill up config.json.example (info folder) and remove "example";
 * Set Telegram API's Webhook;
 * Enjoy your bot.
 
 ### Some info ###
 
 * ~~Not require database, use json for store data~~ Now use redis (json fix coming soon);
-* Latest version 0.5;
+* Latest version 0.6;
 * Demo available [@BSUIRBot] (https://telegram.me/BSUIRbot)

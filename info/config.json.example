@@ -1,0 +1,9 @@
+{
+  "telegram": {
+    "token" : "",
+    "debugToken": ""
+  },
+  "vk": {
+    "token": ""
+  }
+}
