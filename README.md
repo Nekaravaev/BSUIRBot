@@ -19,5 +19,5 @@ Bot for BSUIR's students. Display schedule by date.
 ### Some info ###
 
 * ~~Not require database, use json for store data~~ Now use redis (json fix coming soon);
-* Latest version 0.7;
+* Latest version 0.8;
 * Demo available [@BSUIRBot] (https://telegram.me/BSUIRbot)
