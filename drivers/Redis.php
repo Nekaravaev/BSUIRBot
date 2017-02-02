@@ -20,71 +20,69 @@ class Redis
 
     public function ping()
     {
-	    $ping = $this->redis->ping();
+        $ping = $this->redis->ping();
         return ($ping == "+PONG") ? true : false;
     }
 
-	public function getUsers()
-	{
-		$usersList = $this->redis->sMembers('users');
-		if ($usersList) {
-			return $usersList;
-		} else {
-			return false;
-		}
-	}
+    public function getUsers()
+    {
+        $usersList = $this->redis->sMembers('users');
 
-	public function getCurrentUser($id)
-	{
-		$currentUser = false;
-		if ($this->redis->hExists("user:$id", 'username')) {
-			$currentUser = $this->redis->hGetAll("user:$id");
-		}
-		return $currentUser;
-	}
+        return ($usersList) ? $usersList : false;
+    }
 
-	public function getCronUsers()
-	{
-		return $this->redis->sGetMembers('cron');
-	}
+    public function getCurrentUser($uid)
+    {
+        $currentUser = false;
+        if ($this->redis->hExists("user:$uid", 'username')) {
+            $currentUser = $this->redis->hGetAll("user:$uid");
+        }
+        return $currentUser;
+    }
 
-	public function getUsersCount()
-	{
-		$members = $this->redis->sGetMembers('users');
-		return count($members);
-	}
+    public function getCronUsers()
+    {
+        return $this->redis->sGetMembers('cron');
+    }
 
-	public function manageUser($id, $params)
-	{
-		return $this->updateUser($id, $params);
-	}
+    public function getUsersCount()
+    {
+        $members = $this->redis->sGetMembers('users');
+        return count($members);
+    }
 
-	public function getGroup($id)
-	{
-		if ($this->redis->hExists("user:$id", 'username')) {
-			$group = $this->redis->hGet("user:$id", 'group_id');
-		}
-		return ($group) ? $group : false;
-	}
+    public function manageUser($uid, $params)
+    {
+        return $this->updateUser($uid, $params);
+    }
 
-	private function updateUser($id, $params)
-	{
-		if ($this->ping()) {
-			$newUser = [
-				'user_id'      => $id,
-				'group_id'     => $params['gid'],
-				'username'     => $params['username'],
-				'display_name' => $params['display_name'],
-				'status'       => $params['status'],
-				'cron'         => $params['cron'],
-			];
-			$this->redis->hMset( "user:$id", $newUser );
-			$this->redis->sAdd( "group:" . $params['gid'], "user:$id" );
-			if ($params['cron']) {
-				$this->redis->sAdd( "cron", "user:$id" );
-			}
-			return true;
-		} else
-			return false;
-	}
+    public function getGroup($uid)
+    {
+        if ($this->redis->hExists("user:$uid", 'username')) {
+            $group = $this->redis->hGet("user:$uid", 'group_id');
+        }
+        return ($group) ? $group : false;
+    }
+
+    private function updateUser($uid, $params)
+    {
+        if (!$this->ping()) {
+            return false;
+        }
+        
+        $newUser = [
+                'user_id'      => $uid,
+                'group_id'     => $params['gid'],
+                'username'     => $params['username'],
+                'display_name' => $params['display_name'],
+                'status'       => $params['status'],
+                'cron'         => $params['cron'],
+            ];
+        $this->redis->hMset("user:$uid", $newUser);
+        $this->redis->sAdd("group:" . $params['gid'], "user:$uid");
+        if ($params['cron']) {
+            $this->redis->sAdd("cron", "user:$uid");
+        }
+        return true;
+    }
 }

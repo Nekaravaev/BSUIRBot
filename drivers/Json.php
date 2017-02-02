@@ -30,11 +30,11 @@ class Json
         $usersList = $this->getUsers();
 
         if ($usersList) {
-                foreach ($usersList as $user) {
-                    if ($user['user_id'] == $uid && $user['group_id'] != 'temp') {
-                        $currentUser = $user;
-                    }
+            foreach ($usersList as $user) {
+                if ($user['user_id'] == $uid && $user['group_id'] != 'temp') {
+                    $currentUser = $user;
                 }
+            }
         }
 
         return $currentUser;
@@ -46,11 +46,11 @@ class Json
         $cronUsers = array();
 
         if ($usersList) {
-                foreach ($usersList as $user) {
-                    if ((boolean) $user['cron'] == true && $user['group_id'] != 'temp') {
-                        $cronUsers[] = $user;
-                    }
+            foreach ($usersList as $user) {
+                if ((boolean) $user['cron'] == true && $user['group_id'] != 'temp') {
+                    $cronUsers[] = $user;
                 }
+            }
         }
 
         return $cronUsers;
@@ -66,27 +66,23 @@ class Json
     public function manageUser($uid, $params)
     {
         $user = $this->getCurrentUser($uid);
-        if ($user) {
-            $this->updateUser($uid, $params);
-        } else {
-            $this->newUser($uid, $params);
-        }
 
-        return true;
+        return ($user) ? $this->updateUser($uid, $params) : $this->newUser($uid, $params);
     }
 
     private function newUser($uid, $params)
     {
         $users = $this->getUsers();
         if ($users) {
-            $newUser = ["$uid" => array(
-                'user_id' => $uid,
-                'group_id' => $params['gid'],
-                'username' => $params['username'],
-                'display_name' => $params['display_name'],
-                'status' => $params['status'],
-                'cron' => $params['cron'],
-            )];
+            $newUser = [
+                "$uid" => [
+                    'user_id' => $uid,
+                    'group_id' => $params['gid'],
+                    'username' => $params['username'],
+                    'display_name' => $params['display_name'],
+                    'status' => $params['status'],
+                    'cron' => $params['cron']]
+            ];
             array_push($users, $newUser);
             $usersList = fopen($this->folder.'/users.json', 'w');
             $result = fwrite($usersList, json_encode($users, JSON_PRETTY_PRINT));
@@ -102,18 +98,19 @@ class Json
         //$userID, $userName, $userDisplayName, $status, $cron
         $users = $this->getUsers();
         foreach ($users as $user => $data) {
-                foreach ($data as $value) {
-                    if ($value['user_id'] == $uid) {
-                        $value['group_id'] = $params['gid'];
-                        $value['username'] = $params['username'];
-                        $value['display_name'] = $params['display_name'];
-                        $value['status'] = $params['status'];
-                        $value['cron'] = $params['cron'];
-                        break;
-                    }
+            //$user
+            foreach ($data as $value) {
+                if ($value['user_id'] == $uid) {
+                    $value['group_id'] = $params['gid'];
+                    $value['username'] = $params['username'];
+                    $value['display_name'] = $params['display_name'];
+                    $value['status'] = $params['status'];
+                    $value['cron'] = $params['cron'];
+                    break;
                 }
+            }
         }
-	    $usersList = fopen($this->folder.'/users.json', 'w');
+        $usersList = fopen($this->folder.'/users.json', 'w');
         $result = fwrite($usersList, json_encode($users, JSON_PRETTY_PRINT));
         fclose($usersList);
 

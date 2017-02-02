@@ -21,6 +21,7 @@ class Telegram extends Bot
 
     public function returnMessageInfo($message, $type)
     {
+        $return = [];
         if (!empty($message->message->chat->id)) {
             $return = [
                 $message->message->chat->id,
@@ -30,10 +31,7 @@ class Telegram extends Bot
                 $message->message->messageId,
                 $message
             ];
-        } else {
-            $return = false;
         }
-
         return $return;
     }
 
@@ -55,11 +53,11 @@ class Telegram extends Bot
         return $this->sendRequest('telegram', ['method' => 'sendMessage', 'params' => http_build_query($res), 'token' => $this->token], false);
     }
 
-    public function forwardMessage($from_chat_id, $messageId, $reply)
+    public function forwardMessage($fromChatId, $messageId, $reply)
     {
         $res = [
             'chat_id' => $this->debugchat,
-            'from_chat_id' => $from_chat_id,
+            'from_chat_id' => $fromChatId,
             'messageId' => $messageId,
             'text' => $reply
         ];
