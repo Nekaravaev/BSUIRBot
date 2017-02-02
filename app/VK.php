@@ -8,7 +8,6 @@
 
 namespace bsuir\app;
 
-use bsuir\app\Bot;
 
 class VK extends Bot
 {
@@ -19,11 +18,7 @@ class VK extends Bot
 
     public function returnMessageInfo($message, $type)
     {
-        if ($type != 'wall_post_new') {
-            $userFirstName = $this->getFirstname($message->object->user_id);
-        } else {
-            $userFirstName = ($message->object->from_id > 0) ? $this->getFirstname($message->object->user_id) : 'группы';
-        }
+        $userFirstName = ($message->object->from_id > 0) ? $this->getFirstname($message->object->user_id) : 'группы';
 
         $return = [];
         switch ($type) {
@@ -82,6 +77,18 @@ class VK extends Bot
             'access_token' => $this->token,
             'v' => '5.0'
         ];
-        return $this->sendRequest("VK", ['method' => 'messages.send', 'params' => http_build_query($res), 'token' => $this->token]);
+        return $this->sendRequest("VK", ['method' => 'messages.send', 'params' => http_build_query($res), 'token' => $this->token], false);
+    }
+
+    public function forwardMessage($fromChatId, $messageId, $reply)
+    {
+        $res = [
+            'message' => $reply,
+            'user_id' => $fromChatId,
+            'forward_messages' => $messageId,
+            'access_token' => $this->token,
+            'v' => '5.0'
+        ];
+        return $this->sendRequest("VK", ['method' => 'messages.send', 'params' => http_build_query($res), 'token' => $this->token], false);
     }
 }

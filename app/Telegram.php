@@ -19,7 +19,7 @@ class Telegram extends Bot
         parent::__construct($token);
     }
 
-    public function returnMessageInfo($message)
+    public function returnMessageInfo($message, $type)
     {
         if (!empty($message->message->chat->id)) {
             $return = [
@@ -27,7 +27,7 @@ class Telegram extends Bot
                 $message->message->from->username,
                 $message->message->from->first_name,
                 $message->message->text,
-                $message->message->message_id,
+                $message->message->messageId,
                 $message
             ];
         } else {
@@ -43,7 +43,7 @@ class Telegram extends Bot
             'chat_id' => $chat,
             'sticker' => $sticker
         ];
-        return $this->sendRequest('telegram', ['method' => 'sendSticker', 'params' => http_build_query($res), 'token' => $this->token]);
+        return $this->sendRequest('telegram', ['method' => 'sendSticker', 'params' => http_build_query($res), 'token' => $this->token], false);
     }
 
     public function sendMessage($chat, $reply)
@@ -52,17 +52,17 @@ class Telegram extends Bot
             'chat_id' => $chat,
             'text' => $reply
         ];
-        return $this->sendRequest('telegram', ['method' => 'sendMessage', 'params' => http_build_query($res), 'token' => $this->token]);
+        return $this->sendRequest('telegram', ['method' => 'sendMessage', 'params' => http_build_query($res), 'token' => $this->token], false);
     }
 
-    public function forwardMessage($from_chat_id, $message_id, $reply)
+    public function forwardMessage($from_chat_id, $messageId, $reply)
     {
         $res = [
             'chat_id' => $this->debugchat,
             'from_chat_id' => $from_chat_id,
-            'message_id' => $message_id,
+            'messageId' => $messageId,
             'text' => $reply
         ];
-        return $this->sendRequest('telegram', ['method' => 'forwardMessage', 'params' => http_build_query($res), 'token' => $this->token]);
+        return $this->sendRequest('telegram', ['method' => 'forwardMessage', 'params' => http_build_query($res), 'token' => $this->token], false);
     }
 }

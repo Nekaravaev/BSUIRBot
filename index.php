@@ -19,7 +19,7 @@ $debugToken = $config->telegram->debugToken;
 
 $bot      = new Bot($token);
 $debugBot = new Bot($debugToken);
-	list( $chat, $username, $name, $message, $message_id, $message_raw ) = $bot->returnMessageInfo( json_decode( file_get_contents( 'php://input' ) ) );
+	list( $chat, $username, $name, $message, $messageId, $message_raw ) = $bot->returnMessageInfo( json_decode( file_get_contents( 'php://input' ) ), 'message' );
 
 
 $user  = new User('info');
@@ -133,6 +133,6 @@ if ($message == '/about') {
 // end act by message
 
 
-$bot->forwardMessage($bot->debugchat, $message_id, json_encode($message_raw, JSON_UNESCAPED_UNICODE));
+$bot->forwardMessage($bot->debugchat, $messageId, json_encode($message_raw, JSON_UNESCAPED_UNICODE));
 $bot->sendMessage($chat, $reply);
 $debugBot->sendMessage($bot->debugchat, json_encode($message_raw, JSON_UNESCAPED_UNICODE));

@@ -19,15 +19,15 @@ abstract class Bot
         $this->token = $token;
     }
 
-    abstract public function returnMessageInfo($message);
+    abstract public function returnMessageInfo($message, $type);
 
-    abstract public function sendMessage($chat, $reply);
+    abstract public function sendMessage($curlat, $reply);
 
-    abstract public function forwardMessage($from_chat_id, $message_id, $reply);
+    abstract public function forwardMessage($fromChatId, $messageId, $reply);
 
-    public function sendRequest($API = 'telegram', $params, $assoc = false)
+    public function sendRequest($api = 'telegram', $params, $assoc)
     {
-        switch ($API) {
+        switch ($api) {
             case ('telegram'):
                 $url = 'https://api.telegram.org/bot' . $this->token . '/' .$params['method'];
                 break;
@@ -38,21 +38,16 @@ abstract class Bot
                 $url = $params['url'];
                 break;
         }
-        $post = $params['params'];
-        return $this->curl($url, $post, $assoc);
-    }
 
-    public function curl($url, $params, $assoc = false)
-    {
-        $ch = curl_init($url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_HEADER, 0);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
-        $response = curl_exec($ch);
-        curl_close($ch);
+        $curl = curl_init($url);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($curl, CURLOPT_HEADER, 0);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($curl, CURLOPT_POST, 1);
+        curl_setopt($curl, CURLOPT_POSTFIELDS, $params['params']);
+        $response = curl_exec($curl);
+        curl_close($curl);
         return json_decode($response, $assoc);
     }
 }

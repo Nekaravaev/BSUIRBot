@@ -99,11 +99,11 @@ class BSUIR
     {
         $reply = '';
         if (!empty($lessons)) {
-            $i = 0;
+            $lessonsCount = 0;
             foreach ($lessons as $lesson) {
-                $i++;
+                $lessonsCount++;
                 $sub = ($lesson['subgroup'] == 0) ? 'всех'  : $lesson['subgroup'].' подгруппы';
-                $reply .= $i . ' пара ('.$lesson['time'].') - {'.$lesson['auditory'].'} : ['.$lesson['type'].'] '.
+                $reply .= $lessonsCount . ' пара ('.$lesson['time'].') - {'.$lesson['auditory'].'} : ['.$lesson['type'].'] '.
                     $lesson['name'].' у '.$lesson['employee'].' для '. $sub .PHP_EOL;
             }
         }
