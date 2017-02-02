@@ -22,7 +22,7 @@ class Telegram extends Bot
     public function returnMessageInfo($message, $type)
     {
         $return = [];
-        if (!empty($message->message->chat->id)) {
+        if (!empty($message->message->chat->id) && $type) {
             $return = [
                 $message->message->chat->id,
                 $message->message->from->username,
