@@ -10,7 +10,7 @@ require __DIR__ . '/vendor/autoload.php';
 use bsuir\app\Telegram as Bot;
 use bsuir\app\BSUIR;
 use bsuir\drivers\Redis as User;
-use bsuir\helpers\Phrases;
+use bsuir\helpers\Phrase;
 
 // init
 $config   = json_decode(file_get_contents('info/config.json'));
@@ -23,25 +23,23 @@ $debugBot = new Bot($debugToken);
 
 
 $user  = new User('info');
-$schedule = new BSUIR();
-$phrase = new Phrases();
 	
-$reply = $phrase::getPhrase('command404');
+$reply = Phrase::getPhrase('command404');
 
 $currentUser = $user->getCurrentUser($chat);
 if ($currentUser)
 {
-    $userGroupID = $schedule->getGroupID($currentUser['group_id']);
+    $userGroupID = BSUIR::getGroupID($currentUser['group_id']);
 }
 
 //act by message
 
 if ($message == '/today') {
     if ($currentUser) {
-        $date = $schedule->getDate();
-        $reply = $schedule->parseSchedule($schedule->getGroupSchedule($userGroupID, $date['day'], $date['week']));
+        $date = BSUIR::getDate(time());
+        $reply = BSUIR::parseSchedule(BSUIR::getGroupSchedule($userGroupID, $date['day'], $date['week']));
     } else {
-        $reply = $phrase::getPhrase('user404');
+        $reply = Phrase::getPhrase('user404');
     }
 }
 
@@ -50,30 +48,30 @@ if ($message == 'ping') {
 }
 
 if ($message == '/date') {
-	$date = $schedule->getDate();
+	$date = BSUIR::getDate(time());
 	$reply = "Сегодня ".$date['day']." день".PHP_EOL.$date['week']." недели".PHP_EOL;
 }
 
 if ($message == '/tomorrow') {
     if ($currentUser) {
-        $date = $schedule->getDate(true);
-        $reply = $schedule->parseSchedule($schedule->getGroupSchedule($userGroupID, $date['day'], $date['week']));
+        $date = BSUIR::getDate(strtotime('tomorrow'));
+        $reply = BSUIR::parseSchedule(BSUIR::getGroupSchedule($userGroupID, $date['day'], $date['week']));
     } else {
-        $reply = $phrase::getPhrase('user404');
+        $reply = Phrase::getPhrase('user404');
     }
 }
 
 if ($message == '/get') {
-    $reply = $phrase::getPhrase('get404');
+    $reply = Phrase::getPhrase('get404');
 }
 
 if (preg_match('/^\/get [1-7] [1-4]/', $message)) {
     if ($currentUser) {
         $day  = substr($message, 5, 1);
         $week = substr($message, 7, 1);
-        $reply = $schedule->parseSchedule($schedule->getGroupSchedule($userGroupID, $day, $week));
+        $reply = BSUIR::parseSchedule(BSUIR::getGroupSchedule($userGroupID, $day, $week));
     } else {
-        $reply = $phrase::getPhrase('user404');
+        $reply = Phrase::getPhrase('user404');
     }
 }
 
@@ -98,15 +96,15 @@ if ($message == '/start') {
         $bot->sendSticker($chat, 'BQADAgADQQADSEvvAQ1q8f_OrLAaAg');
     } else {
          if ($currentUser['group_id']) {
-             $date = $schedule->getDate();
-             $reply = $schedule->parseSchedule($schedule->getGroupSchedule($userGroupID, $date['day'], $date['week']));
+             $date = BSUIR::getDate();
+             $reply = BSUIR::parseSchedule(BSUIR::getGroupSchedule($userGroupID, $date['day'], $date['week']));
          } else
-             $reply = $phrase::getPhrase('group404');
+             $reply = Phrase::getPhrase('group404');
     }
 }
 
 if (is_numeric($message)) {
-        $reply = $phrase::getPhrase('groupSaved');
+        $reply = Phrase::getPhrase('groupSaved');
         $user->manageUser($chat, array(
             'gid' => $message,
             'username' => $username,
@@ -116,9 +114,9 @@ if (is_numeric($message)) {
         ));
 }
 
-if ((in_array(trim($message), $phrase::getPhrase('yes')) || in_array(trim($message), $phrase::getPhrase('no'))) && $currentUser['status'] > 1) {
-    $cron  = (in_array(trim($message), $phrase::getPhrase('yes'))) ? "1" : "0";
-    $reply = $phrase::getPhrase('settingsSaved');
+if ((in_array(trim($message), Phrase::getPhrase('yes')) || in_array(trim($message), Phrase::getPhrase('no'))) && $currentUser['status'] > 1) {
+    $cron  = (in_array(trim($message), Phrase::getPhrase('yes'))) ? "1" : "0";
+    $reply = Phrase::getPhrase('settingsSaved');
     $user->manageUser($chat, array(
         'gid' => $currentUser['group_id'],
         'username' => $username,

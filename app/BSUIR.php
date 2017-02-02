@@ -8,41 +8,51 @@
 
 namespace bsuir\app;
 
-class BSUIR {
+class BSUIR
+{
+    public static $folder = 'info';
 
-    public function __construct($folder = 'info')
+
+    /**
+     * Fetch number of student's week through API
+     *
+     * @param $timestamp int timestamp
+     *
+     * @return array result: week & day
+     */
+
+    public static function getDate($timestamp)
     {
-        if( !empty ( $folder ) )
-        {
-            $this->folder = $folder;
-        }
-    }
+        $weekNumber = file_get_contents('https://www.bsuir.by/schedule/rest/currentWeek/date/' . date('d.m.Y', $timestamp));
+        $dayNumber = date('w', $timestamp);
 
-    public function getDate($tommorow = false)
-    {
-		$date = ($tommorow) ? date('d.m.Y', strtotime('tomorrow')) : date('d.m.Y');
-	    $weekNumber = file_get_contents("https://www.bsuir.by/schedule/rest/currentWeek/date/$date");
-        $dayNumber = ($tommorow) ? date('w', strtotime('tomorrow')) : date('w');
-
-        return array(
+        return [
             'week' => $weekNumber,
             'day'  => $dayNumber
-        );
+        ];
     }
 
-    public function getGroupSchedule($group_id, $day = false, $week = false)
+
+    /**
+     * @param $gID string|int group number
+     * @param $day int number of day in week
+     * @param $week int number of student's week
+     * @return array schedule for group
+     */
+
+    public static function getGroupSchedule($gID, $day, $week)
     {
-        $todaySubjects = array();
-        $weekDays = array('Воскресенье', 'Понедельник', 'Вторник', 'Среда',
-            'Четверг', 'Пятница', 'Суббота');
+        $todaySubjects = [];
+        $weekDays = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда',
+            'Четверг', 'Пятница', 'Суббота'];
         $today = $weekDays[trim($day)];
         $week = trim($week);
 
-        $xml = simplexml_load_file("http://www.bsuir.by/schedule/rest/schedule/$group_id");
+        $xml = simplexml_load_file("http://www.bsuir.by/schedule/rest/schedule/$gID");
         foreach ($xml->scheduleModel as $singleDay) {
-            if($singleDay->weekDay == $today){
+            if ($singleDay->weekDay == $today) {
                 foreach ($singleDay->schedule as $schedule) {
-                    if(in_array($week, (array) $schedule->weekNumber)){
+                    if (in_array($week, (array) $schedule->weekNumber)) {
                         $todaySubjects[] = array(
                             'name' => $schedule->subject,
                             'type' => $schedule->lessonType,
@@ -58,36 +68,45 @@ class BSUIR {
         return $todaySubjects;
     }
 
-    public function getGroupID($group_name)
+    /**
+     * Getting group ID in BSUIR's api by group of user
+     *
+     * @param $gID string|int number of group
+     * @return bool|int id or unsuccessful result
+     */
+
+    public static function getGroupID($gID)
     {
-        $groups = json_decode(file_get_contents($this->folder."/groups.json"));
-        foreach ($groups->studentGroup as $group){
-            if ($group->name == $group_name) {
-                $group_id = $group;
+        $groups = json_decode(file_get_contents(self::$folder."/groups.json"));
+        foreach ($groups->studentGroup as $group) {
+            if ($group->name == $gID) {
+                $studentGroup = $group;
                 break;
             }
         }
-        return ($group_id) ? $group_id->id : false;
+        return ($studentGroup) ? $studentGroup->id : false;
     }
 
-    public function parseSchedule($lessons)
+    /**
+     * Parse array with lessons after getting through getGroupSchedule
+     *
+     * @param $lessons array array with lessons to parse
+     *
+     * @return string string with message to user
+     */
+
+    public static function parseSchedule($lessons)
     {
-        if ($lessons)
-        {
+        $reply = '';
+        if (!empty($lessons)) {
             $i = 0;
-            $reply = '';
             foreach ($lessons as $lesson) {
                 $i++;
                 $sub = ($lesson['subgroup'] == 0) ? 'всех'  : $lesson['subgroup'].' подгруппы';
                 $reply .= $i . ' пара ('.$lesson['time'].') - {'.$lesson['auditory'].'} : ['.$lesson['type'].'] '.
                     $lesson['name'].' у '.$lesson['employee'].' для '. $sub .PHP_EOL;
             }
-        } else
-        {
-            $reply = 'Выходной';
         }
-        return $reply;
+        return (!empty($reply)) ? $reply : 'Выходной';
     }
-
-
 }

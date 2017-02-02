@@ -8,7 +8,7 @@
 
 namespace bsuir\helpers;
 
-class Phrases {
+class Phrase {
 
 	public static $phrases = array(
 							"group404" => "Не могу найти твою группу.",
@@ -21,7 +21,7 @@ class Phrases {
 		                    "settingsSaved" => "\nНастройки сохранены.\nДоступные команды:\n/today - расписание на сегодня\n/get числовой номер дня недели [номер недели] (пример: /get 1 4) - расписание по указанному критерию\n/about - контакты автора"
 	);
 
-	static function getPhrase($phrase){
+	public static function getPhrase($phrase){
 		return self::$phrases[$phrase];
 	}
 
