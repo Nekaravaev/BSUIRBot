@@ -20,21 +20,18 @@ class Json
     public function getUsers()
     {
         $usersList = file_get_contents($this->folder.'/users.json');
-        if ($usersList) {
-            return json_decode($usersList, true);
-        } else {
-            return false;
-        }
+
+        return ($usersList) ? json_decode($usersList, true) : false;
     }
 
-    public function getCurrentUser($id)
+    public function getCurrentUser($uid)
     {
         $currentUser = false;
         $usersList = $this->getUsers();
 
         if ($usersList) {
                 foreach ($usersList as $user) {
-                    if ($user['user_id'] == $id && $user['group_id'] != 'temp') {
+                    if ($user['user_id'] == $uid && $user['group_id'] != 'temp') {
                         $currentUser = $user;
                     }
                 }
@@ -66,24 +63,24 @@ class Json
         return count($json);
     }
 
-    public function manageUser($id, $params)
+    public function manageUser($uid, $params)
     {
-        $user = $this->getCurrentUser($id);
+        $user = $this->getCurrentUser($uid);
         if ($user) {
-            $this->updateUser($id, $params);
+            $this->updateUser($uid, $params);
         } else {
-            $this->newUser($id, $params);
+            $this->newUser($uid, $params);
         }
 
         return true;
     }
 
-    private function newUser($id, $params)
+    private function newUser($uid, $params)
     {
         $users = $this->getUsers();
         if ($users) {
-            $newUser = ["$id" => array(
-                'user_id' => $id,
+            $newUser = ["$uid" => array(
+                'user_id' => $uid,
                 'group_id' => $params['gid'],
                 'username' => $params['username'],
                 'display_name' => $params['display_name'],
@@ -95,20 +92,18 @@ class Json
             $result = fwrite($usersList, json_encode($users, JSON_PRETTY_PRINT));
             fclose($usersList);
             $return = $result;
-        } else {
-            $return = false;
         }
 
-        return $return;
+        return ($return) ? $return : false;
     }
 
-    private function updateUser($id, $params)
+    private function updateUser($uid, $params)
     {
         //$userID, $userName, $userDisplayName, $status, $cron
         $users = $this->getUsers();
         foreach ($users as $user => $data) {
                 foreach ($data as $value) {
-                    if ($value['user_id'] == $id) {
+                    if ($value['user_id'] == $uid) {
                         $value['group_id'] = $params['gid'];
                         $value['username'] = $params['username'];
                         $value['display_name'] = $params['display_name'];
