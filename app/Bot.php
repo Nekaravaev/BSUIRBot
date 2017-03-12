@@ -7,6 +7,7 @@
  */
 
 namespace bsuir\app;
+use bsuir\helpers\Curl;
 
 abstract class Bot
 {
@@ -21,7 +22,7 @@ abstract class Bot
 
     abstract public function returnMessageInfo($message, $type);
 
-    abstract public function sendMessage($curlat, $reply);
+    abstract public function sendMessage($chat, $reply);
 
     abstract public function forwardMessage($fromChatId, $messageId, $reply);
 
@@ -39,15 +40,6 @@ abstract class Bot
                 break;
         }
 
-        $curl = curl_init($url);
-        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($curl, CURLOPT_HEADER, 0);
-        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
-        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);
-        curl_setopt($curl, CURLOPT_POST, 1);
-        curl_setopt($curl, CURLOPT_POSTFIELDS, $params['params']);
-        $response = curl_exec($curl);
-        curl_close($curl);
-        return json_decode($response, $assoc);
+        return json_decode(Curl::getData($url, $params), $assoc);
     }
 }

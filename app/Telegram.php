@@ -7,17 +7,10 @@
  */
 
 namespace bsuir\app;
-use bsuir\app\Bot;
 
 class Telegram extends Bot
 {
     public $debugchat = -4376451; //747013;
-
-    /* init, set token  */
-    public function __construct($token)
-    {
-        parent::__construct($token);
-    }
 
     public function returnMessageInfo($message, $type)
     {
@@ -28,7 +21,7 @@ class Telegram extends Bot
                 $message->message->from->username,
                 $message->message->from->first_name,
                 $message->message->text,
-                $message->message->messageId,
+                $message->message->message_id,
                 $message
             ];
         }
@@ -41,7 +34,7 @@ class Telegram extends Bot
             'chat_id' => $chat,
             'sticker' => $sticker
         ];
-        return $this->sendRequest('telegram', ['method' => 'sendSticker', 'params' => http_build_query($res), 'token' => $this->token], false);
+        return self::sendRequest('telegram', ['method' => 'sendSticker', 'params' => http_build_query($res), 'token' => $this->token], false);
     }
 
     public function sendMessage($chat, $reply)
@@ -50,7 +43,7 @@ class Telegram extends Bot
             'chat_id' => $chat,
             'text' => $reply
         ];
-        return $this->sendRequest('telegram', ['method' => 'sendMessage', 'params' => http_build_query($res), 'token' => $this->token], false);
+        return self::sendRequest('telegram', ['method' => 'sendMessage', 'params' => http_build_query($res), 'token' => $this->token], false);
     }
 
     public function forwardMessage($fromChatId, $messageId, $reply)
@@ -61,6 +54,6 @@ class Telegram extends Bot
             'messageId' => $messageId,
             'text' => $reply
         ];
-        return $this->sendRequest('telegram', ['method' => 'forwardMessage', 'params' => http_build_query($res), 'token' => $this->token], false);
+        return self::sendRequest('telegram', ['method' => 'forwardMessage', 'params' => http_build_query($res), 'token' => $this->token], false);
     }
 }

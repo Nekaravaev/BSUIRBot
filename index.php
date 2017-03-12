@@ -11,18 +11,15 @@ use bsuir\app\Telegram as Bot;
 use bsuir\app\BSUIR;
 use bsuir\drivers\Redis as User;
 use bsuir\helpers\Phrase;
+use bsuir\app\Config;
 
 // init
-$config   = json_decode(file_get_contents('info/config.json'));
-$token    = $config->telegram->token;
-$debugToken = $config->telegram->debugToken;
+$bot      = new Bot(Config::getTGtoken());
+$debugBot = new Bot(Config::getTGDebugToken());
 
-$bot      = new Bot($token);
-$debugBot = new Bot($debugToken);
-	list( $chat, $username, $name, $message, $messageId, $message_raw ) = $bot->returnMessageInfo( json_decode( file_get_contents( 'php://input' ) ), 'message' );
+list( $chat, $username, $name, $message, $messageId, $message_raw ) = $bot->returnMessageInfo( json_decode( file_get_contents( 'php://input' ) ), 'message' );
 
-
-$user  = new User('info');
+$user  = new User();
 	
 $reply = Phrase::getPhrase('command404');
 
@@ -96,7 +93,7 @@ if ($message == '/start') {
         $bot->sendSticker($chat, 'BQADAgADQQADSEvvAQ1q8f_OrLAaAg');
     } else {
          if ($currentUser['group_id']) {
-             $date = BSUIR::getDate();
+             $date = BSUIR::getDate(time());
              $reply = BSUIR::parseSchedule(BSUIR::getGroupSchedule($userGroupID, $date['day'], $date['week']));
          } else
              $reply = Phrase::getPhrase('group404');
@@ -132,7 +129,7 @@ if ($message == '/about') {
 
 // end act by message
 
-
+echo $reply;
 $bot->forwardMessage($bot->debugchat, $messageId, json_encode($message_raw, JSON_UNESCAPED_UNICODE));
 $bot->sendMessage($chat, $reply);
 $debugBot->sendMessage($bot->debugchat, json_encode($message_raw, JSON_UNESCAPED_UNICODE));

@@ -7,11 +7,20 @@
  */
 
 namespace bsuir\app;
+use bsuir\helpers\Curl;
 
 class BSUIR
 {
-    public static $folder = 'info';
+    public static $folder = 'info',
+                  $params = [];
 
+    /**
+     * @param string $folder folder with info
+     */
+    public static function setFolder(string $folder)
+    {
+        self::$folder = $folder;
+    }
 
     /**
      * Fetch number of student's week through API
@@ -23,11 +32,14 @@ class BSUIR
 
     public static function getDate($timestamp)
     {
-        $weekNumber = file_get_contents('https://www.bsuir.by/schedule/rest/currentWeek/date/' . date('d.m.Y', $timestamp));
+        $date = date('d.m.Y', $timestamp);
+
+        preg_match("/\d/i", Curl::getData('https://www.bsuir.by/schedule/rest/currentWeek/date/' . urlencode($date), self::$params), $weekNumber);
+
         $dayNumber = date('w', $timestamp);
 
         return [
-            'week' => $weekNumber,
+            'week' => $weekNumber[0],
             'day'  => $dayNumber
         ];
     }
@@ -48,7 +60,10 @@ class BSUIR
         $today = $weekDays[trim($day)];
         $week = trim($week);
 
-        $xml = simplexml_load_file("http://www.bsuir.by/schedule/rest/schedule/$gID");
+        //$xmlRest = Curl::getData('http://api.gdeslon.ru/api/search.xml?q=Vitek%20%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%BA&l=5&p=1&_gs_at=f93e1be9649127a2b3ebe88fe6fdef7bbd48fd1e', self::$params);
+        $xmlRest = Curl::getData("https://www.bsuir.by/schedule/rest/schedule/".urlencode($gID), self::$params);
+
+        $xml = simplexml_load_string($xmlRest);
         foreach ($xml->scheduleModel as $singleDay) {
             if ($singleDay->weekDay == $today) {
                 foreach ($singleDay->schedule as $schedule) {

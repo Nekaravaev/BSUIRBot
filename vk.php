@@ -1,46 +1,45 @@
 <?php
-    /**
-     * Created by PhpStorm.
-     * User: Karavaev
-     * Date: 7/25/2015
-     * Time: 4:16 PM
-     */
-    error_reporting(0);
-    date_default_timezone_set("Europe/Minsk");
-    require __DIR__ . '/vendor/autoload.php';
-    use bsuir\app\VK as Bot;
-    use bsuir\app\BSUIR;
-    use bsuir\drivers\Redis as User;
-    use bsuir\helpers\Phrases;
+/**
+ * Created by PhpStorm.
+ * User: Karavaev
+ * Date: 7/25/2015
+ * Time: 4:16 PM
+*/
+error_reporting(0);
+date_default_timezone_set("Europe/Minsk");
+require __DIR__ . '/vendor/autoload.php';
+use bsuir\app\VK as Bot;
+use bsuir\app\BSUIR;
+use bsuir\drivers\Redis as User;
+use bsuir\helpers\Phrases;
 
-    header("HTTP/1.1 200 OK");
-    echo "ok";
+header("HTTP/1.1 200 OK");
+echo "ok";
 // init
-    $config   = json_decode(file_get_contents('info/config.json'));
-    $token    = $config->vk->token;
+$config   = json_decode(file_get_contents('info/config.json'));
+$token    = $config->vk->token;
 
-    $bot      = new Bot($token);
-    $request = json_decode(file_get_contents('php://input'));
+$bot      = new Bot($token);
+$request = json_decode(file_get_contents('php://input'));
 
+$user  = new User('info');
+$schedule = new BSUIR();
+$phrase = new Phrases();
 
-    $user  = new User('info');
-    $schedule = new BSUIR();
-    $phrase = new Phrases();
-
-    $reply = $phrase::getPhrase('command404');
-    $bsuirGroupId = $schedule->getGroupID("581062");
+$reply = $phrase::getPhrase('command404');
+$bsuirGroupId = $schedule->getGroupID("581062");
 
 //act by message
 if ($request->type == 'message_new') {
     list($chat, $name, $title, $message, $messageType, $message_raw) = $bot->returnMessageInfo($request, $request->type);
 
     if ($message == '/today') {
-        $date = $schedule->getDate();
+        $date = $schedule->getDate(time());
         $reply = $schedule->parseSchedule($schedule->getGroupSchedule($bsuirGroupId, $date['day'], $date['week']));
     }
 
     if ($message == '/date') {
-        $date = $schedule->getDate();
+        $date = $schedule->getDate(time());
         $reply = "Сегодня " . $date['day'] . " день" . PHP_EOL . $date['week'] . " недели" . PHP_EOL;
     }
 

@@ -1,0 +1,49 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: karavaev
+ * Date: 27.02.17
+ * Time: 9:23 PM
+ */
+
+namespace bsuir\app;
+
+class Config
+{
+    private static $VKtoken = '';
+    private static $TGtoken = '';
+    private static $TGDebugToken = '';
+    private static $VKDebugToken = '';
+
+    /**
+     * @return string token
+     */
+    public static function getTGDebugToken()
+    {
+        return self::$TGDebugToken;
+    }
+
+    /**
+     * @return string token
+     */
+    public static function getVKDebugToken()
+    {
+        return self::$VKDebugToken;
+    }
+
+    /**
+     * @return string token
+     */
+    public static function getVKtoken()
+    {
+        return self::$VKtoken;
+    }
+
+    /**
+     * @return string token
+     */
+    public static function getTGtoken()
+    {
+        return self::$TGtoken;
+    }
+}

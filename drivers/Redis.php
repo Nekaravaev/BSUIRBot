@@ -64,6 +64,11 @@ class Redis
         return ($group) ? $group : false;
     }
 
+    public function groupValidation($gId)
+    {
+
+    }
+
     private function updateUser($uid, $params)
     {
         if (!$this->ping()) {
