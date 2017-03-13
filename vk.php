@@ -11,7 +11,7 @@ require __DIR__ . '/vendor/autoload.php';
 use bsuir\app\VK as Bot;
 use bsuir\app\BSUIR;
 use bsuir\drivers\Redis as User;
-use bsuir\helpers\Phrases;
+use bsuir\helpers\Phrase;
 
 header("HTTP/1.1 200 OK");
 echo "ok";
@@ -24,7 +24,7 @@ $request = json_decode(file_get_contents('php://input'));
 
 $user  = new User('info');
 $schedule = new BSUIR();
-$phrase = new Phrases();
+$phrase = new Phrase();
 
 $reply = $phrase::getPhrase('command404');
 $bsuirGroupId = $schedule->getGroupID("581062");

@@ -16,6 +16,10 @@ class Redis
     {
         $this->redis = new \Redis();
         $this->redis->connect('127.0.0.1', 6379);
+        if (!$this->redis->ping())
+        {
+            throw new \Exception('Redis is not available');
+        }
     }
 
     public function ping()
@@ -64,17 +68,8 @@ class Redis
         return ($group) ? $group : false;
     }
 
-    public function groupValidation($gId)
-    {
-
-    }
-
     private function updateUser($uid, $params)
     {
-        if (!$this->ping()) {
-            return false;
-        }
-        
         $newUser = [
                 'user_id'      => $uid,
                 'group_id'     => $params['gid'],
@@ -85,9 +80,10 @@ class Redis
             ];
         $this->redis->hMset("user:$uid", $newUser);
         $this->redis->sAdd("group:" . $params['gid'], "user:$uid");
-        if ($params['cron']) {
+        if (intval($params['cron'])) {
             $this->redis->sAdd("cron", "user:$uid");
         }
-        return true;
+        $this->redis->sAdd('users', "user:$uid");
+        return $this->getCurrentUser($uid);
     }
 }

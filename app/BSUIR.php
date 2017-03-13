@@ -60,7 +60,6 @@ class BSUIR
         $today = $weekDays[trim($day)];
         $week = trim($week);
 
-        //$xmlRest = Curl::getData('http://api.gdeslon.ru/api/search.xml?q=Vitek%20%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%BA&l=5&p=1&_gs_at=f93e1be9649127a2b3ebe88fe6fdef7bbd48fd1e', self::$params);
         $xmlRest = Curl::getData("https://www.bsuir.by/schedule/rest/schedule/".urlencode($gID), self::$params);
 
         $xml = simplexml_load_string($xmlRest);
@@ -88,10 +87,12 @@ class BSUIR
      *
      * @param $gID string|int number of group
      * @return bool|int id or unsuccessful result
+     * @throws \Error if group not found
      */
 
     public static function getGroupID($gID)
     {
+        $studentGroup = null;
         $groups = json_decode(file_get_contents(self::$folder."/groups.json"));
         foreach ($groups->studentGroup as $group) {
             if ($group->name == $gID) {
@@ -99,7 +100,8 @@ class BSUIR
                 break;
             }
         }
-        return ($studentGroup) ? $studentGroup->id : false;
+        if (empty($studentGroup)) throw new \Error('Группа не найдена. Введите другую.');
+        return $studentGroup->id;
     }
 
     /**
