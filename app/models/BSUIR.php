@@ -44,6 +44,19 @@ class BSUIR
         ];
     }
 
+    /**
+     * This is helper for retrieve of day name for inline buttons in bot
+     * @param $dayNumber integer day number
+     * @return string day name
+     */
+
+    public static function getDayNameByNumber($dayNumber)
+    {
+        $weekDays = ['Понедельник', 'Вторник', 'Среда',
+            'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+
+        return $weekDays[$dayNumber];
+    }
 
     /**
      * @param $gID string|int group number

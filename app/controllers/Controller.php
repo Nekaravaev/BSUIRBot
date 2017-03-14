@@ -36,8 +36,8 @@ class Controller
     public $availableMethods = [
         '1' => ['numeric', '/start'],
         '2' => ['cron'],
-        '3' => ['/today', '/get', '/tomorrow', '/start'],
-        'all' => ['/about', '/reset', '/schedule', '/tomorrow']
+        '3' => ['/today', '/get', '/tomorrow', '/start', '/schedule'],
+        'all' => ['/about', '/reset']
     ];
 
     /**
@@ -163,8 +163,7 @@ class Controller
             'chat' => $this->message->user_id,
             'reply' => $reply['reply'],
             'keyboard' => $reply['keyboard'],
-            'callback_id' => ($this->message->type == 'callback') ? $this->message->callback_id : '',
-            'message_id' => $this->message->message_id
+            'message' => $this->message
         ];
 
     }
@@ -185,6 +184,7 @@ class Controller
     public function todayAction()
     {
         $date = BSUIR::getDate(time());
+
         return [
             'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $date['day'], $date['week'])),
             'keyboard' => []
@@ -193,15 +193,10 @@ class Controller
 
     public function scheduleAction()
     {
-        $buttons = [];
         $date = BSUIR::getDate(time());
-        $buttons[] = [
-            ['text' => 'Завтра', 'callback_data' => '/tomorrow'],
-            ['text' => 'Послезавтра', 'callback_data' => '/tomorrow2']
-        ];
         return [
             'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $date['day'], $date['week'])),
-            'keyboard' =>  ['inline_keyboard' => $buttons]
+            'keyboard' =>  ['inline_keyboard' => $this->bot->buildInlineKeyboard($date['day'], $date['week'])]
             ];
     }
 
@@ -215,20 +210,16 @@ class Controller
 
         return [
             'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $day, $week)),
-            'keyboard' => []
+            'keyboard' =>  ['inline_keyboard' => $this->bot->buildInlineKeyboard($day, $week)]
         ];
     }
 
     public function tomorrowAction()
     {
         $date = BSUIR::getDate(strtotime('tomorrow'));
-        $buttons[] = [
-            ['text' => 'СуперЗавтра', 'callback_data' => '/tomorrow'],
-            ['text' => 'Послезавтра', 'callback_data' => '/tomorrow2']
-        ];
         return [
             'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $date['day'], $date['week'])),
-            'keyboard' => ['inline_keyboard' => $buttons]
+            'keyboard' => []
         ];
     }
 
