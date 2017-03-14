@@ -6,7 +6,7 @@
  * Time: 5:22 PM
  */
 
-namespace bsuir\helpers;
+namespace app\helpers;
 
 class Curl {
 

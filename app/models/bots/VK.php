@@ -6,8 +6,7 @@
      * Time: 5:47 PM
      */
 
-namespace bsuir\app;
-
+namespace app\models\bots;
 
 class VK extends Bot
 {

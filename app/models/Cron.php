@@ -6,10 +6,11 @@
  * Time: 5:39 PM
  */
 
-namespace bsuir\app;
+namespace app\models;
 
-
-use bsuir\drivers\Redis;
+use app\drivers\Redis;
+use app\models\bots\Telegram;
+use app\Config;
 
 class Cron
 {

@@ -6,8 +6,8 @@
  * Time: 10.48
  */
 
-namespace bsuir\app;
-use bsuir\helpers\Curl;
+namespace app\models;
+use app\helpers\Curl;
 
 class BSUIR
 {

@@ -6,9 +6,12 @@
  * Time: 1:31 PM
  */
 
-namespace bsuir\app;
-use bsuir\drivers\Redis;
-use bsuir\helpers\Phrase;
+namespace app\controllers;
+use app\drivers\Redis;
+use app\helpers\Phrase;
+use app\models\bots\Telegram;
+use app\Config;
+use app\models\BSUIR;
 
 class Controller
 {
@@ -59,7 +62,7 @@ class Controller
             $this->bot      = new Telegram(Config::getTGtoken());
             $this->debugBot = new Telegram(Config::getTGDebugToken());
             $this->Redis    = new Redis();
-            $this->message  = json_decode( $message )->message;
+            $this->message  = $message->message;
             $user = $this->Redis->getCurrentUser($this->message->chat->id);
             if (empty($user))
             {
@@ -163,7 +166,7 @@ class Controller
     {
         if ($this->user->group_id == 'temp')
         {
-           return "Привет, ".$this->user->display_name."!" . PHP_EOL . "Введи номер группы. 👆";
+           return "Привет, <b>".$this->user->display_name."</b>!" . PHP_EOL . "Введи номер группы. 👆";
         }
         else
             return $this->todayAction();
@@ -203,7 +206,7 @@ class Controller
 
     public function aboutAction()
     {
-        return 'Запилил Андрей М. ( @Karavay )' . PHP_EOL . 'Пользователей: ' . $this->Redis->getUsersCount();
+        return 'Запилил Андрей М. ( @Karavay )' . PHP_EOL . 'Пользователей: <strong>' . $this->Redis->getUsersCount().'</strong>';
     }
 
     public function groupAssign($group)

@@ -6,8 +6,9 @@
  * Time: 8:04 PM
  */
 
-namespace bsuir\app;
-use bsuir\helpers\Curl;
+namespace app\models\bots;
+
+use app\helpers\Curl;
 
 abstract class Bot
 {

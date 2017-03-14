@@ -7,14 +7,14 @@
  */
 date_default_timezone_set("Europe/Minsk");
 require __DIR__ . '/vendor/autoload.php';
-use bsuir\app\Telegram as Bot;
-use bsuir\app\Config;
-use bsuir\app\Controller;
+use app\models\bots\Telegram as Bot;
+use app\Config;
+use app\controllers\Controller;
 
 $bot      = new Bot(Config::getTGtoken());
 $debugBot = new Bot(Config::getTGDebugToken());
-$input =  file_get_contents( 'php://input' );
-list( $chat, $username, $name, $message, $messageId, $message_raw ) = $bot->returnMessageInfo( json_decode( $input ), 'message' );
+$input =  json_decode(file_get_contents( 'php://input' ));
+list( $chat, $username, $name, $message, $messageId, $message_raw ) = $bot->returnMessageInfo( $input , 'message' );
 
 try {
     $Controller  = new Controller( $input );

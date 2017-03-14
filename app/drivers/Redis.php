@@ -6,7 +6,7 @@
      * Time: 8:42 PM
      */
 
-namespace bsuir\drivers;
+namespace app\drivers;
 
 class Redis
 {

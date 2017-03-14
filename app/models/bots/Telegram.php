@@ -6,7 +6,7 @@
  * Time: 4:16 PM
  */
 
-namespace bsuir\app;
+namespace app\models\bots;
 
 class Telegram extends Bot
 {
@@ -41,7 +41,8 @@ class Telegram extends Bot
     {
         $res = [
             'chat_id' => $chat,
-            'text' => $reply
+            'text' => $reply,
+            'parse_mode' => 'HTML'
         ];
         return self::sendRequest('telegram', ['method' => 'sendMessage', 'params' => http_build_query($res), 'token' => $this->token], false);
     }
