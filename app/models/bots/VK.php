@@ -68,7 +68,7 @@ class VK extends Bot
         return ($userFirstName) ? $userFirstName : null;
     }
 
-    public function sendMessage($chat, $reply)
+    public function sendMessage($chat, $reply, $keyboardLayout = [])
     {
         $res = [
             'message' => $reply,

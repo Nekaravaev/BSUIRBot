@@ -23,7 +23,7 @@ abstract class Bot
 
     abstract public function returnMessageInfo($message, $type);
 
-    abstract public function sendMessage($chat, $reply);
+    abstract public function sendMessage($chat, $reply, $keyboardLayout = []);
 
     abstract public function forwardMessage($fromChatId, $messageId, $reply);
 

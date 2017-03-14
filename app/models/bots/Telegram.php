@@ -37,12 +37,13 @@ class Telegram extends Bot
         return self::sendRequest('telegram', ['method' => 'sendSticker', 'params' => http_build_query($res), 'token' => $this->token], false);
     }
 
-    public function sendMessage($chat, $reply)
+    public function sendMessage($chat, $reply, $keyboardLayout = [])
     {
         $res = [
             'chat_id' => $chat,
             'text' => $reply,
-            'parse_mode' => 'HTML'
+            'parse_mode' => 'HTML',
+            'reply_markup' => (!empty($keyboardLayout)) ? json_encode($keyboardLayout) : ''
         ];
         return self::sendRequest('telegram', ['method' => 'sendMessage', 'params' => http_build_query($res), 'token' => $this->token], false);
     }

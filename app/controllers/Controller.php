@@ -159,14 +159,22 @@ class Controller
                 $reply = $this->cronAssign((in_array(trim($this->message->text), Phrase::getPhrase('yes'))) ? "1" : "0");
         }
 
-        return $reply;
+        return (object) [
+            'chat' => $this->message->chat->id,
+            'reply' => $reply['reply'],
+            'keyboard' => $reply['keyboard']
+        ];
+
     }
 
     public function startAction()
     {
         if ($this->user->group_id == 'temp')
         {
-           return "Привет, <b>".$this->user->display_name."</b>!" . PHP_EOL . "Введи номер группы. 👆";
+           return [
+               'reply' => "Привет, <b>".$this->user->display_name."</b>!" . PHP_EOL . "Введи номер группы. 👆",
+               'keyboard' => ['force_reply' => true]
+               ];
         }
         else
             return $this->todayAction();
@@ -175,20 +183,34 @@ class Controller
     public function todayAction()
     {
         $date = BSUIR::getDate(time());
-        return BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $date['day'], $date['week']));
+        return [
+            'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $date['day'], $date['week'])),
+            'keyboard' => []
+        ];
     }
 
     public function getAction($day = '', $week = '')
     {
         if (empty($week) || empty($day))
-            return 'Немного не так. Введите после /get номер дня недели, а потом еще и номер недели. '. PHP_EOL. 'Формат такой: /get 7 1';
-        return BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $day, $week));
+            return [
+                'reply' => 'Немного не так. Введите после /get номер дня недели, а потом еще и номер недели. '. PHP_EOL. 'Формат такой: /get 7 1',
+                'keyboard' => []
+            ];
+
+        return [
+            'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $day, $week)),
+            'keyboard' => []
+        ];
     }
 
     public function tomorrowAction()
     {
         $date = BSUIR::getDate(strtotime('tomorrow'));
-        return BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $date['day'], $date['week']));
+
+        return [
+            'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $date['day'], $date['week'])),
+            'keyboard' => []
+        ];
     }
 
     public function resetAction()
@@ -201,12 +223,18 @@ class Controller
             'cron' => 1
         ]);
 
-        return Phrase::getPhrase('reset');
+        return [
+            'reply' => Phrase::getPhrase('reset'),
+            'keyboard' => ['force_reply' => true]
+        ];
     }
 
     public function aboutAction()
     {
-        return 'Запилил Андрей М. ( @Karavay )' . PHP_EOL . 'Пользователей: <strong>' . $this->Redis->getUsersCount().'</strong>';
+        return [
+            'reply' => 'Запилил Андрей М. ( @Karavay )' . PHP_EOL . 'Пользователей: <strong>' . $this->Redis->getUsersCount().'</strong>',
+            'keyboard' => []
+        ];
     }
 
     public function groupAssign($group)
@@ -220,7 +248,10 @@ class Controller
                 'cron' => 1
             ]);
 
-        return Phrase::getPhrase('groupSaved');
+        return [
+            'reply' => Phrase::getPhrase('groupSaved'),
+            'keyboard' => ['force_reply' => true]
+        ];
     }
 
     public function cronAssign($cron)
@@ -233,6 +264,9 @@ class Controller
             'cron' => $cron
         ]);
 
-        return Phrase::getPhrase('settingsSaved');
+        return [
+            'reply' => Phrase::getPhrase('settingsSaved'),
+            'keyboard' => []
+        ];
     }
 }

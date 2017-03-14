@@ -18,13 +18,14 @@ list( $chat, $username, $name, $message, $messageId, $message_raw ) = $bot->retu
 
 try {
     $Controller  = new Controller( $input );
-    $reply = $Controller->parseMessage();
+    $action = $Controller->parseMessage();
+    $bot->sendMessage($action->chat, $action->reply, $action->keyboard);
+    $debugBot->sendMessage($bot->debugchat, json_encode($message_raw, JSON_UNESCAPED_UNICODE));
+    exit($action->reply);
 } catch (Exception $e) {
     $reply = 'Идет апдейт бота, обратитесь чуть позже.'.PHP_EOL.'Дебаг инфо: '.$e->getMessage();
 } catch (Error $error) {
     $reply = 'Произошла ошибка в логике бота.'.PHP_EOL.'Инфо: '.$error->getMessage();
 }
-
-echo $reply;
 $bot->sendMessage($chat, $reply);
 $debugBot->sendMessage($bot->debugchat, json_encode($message_raw, JSON_UNESCAPED_UNICODE));
