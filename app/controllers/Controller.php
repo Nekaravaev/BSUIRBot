@@ -37,7 +37,7 @@ class Controller
         '1' => ['numeric', '/start'],
         '2' => ['cron'],
         '3' => ['/today', '/get', '/tomorrow', '/start'],
-        'all' => ['/about', '/reset']
+        'all' => ['/about', '/reset', '/schedule', '/tomorrow']
     ];
 
     /**
@@ -62,14 +62,14 @@ class Controller
             $this->bot      = new Telegram(Config::getTGtoken());
             $this->debugBot = new Telegram(Config::getTGDebugToken());
             $this->Redis    = new Redis();
-            $this->message  = $message->message;
-            $user = $this->Redis->getCurrentUser($this->message->chat->id);
+            $this->message  = (object) $this->bot->returnMessageInfo($message, (!empty($message->callback_query)) ? 'callback' : 'message');
+            $user = $this->Redis->getCurrentUser($this->message->user_id);
             if (empty($user))
             {
-                $this->user = (object) $this->Redis->manageUser($this->message->chat->id, [
+                $this->user = (object) $this->Redis->manageUser($this->message->user_id, [
                     'gid' => 'temp',
-                    'username' => $this->message->from->username,
-                    'display_name' => $this->message->from->first_name,
+                    'username' => $this->message->username,
+                    'display_name' => $this->message->display_name,
                     'status' => 1,
                     'cron' => 1
                 ]);
@@ -82,10 +82,10 @@ class Controller
                     {
                         $this->groupId = BSUIR::getGroupID($this->user->group_id);
                     } else {
-                        $this->user = (object) $this->Redis->manageUser($this->message->chat->id, [
+                        $this->user = (object) $this->Redis->manageUser($this->message->user_id, [
                             'gid' => 'temp',
-                            'username' => $this->message->from->username,
-                            'display_name' => $this->message->from->first_name,
+                            'username' => $this->message->username,
+                            'display_name' => $this->message->display_name,
                             'status' => 1,
                             'cron' => 1
                         ]);
@@ -160,9 +160,11 @@ class Controller
         }
 
         return (object) [
-            'chat' => $this->message->chat->id,
+            'chat' => $this->message->user_id,
             'reply' => $reply['reply'],
-            'keyboard' => $reply['keyboard']
+            'keyboard' => $reply['keyboard'],
+            'callback_id' => ($this->message->type == 'callback') ? $this->message->callback_id : '',
+            'message_id' => $this->message->message_id
         ];
 
     }
@@ -189,6 +191,20 @@ class Controller
         ];
     }
 
+    public function scheduleAction()
+    {
+        $buttons = [];
+        $date = BSUIR::getDate(time());
+        $buttons[] = [
+            ['text' => 'Завтра', 'callback_data' => '/tomorrow'],
+            ['text' => 'Послезавтра', 'callback_data' => '/tomorrow2']
+        ];
+        return [
+            'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $date['day'], $date['week'])),
+            'keyboard' =>  ['inline_keyboard' => $buttons]
+            ];
+    }
+
     public function getAction($day = '', $week = '')
     {
         if (empty($week) || empty($day))
@@ -206,19 +222,22 @@ class Controller
     public function tomorrowAction()
     {
         $date = BSUIR::getDate(strtotime('tomorrow'));
-
+        $buttons[] = [
+            ['text' => 'СуперЗавтра', 'callback_data' => '/tomorrow'],
+            ['text' => 'Послезавтра', 'callback_data' => '/tomorrow2']
+        ];
         return [
             'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $date['day'], $date['week'])),
-            'keyboard' => []
+            'keyboard' => ['inline_keyboard' => $buttons]
         ];
     }
 
     public function resetAction()
     {
-        $this->Redis->manageUser($this->message->chat->id, [
+        $this->Redis->manageUser($this->message->user_id, [
             'gid' => 'temp',
-            'username' => $this->message->from->username,
-            'display_name' => $this->message->from->first_name,
+            'username' => $this->message->username,
+            'display_name' => $this->message->display_name,
             'status' => 1,
             'cron' => 1
         ]);
@@ -240,10 +259,10 @@ class Controller
     public function groupAssign($group)
     {
         if (BSUIR::getGroupID($group))
-            $this->Redis->manageUser($this->message->chat->id, [
+            $this->Redis->manageUser($this->message->user_id, [
                 'gid' => $group,
-                'username' => $this->message->from->username,
-                'display_name' => $this->message->from->first_name,
+                'username' => $this->message->username,
+                'display_name' => $this->message->display_name,
                 'status' => 2,
                 'cron' => 1
             ]);
@@ -256,10 +275,10 @@ class Controller
 
     public function cronAssign($cron)
     {
-        $this->Redis->manageUser($this->message->chat->id, [
+        $this->Redis->manageUser($this->message->user_id, [
             'gid' => $this->user->group_id,
-            'username' => $this->message->from->username,
-            'display_name' => $this->message->from->first_name,
+            'username' => $this->message->username,
+            'display_name' => $this->message->display_name,
             'status' => 3,
             'cron' => $cron
         ]);
