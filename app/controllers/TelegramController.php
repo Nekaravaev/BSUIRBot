@@ -13,7 +13,7 @@ use app\models\bots\Telegram;
 use app\Config;
 use app\models\BSUIR;
 
-class Controller
+class TelegramController
 {
     /**
      * @var $bot Telegram class
@@ -93,11 +93,11 @@ class Controller
 
                 }
             }
-        } catch (\Exception $e)
-        {
+        } catch (\ErrorException $errorException) {
+            throw $errorException;
+        } catch (\Exception $e) {
             throw $e;
-        } catch (\Error $error)
-        {
+        } catch (\Error $error) {
             throw $error;
         }
     }
@@ -130,8 +130,12 @@ class Controller
         if (!$this->checkPermissions())
             throw new \Error('Нет доступа к данной функции на этом этапе.');
 
-        $reply = 'Команда не распознана.';
+        $reply = [
+            'reply' => 'Команда не найдена.',
+            'keyboard' => []
+        ];
         $action = 'noAction';
+
         preg_match("/[\w]+/", $this->message->text, $matches);
         if (!empty($matches[0])){
             $action = $matches[0];

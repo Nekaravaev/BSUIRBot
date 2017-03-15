@@ -2,3 +2,4 @@
 vendor/
 info/updateUsers.json
 app/Config.php
+log/

@@ -8,6 +8,7 @@
 
 namespace app\models\bots;
 
+use app\errors\BreakException;
 use app\models\BSUIR;
 
 class Telegram extends Bot
@@ -44,8 +45,9 @@ class Telegram extends Bot
                         'type' => $type
                     ];
             }
+        } else
+            throw new BreakException('Не удалось получить сообщение.');
 
-        }
         return $return;
     }
 
