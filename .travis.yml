@@ -6,6 +6,6 @@ before_install:
  - git clone https://github.com/phpredis/phpredis.git
  - cd phpredis
  - phpize
- - ./configure [--enable-redis-igbinary]
+ - ./configure
  - make && make install
 script: phpunit --configuration phpunit.xml tests/
