@@ -18,17 +18,23 @@ class BSUIRTest extends TestCase
         parent::__construct($name, $data, $dataName);
     }
 
+    /**
+     * @return array with dataProvider
+     */
     public function additionTimestamps()
     {
         return ['1489611600' => ['1489611600', '1', '4'],
                 '1489520639' => ['1489520639', '1', '2']
             ];
-
     }
 
     /**
      * @dataProvider additionTimestamps
+     * @param $timestamp int|string timestamp
+     * @param $week int|string student week number
+     * @param $day int|string day number
      */
+
     public function testGetData($timestamp, $week, $day)
     {
 
@@ -41,4 +47,33 @@ class BSUIRTest extends TestCase
 
         $this->assertEquals($expect, $date);
     }
+
+    /**
+     * @return array with dataProvider
+     */
+
+    public function additionDayNumbers()
+    {
+        return [
+          [0, 'Понедельник'],
+          [1, 'Вторник'],
+          [2, 'Среда'],
+          [5, 'Суббота'],
+          [6, 'Воскресенье']
+        ];
+
+    }
+
+    /**
+     * @dataProvider additionDayNumbers
+     * @param $number int|string day number
+     * @param $name string day name that would be return
+     */
+
+     public function testGetDayNameByNumber($number, $name)
+     {
+        $dayName = BSUIR::getDayNameByNumber($number);
+
+        $this->assertEquals($name, $dayName);
+     }
 }
