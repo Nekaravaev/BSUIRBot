@@ -1,6 +1,7 @@
 # BSUIR bot for Telegram #
 
 [![Code Climate](https://codeclimate.com/github/Nekaravaev/BSUIRBot/badges/gpa.svg)](https://codeclimate.com/github/Nekaravaev/BSUIRBot)
+[![Build Status](https://travis-ci.org/Nekaravaev/BSUIRBot.svg?branch=master)](https://travis-ci.org/Nekaravaev/BSUIRBot)
 
 Bot for BSUIR's students. Display schedule by date.
 
