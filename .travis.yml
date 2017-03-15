@@ -9,4 +9,5 @@ before_install:
  - ./configure
  - make && make install
  - cd ..
+ - composer install
 script: phpunit --configuration phpunit.xml tests/
