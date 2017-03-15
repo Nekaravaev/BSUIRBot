@@ -18,7 +18,7 @@ class Telegram extends Bot
     public function returnMessageInfo($message, $type)
     {
         $return = [];
-        if (empty($type)) {
+        if (!empty($type)) {
             switch ($type) {
                 case 'message':
                     $return = [
