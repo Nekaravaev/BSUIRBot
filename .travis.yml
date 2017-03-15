@@ -3,5 +3,7 @@ php:
   - '7.0'
   - '7.1'
 before_install:
-  - phpenv config-rm xdebug.ini
-  - before_script: echo "extension = redis.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+ - phpize
+ - ./configure [--enable-redis-igbinary]
+ - make && make install
+script: phpunit --configuration phpunit.xml tests/
