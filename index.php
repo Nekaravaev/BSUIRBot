@@ -9,7 +9,8 @@ date_default_timezone_set("Europe/Minsk");
 require __DIR__ . '/vendor/autoload.php';
 use app\models\bots\Telegram as Bot;
 use app\Config;
-use app\controllers\Controller;
+use app\controllers\TelegramController as Controller;
+use app\errors\BreakException;
 
 $input =  json_decode(file_get_contents( 'php://input' ));
 
@@ -35,10 +36,11 @@ try {
             $reply = $forward->description;
     }
 
-
-} catch (Exception $e) {
+} catch (BreakException $breakException) {
+    exit($breakException->returnMessage());
+} catch (\Exception $e) {
     $reply = 'Идет апдейт бота, обратитесь чуть позже.'.PHP_EOL.'Дебаг инфо: '.$e->getMessage();
-} catch (Error $error) {
+} catch (\Error $error) {
     $reply = 'Произошла ошибка в логике бота.'.PHP_EOL.'Инфо: '.$error->getMessage();
 }
 $bot      = new Bot(Config::getTGtoken());
