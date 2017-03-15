@@ -3,8 +3,8 @@ php:
   - '7.0'
   - '7.1'
 before_install:
- - git clone git@github.com:phpredis/phpredis.git redis
- - cd redis
+ - git clone https://github.com/phpredis/phpredis.git
+ - cd phpredis
  - phpize
  - ./configure [--enable-redis-igbinary]
  - make && make install
