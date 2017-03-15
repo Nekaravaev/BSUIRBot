@@ -21,5 +21,5 @@ Bot for BSUIR's students. Display schedule by date.
 ### Some info ###
 
 * Now use redis;
-* Latest version 0.9;
+* Latest version 1.0;
 * Demo available [@BSUIRBot] (https://telegram.me/BSUIRbot)
