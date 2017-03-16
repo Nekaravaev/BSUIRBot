@@ -8,6 +8,8 @@
 
 namespace app\models\bots;
 
+use app\drivers\Redis;
+
 class VK extends Bot
 {
     public function __construct($token)
@@ -17,42 +19,43 @@ class VK extends Bot
 
     public function returnMessageInfo($message, $type)
     {
-        $userFirstName = ($message->object->from_id > 0) ? $this->getFirstname($message->object->user_id) : 'группы';
+        $userFirstName = ($message->object->from_id > 0) ? $this->getDisplayName($message->object->user_id) : 'Староста от имени группы';
 
         $return = [];
         switch ($type) {
             case 'message_new':
                 $return = [
-                    $message->object->user_id,
-                    $userFirstName,
-                    $message->object->title,
-                    $message->object->body,
-                    $message->type,
-                    $message
+                    'user_id' => $message->object->user_id,
+                    'display_name' => $userFirstName,
+                    'title' => $message->object->title,
+                    'text' => $message->object->body,
+                    'type' => $message->type,
+                    'message_raw' => $message
                 ];
                 break;
             case 'message_allow':
                 $return = [
-                    $message->object->user_id,
-                    $userFirstName,
-                    $message
+                    'user_id' => $message->object->user_id,
+                    'display_name' => $userFirstName,
+                    'message_raw' => $message
                 ];
                 break;
             case 'message_deny':
                 $return = [
-                    $message->object->user_id,
-                    $userFirstName,
-                    $message
+                    'user_id' => $message->object->user_id,
+                    'display_name' => $userFirstName,
+                    'message_raw' => $message
                 ];
                 break;
             case 'wall_post_new':
                 $return = [
-                    $message->object->id,
-                    $message->group_id,
-                    $message->object->from_id,
-                    $message->object->owner_id,
-                    $userFirstName,
-                    $message
+                    'post_id' => $message->object->id,
+                    'date' => $message->object->date,
+                    'group_id' => $message->group_id,
+                    'user_id' => $message->object->from_id,
+                    'owner_id' => $message->object->owner_id,
+                    'display_name' => $userFirstName,
+                    'message_raw' => $message
                 ];
                 break;
         }
@@ -60,10 +63,10 @@ class VK extends Bot
         return $return;
     }
 
-    public function getFirstname($userId)
+    public function getDisplayName($userId)
     {
         $userInfo = json_decode(file_get_contents("https://api.vk.com/method/users.get?user_ids={$userId}&v=5.0"));
-        $userFirstName = $userInfo->response[0]->first_name;
+        $userFirstName = $userInfo->response[0]->first_name.' '.$userInfo->response[0]->last_name;
 
         return ($userFirstName) ? $userFirstName : null;
     }
@@ -77,6 +80,18 @@ class VK extends Bot
             'v' => '5.0'
         ];
         return $this->sendRequest("VK", ['method' => 'messages.send', 'params' => http_build_query($res), 'token' => $this->token], false);
+    }
+
+    public function forwardWallPost($chat, $reply, $wallPost)
+    {
+        $res = [
+            'message' => $reply,
+            'peer_id' => $chat,
+            'attachment' => $wallPost,
+            'access_token' => $this->token,
+            'v' => '5.60'
+        ];
+        return $this->sendRequest("VK", ['method' => 'messages.send', 'params' => http_build_query($res), 'token' => $this->token]);
     }
 
     public function forwardMessage($fromChatId, $messageId, $reply)

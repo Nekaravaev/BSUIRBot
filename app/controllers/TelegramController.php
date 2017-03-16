@@ -63,7 +63,7 @@ class TelegramController
             $this->debugBot = new Telegram(Config::getTGDebugToken());
             $this->Redis    = new Redis();
             $this->message  = (object) $this->bot->returnMessageInfo($message, (!empty($message->callback_query)) ? 'callback' : 'message');
-            $user = $this->Redis->getCurrentUser($this->message->user_id);
+            $user = $this->Redis->getCurrentUser("user:".$this->message->user_id);
             if (empty($user))
             {
                 $this->user = (object) $this->Redis->manageUser($this->message->user_id, [

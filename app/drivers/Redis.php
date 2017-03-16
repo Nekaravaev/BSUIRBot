@@ -38,10 +38,29 @@ class Redis
     public function getCurrentUser($uid)
     {
         $currentUser = false;
-        if ($this->redis->hExists("user:$uid", 'username')) {
-            $currentUser = $this->redis->hGetAll("user:$uid");
+        if ($this->redis->hExists("$uid", 'user_id')) {
+            $currentUser = $this->redis->hGetAll("$uid");
         }
         return $currentUser;
+    }
+
+    public function getUpdatesVKGroup()
+    {
+        return $this->redis->sGetMembers('VKUpdates');
+    }
+
+    public function removeFromUpdatesVKGroup($userId) {
+        if (in_array("VKUser:$userId", $this->redis->hKeys('VKUpdates'))) {
+            $this->redis->hDel("VKUser:$userId");
+        }
+        return true;
+    }
+
+    public function addToUpdatesVKGroup($userId, $userParams)
+    {
+        $this->redis->hMset("VKUser:$userId", $userParams);
+        $this->redis->sAdd("VKUpdates", "VKUser:$userId");
+        return true;
     }
 
     public function getCronUsers()
@@ -84,6 +103,22 @@ class Redis
             $this->redis->sAdd("cron", "user:$uid");
         }
         $this->redis->sAdd('users', "user:$uid");
-        return $this->getCurrentUser($uid);
+        return $this->getCurrentUser("user:$uid");
+    }
+
+    public function getLatestVKPost()
+    {
+        if ($this->redis->hExists('latestVKPost','id'))
+        {
+            $post = $this->redis->hGetAll('latestVKPost');
+        }
+
+        return ($post) ? $post : false;
+
+    }
+
+    public function setLatestVKPost($params)
+    {
+        return $this->redis->hMset('latestVKPost', (array) $params);
     }
 }

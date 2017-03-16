@@ -33,7 +33,7 @@ class Cron
 
         $date = BSUIR::getDate(time());
         foreach ($cronUsers as $userRedis) {
-            $user = (object) $Redis->getCurrentUser(str_replace("user:",'', $userRedis));
+            $user = (object) $Redis->getCurrentUser($userRedis);
             $msg = 'Доброе утро, '.$user->{'display_name'}.PHP_EOL.
                 'Сегодня твои занятия:'.PHP_EOL.BSUIR::parseSchedule(BSUIR::getGroupSchedule(BSUIR::getGroupID($user->{'group_id'}), $date['day'], $date['week']));
             $bot->sendMessage($user->{'user_id'}, $msg);

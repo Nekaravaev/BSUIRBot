@@ -3,3 +3,4 @@ vendor/
 info/updateUsers.json
 app/Config.php
 log/
+vkredis.php
