@@ -14,15 +14,6 @@ use app\Config;
 
 class Cron
 {
-    public static function updateGroups()
-    {
-        $xml = simplexml_load_file('http://www.bsuir.by/schedule/rest/studentGroup');
-        $groups = fopen(__DIR__.'/../info/groups.json', 'w');
-        $result = fwrite($groups, json_encode($xml, JSON_PRETTY_PRINT));
-        fclose($groups);
-        return $result;
-    }
-
     public static function writeToCronUsers()
     {
        $bot      = new Telegram(Config::getTGtoken());
@@ -33,7 +24,7 @@ class Cron
 
         $date = BSUIR::getDate(time());
         foreach ($cronUsers as $userRedis) {
-            $user = (object) $Redis->getCurrentUser($userRedis);
+            $user = (object) $Redis->getCurrentUser("user:$userRedis");
             $msg = 'Доброе утро, '.$user->{'display_name'}.PHP_EOL.
                 'Сегодня твои занятия:'.PHP_EOL.BSUIR::parseSchedule(BSUIR::getGroupSchedule(BSUIR::getGroupID($user->{'group_id'}), $date['day'], $date['week']));
             $bot->sendMessage($user->{'user_id'}, $msg);

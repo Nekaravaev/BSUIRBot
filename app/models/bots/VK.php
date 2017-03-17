@@ -19,7 +19,7 @@ class VK extends Bot
 
     public function returnMessageInfo($message, $type)
     {
-        $userFirstName = ($message->object->from_id > 0) ? $this->getDisplayName($message->object->user_id) : 'Староста от имени группы';
+        $userFirstName = ($message->object->from_id > 0) ? 'Староста от имени группы' : $this->getDisplayName($message->object->user_id);
 
         $return = [];
         switch ($type) {
@@ -37,14 +37,16 @@ class VK extends Bot
                 $return = [
                     'user_id' => $message->object->user_id,
                     'display_name' => $userFirstName,
-                    'message_raw' => $message
+                    'message_raw' => $message,
+                    'type' => $message->type
                 ];
                 break;
             case 'message_deny':
                 $return = [
                     'user_id' => $message->object->user_id,
                     'display_name' => $userFirstName,
-                    'message_raw' => $message
+                    'message_raw' => $message,
+                    'type' => $message->type
                 ];
                 break;
             case 'wall_post_new':
@@ -55,7 +57,15 @@ class VK extends Bot
                     'user_id' => $message->object->from_id,
                     'owner_id' => $message->object->owner_id,
                     'display_name' => $userFirstName,
-                    'message_raw' => $message
+                    'message_raw' => $message,
+                    'type' => $message->type
+                ];
+                break;
+            case 'confirmation':
+                $return = [
+                    'group_id' => $message->group_id,
+                    'reply' => '86d5f26d',
+                    'type' => $message->type
                 ];
                 break;
         }

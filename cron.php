@@ -8,6 +8,8 @@
 date_default_timezone_set("Europe/Minsk");
 require __DIR__ . '/vendor/autoload.php';
 use app\models\Cron;
+use app\models\BSUIR;
 
-Cron::updateGroups();
-Cron::writeToCronUsers();
+
+BSUIR::updateGroups();
+//Cron::writeToCronUsers();

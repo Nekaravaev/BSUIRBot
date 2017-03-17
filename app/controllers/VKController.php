@@ -44,7 +44,7 @@ class VKController
     public function __construct($message)
     {
         try {
-            $this->bot      = new VK(Config::getVKDebugToken());
+            $this->bot      = new VK(Config::getVKToken());
             $this->Redis    = new Redis();
             $this->message  = (object) $this->bot->returnMessageInfo($message, (!empty($message->type)) ? $message->type : '');
 
@@ -151,6 +151,9 @@ class VKController
             case 'message_deny':
                 $reply = $this->messageDenyAction();
                 break;
+            case 'confirmation':
+                $reply = $this->confirmationAction();
+                break;
         }
 
         return $reply;
@@ -160,12 +163,17 @@ class VKController
 
     public function todayAction()
     {
-        $date = BSUIR::getDate(time());
+       $date = BSUIR::getDate(time());
 
         return [
             'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $date['day'], $date['week'])),
             'keyboard' => []
         ];
+    }
+
+    public function confirmationAction()
+    {
+        return $this->message->reply;
     }
 
     public function scheduleAction()

@@ -76,4 +76,24 @@ class BSUIRTest extends TestCase
 
         $this->assertEquals($name, $dayName);
      }
+
+     public function testUpdateGroups()
+     {
+        $result = BSUIR::updateGroups();
+
+        $this->assertTrue($result);
+     }
+
+     public function testGetGroupID()
+     {
+
+
+     }
+
+     public function testGetGroupIDWrongData()
+     {
+         $result = BSUIR::getGroupID(1);
+
+         $this->expectExceptionMessage('Группа не найдена. Введите другую.');
+     }
 }

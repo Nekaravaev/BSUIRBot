@@ -8,19 +8,32 @@
 
 namespace app\models;
 use app\helpers\Curl;
+use PHPUnit\Framework\Error\Error;
 
 class BSUIR
 {
-    public static $folder = 'info',
-                  $params = [];
+    public static $params = [];
 
     /**
-     * @param string $folder folder with info
+     * Update groupList in local groups.json file
+     * @throws \Error if XML data are not available
+     * @return bool|int false if no data was write, int if success
      */
-    public static function setFolder(string $folder)
+
+    public static function updateGroups()
     {
-        self::$folder = $folder;
+        $xml = simplexml_load_file('https://www.bsuir.by/schedule/rest/studentGroup');
+        $groups = fopen(__DIR__.'/../../info/groups.json', 'w');
+        if ($xml) {
+            $result = fwrite($groups, json_encode($xml, JSON_PRETTY_PRINT));
+            fclose($groups);
+        } else {
+            throw new \Error('No groups are fetched from BSUIR');
+        }
+
+        return ($result) ? true : false;
     }
+
 
     /**
      * Fetch number of student's week through API
@@ -72,7 +85,6 @@ class BSUIR
             'Четверг', 'Пятница', 'Суббота'];
         $today = $weekDays[trim($day)];
         $week = trim($week);
-
         $xmlRest = Curl::getData("https://www.bsuir.by/schedule/rest/schedule/".urlencode($gID), self::$params);
 
         $xml = simplexml_load_string($xmlRest);
