@@ -118,7 +118,7 @@ class BSUIR
     public static function getGroupID($gID)
     {
         $studentGroup = null;
-        $groups = json_decode(file_get_contents(self::$folder."/groups.json"));
+        $groups = json_decode(file_get_contents(__DIR__.'/../../info/groups.json'));
         foreach ($groups->studentGroup as $group) {
             if ($group->name == $gID) {
                 $studentGroup = $group;
