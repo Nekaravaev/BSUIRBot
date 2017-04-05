@@ -8,7 +8,6 @@
 error_reporting(0);
 date_default_timezone_set("Europe/Minsk");
 require __DIR__ . '/vendor/autoload.php';
-use app\models\bots\VK as Bot;
 use app\controllers\VKController as Controller;
 use app\errors\BreakException;
 
@@ -21,13 +20,12 @@ try {
     $action = $Controller->parseMessage();
     if ($Controller->message->type == 'confirmation')
     {
-        echo $action;
-    } elseif ($Controller->message->type == 'message_new')
+        die($action);
+    } elseif ($Controller->message->type !== 'wall_post_new')
     {
-        $ok = $Controller->bot->sendMessage($Controller->message->user_id, $action->reply);
-        $notOk = $ok;
+        $send = $Controller->bot->sendMessage($Controller->message->user_id, $action->reply);
     }
-        echo "ok";
+    echo "ok";
 } catch (BreakException $breakException) {
     exit($breakException->returnMessage());
 } catch (\Exception $e) {

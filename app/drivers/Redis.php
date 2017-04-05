@@ -50,9 +50,7 @@ class Redis
     }
 
     public function removeFromUpdatesVKGroup($userId) {
-        if (in_array("VKUser:$userId", $this->redis->hKeys('VKUpdates'))) {
-            $this->redis->hDel("VKUser:$userId");
-        }
+        $this->redis->delete("VKUser:$userId");
         return true;
     }
 
@@ -108,10 +106,7 @@ class Redis
 
     public function getLatestVKPost()
     {
-        if ($this->redis->hExists('latestVKPost','id'))
-        {
-            $post = $this->redis->hGetAll('latestVKPost');
-        }
+        $post = (object) $this->redis->hGetAll('latestVKPost');
 
         return ($post) ? $post : false;
 
@@ -119,6 +114,8 @@ class Redis
 
     public function setLatestVKPost($params)
     {
-        return $this->redis->hMset('latestVKPost', (array) $params);
+        $post = (array) $params;
+        $post['message_raw'] = (array) $params->message_raw;
+        return $this->redis->hMset('latestVKPost', $post);
     }
 }

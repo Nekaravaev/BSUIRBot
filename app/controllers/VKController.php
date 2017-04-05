@@ -39,12 +39,12 @@ class VKController
     /**
      * @var $groupId string
      */
-    public $groupId = '581062';
+    public $groupId = '21433';
 
     public function __construct($message)
     {
         try {
-            $this->bot      = new VK(Config::getVKToken());
+            $this->bot      = new VK(Config::getVKDebugToken());
             $this->Redis    = new Redis();
             $this->message  = (object) $this->bot->returnMessageInfo($message, (!empty($message->type)) ? $message->type : '');
 
@@ -95,22 +95,23 @@ class VKController
 
     public function wallPostNewAction()
     {
-       if ($post = (object) $this->Redis->getLatestVKPost()){
-            if (($this->message->date - $post->date) < 60)
+       $post = $this->Redis->getLatestVKPost();
+       if ($post) {
+            if (($this->message->date - (int) $post->date) < 60)
             {
+                $this->Redis->setLatestVKPost($this->message);
                 exit();
             }
-       } else {
-                    $this->Redis->setLatestVKPost($this->message);
        }
-        $reply = $this->message->display_name. ' говорит, что: ';
+        $post = $this->Redis->setLatestVKPost($this->message);
+        $reply = $this->message->display_name. ' говорит: ';
 
         $notificationUsers = $this->Redis->getUpdatesVKGroup();
 
-        foreach ($notificationUsers as $userRedis) {
-            $user = (object) $this->Redis->getCurrentUser("VKUser:$userRedis");
-
-            $this->bot->forwardWallPost($user->user_id, $reply, 'wall-'.$this->message->group_id.'_'.$this->message->post_id);
+        foreach ($notificationUsers as $key => $userRedis) {
+            $user = (object) $this->Redis->getCurrentUser("$userRedis");
+            if (isset($user->user_id))
+                $this->bot->forwardWallPost($user->user_id, $reply, 'wall-'.$this->message->group_id.'_'.$this->message->post_id);
         }
 
        return 'ok';
@@ -130,7 +131,7 @@ class VKController
 
     public function messageDenyAction()
     {
-        $this->Redis->removeFromUpdatesVKGroup($this->message->user_id);
+        $remove =  $this->Redis->removeFromUpdatesVKGroup($this->message->user_id);
         $reply = $this->message->display_name . ', ты выпилен из списка получения обновлений стены.';
 
         return $this->bot->sendMessage($this->message->user_id, $reply);
@@ -167,6 +168,16 @@ class VKController
 
         return [
             'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $date['day'], $date['week'])),
+            'keyboard' => []
+        ];
+    }
+
+    public function postAction()
+    {
+        $post = $this->Redis->getLatestVKPost();
+
+        return [
+            'reply' => json_encode($post),
             'keyboard' => []
         ];
     }

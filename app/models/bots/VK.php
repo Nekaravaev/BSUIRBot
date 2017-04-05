@@ -8,6 +8,7 @@
 
 namespace app\models\bots;
 
+use app\Config;
 use app\drivers\Redis;
 
 class VK extends Bot
@@ -19,7 +20,11 @@ class VK extends Bot
 
     public function returnMessageInfo($message, $type)
     {
-        $userFirstName = ($message->object->from_id > 0) ? 'Староста от имени группы' : $this->getDisplayName($message->object->user_id);
+        if ($message->type == 'wall_post_new') {
+            $userFirstName = ($message->object->from_id > 0) ? $this->getDisplayName($message->object->from_id) : 'Староста от имени группы';
+        } else
+            $userFirstName =  $this->getDisplayName($message->object->user_id);
+
 
         $return = [];
         switch ($type) {
@@ -64,7 +69,7 @@ class VK extends Bot
             case 'confirmation':
                 $return = [
                     'group_id' => $message->group_id,
-                    'reply' => '86d5f26d',
+                    'reply' => Config::getConfirmationCode(),
                     'type' => $message->type
                 ];
                 break;
@@ -101,7 +106,7 @@ class VK extends Bot
             'access_token' => $this->token,
             'v' => '5.60'
         ];
-        return $this->sendRequest("VK", ['method' => 'messages.send', 'params' => http_build_query($res), 'token' => $this->token]);
+        return $this->sendRequest("VK", ['method' => 'messages.send', 'params' => http_build_query($res), 'token' => $this->token], false);
     }
 
     public function forwardMessage($fromChatId, $messageId, $reply)
