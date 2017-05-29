@@ -44,7 +44,7 @@ class VKController
     public function __construct($message)
     {
         try {
-            $this->bot      = new VK(Config::getVKDebugToken());
+            $this->bot      = new VK(Config::getVKtoken());
             $this->Redis    = new Redis();
             $this->message  = (object) $this->bot->returnMessageInfo($message, (!empty($message->type)) ? $message->type : '');
 
@@ -60,7 +60,7 @@ class VKController
     public function messageNewAction()
     {
         $reply = [
-            'reply' => 'Команда не найдена.',
+            'reply' => 'Команда не найдена. Лист доступных команд: '.PHP_EOL.'/today '. PHP_EOL . ' /tomorrow '. PHP_EOL . '/about',
             'keyboard' => []
         ];
         $action = 'noAction';
@@ -104,7 +104,8 @@ class VKController
             }
        }
         $post = $this->Redis->setLatestVKPost($this->message);
-        $reply = $this->message->display_name. ' говорит: ';
+        $variations = ['сообщает', 'говорит', 'глаголит', 'молвит'];
+        $reply = $this->message->display_name. ' '.$variations[rand(0, count($variations) - 1)].':';
 
         $notificationUsers = $this->Redis->getUpdatesVKGroup();
 

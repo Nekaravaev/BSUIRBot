@@ -80,7 +80,7 @@ class VK extends Bot
 
     public function getDisplayName($userId)
     {
-        $userInfo = json_decode(file_get_contents("https://api.vk.com/method/users.get?user_ids={$userId}&v=5.0"));
+        $userInfo = json_decode(file_get_contents("https://api.vk.com/method/users.get?user_ids={$userId}&v=5.0&lang=ru"));
         $userFirstName = $userInfo->response[0]->first_name.' '.$userInfo->response[0]->last_name;
 
         return ($userFirstName) ? $userFirstName : null;

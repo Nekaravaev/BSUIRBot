@@ -50,6 +50,7 @@ class Redis
     }
 
     public function removeFromUpdatesVKGroup($userId) {
+        //$this->redis->sRem("VKUpdates", "VKUser:$userId");
         $this->redis->delete("VKUser:$userId");
         return true;
     }
