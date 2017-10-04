@@ -1,6 +1,6 @@
 .idea/
 vendor/
-info/updateUsers.json
-app/Config.php
+src/info/updateUsers.json
+src/Config.php
 log/
-vkredis.php
+src/vkredis.php

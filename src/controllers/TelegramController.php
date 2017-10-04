@@ -37,7 +37,7 @@ class TelegramController
         '1' => ['numeric', '/start'],
         '2' => ['cron'],
         '3' => ['/today', '/get', '/tomorrow', '/start', '/schedule'],
-        'all' => ['/about', '/reset']
+        'all' => ['/about', '/reset', '/send']
     ];
 
     /**
@@ -215,6 +215,17 @@ class TelegramController
         return [
             'reply' => BSUIR::parseSchedule(BSUIR::getGroupSchedule($this->groupId, $day, $week)),
             'keyboard' =>  ['inline_keyboard' => $this->bot->buildInlineKeyboard($day, $week)]
+        ];
+    }
+
+
+    public function sendAction($to, $message) {
+
+        $this->bot->sendMessage($to, $message);
+
+        return [
+            'reply' => 'Successfully sent',
+            'keyboard' =>  []
         ];
     }
 
