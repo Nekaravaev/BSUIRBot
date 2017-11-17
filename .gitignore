@@ -1,5 +1,7 @@
 .idea/
 vendor/
 src/info/updateUsers.json
-log/
 src/vkredis.php
+test/log/
+src/Config/ProdConfig.php
+src/Config/DevConfig.php

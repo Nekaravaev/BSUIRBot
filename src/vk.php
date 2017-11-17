@@ -7,7 +7,8 @@
  */
 error_reporting(0);
 date_default_timezone_set("Europe/Minsk");
-require __DIR__ . '/vendor/autoload.php';
+
+require '../vendor/autoload.php';
 use app\controllers\VKController as Controller;
 use app\errors\BreakException;
 
