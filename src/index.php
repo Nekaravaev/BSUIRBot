@@ -1,7 +1,6 @@
 <?php
 date_default_timezone_set("Europe/Minsk");
 require_once 'di.php';
-use BSUIRBot\Model\Type\Message\TelegramMessage;
 use BSUIRBot\Model\Type\Type;
 use BSUIRBot\Model\User;
 
@@ -45,7 +44,7 @@ try {
     $Controller  = new \BSUIRBot\Controller\TelegramController( $command, $bot, $user, $schedule, $phrases, $parser );
     $Controller->setLogger($bugsnag);
     $Controller->execute();
-} catch (BreakException $breakException) {
+} catch (\BreakException $breakException) {
     exit($breakException->returnMessage());
 } catch (\Exception $e) {
     $reply = 'Идет апдейт бота, обратитесь чуть позже.'.PHP_EOL.'Дебаг инфо: '.$e->getMessage();
