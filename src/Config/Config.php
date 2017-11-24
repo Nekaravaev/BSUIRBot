@@ -60,8 +60,8 @@ abstract class Config
     {
         if ($this->VKtoken)
             return $this->VKtoken;
-        else
-            throw new BreakException('No VK token found');
+
+        throw new BreakException('No VK token found');
     }
 
     /**
@@ -72,7 +72,19 @@ abstract class Config
     {
         if ($this->TGtoken)
             return $this->TGtoken;
-        else
-            throw new BreakException('No Telegram token found');
+
+        throw new BreakException('No Telegram token found');
+    }
+
+    /**
+     * @return string
+     * @throws BreakException if VK confirmation code not filled
+     */
+    public function getVKConfirmationCode(): string
+    {
+        if ($this->VKConfirmationCode)
+            return $this->VKConfirmationCode;
+
+        throw new BreakException('No VK confirmation code found');
     }
 }

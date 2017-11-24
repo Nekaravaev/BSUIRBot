@@ -39,7 +39,6 @@ class ConfigTest extends TestCase {
      * @expectedException \BSUIRBot\Exception\BreakException
      */
     public function testGetNullField() {
-        $this->setExpectedExceptionFromAnnotation();
         $this->config->getVKConfirmationCode();
     }
 }
