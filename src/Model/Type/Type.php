@@ -20,6 +20,8 @@ class Type {
     /** @var array $safe_types */
     private $safe_types = ['int', 'integer', 'string', 'boolean', 'stdClass', 'bool'];
 
+    protected $message;
+
     public function __construct($input, $api = 'telegram')
     {
         $this->api = $api;
