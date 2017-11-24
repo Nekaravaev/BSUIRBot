@@ -44,7 +44,7 @@ class Type {
         return str_replace('_', '', ucwords($type,'_'));
     }
 
-    function validateInput($input):bool
+    public function validateInput($input):bool
     {
         $attributes = $this->attributes();
         if (is_array($input)) {
@@ -55,7 +55,7 @@ class Type {
         return (array_key_exists($key, $attributes));
     }
 
-    function attributes():array
+    public function attributes():array
     {
         $class = new \ReflectionClass($this);
         $attributes = [];
@@ -70,7 +70,7 @@ class Type {
         return $attributes;
     }
 
-    function getPropertyInfo(\ReflectionProperty $property):array
+    public function getPropertyInfo(\ReflectionProperty $property):array
     {
         $doc = substr($property->getDocComment(), 3, -2);
         preg_match('/@var[\s]+(?<type>[a-zA-Z]+)(?<is_array>\[?\]?)[\s]+\$\D+$/i', $doc, $matches);

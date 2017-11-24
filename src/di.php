@@ -1,5 +1,8 @@
 <?php
 require_once '../vendor/autoload.php';
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 use BSUIRBot\Model\DIContainer;
 use BSUIRBot\Model\Util\CommandParseHelper;
 
@@ -7,20 +10,20 @@ use BSUIRBot\Model\Util\CommandParseHelper;
 $container = new DIContainer;
 
 /* init config class. Lookout what to use Dev or Prod */
-$container->register('config', function(DIContainer $container) {
-    return new BSUIRBot\Config\DevConfig();
+$container->register('config', function() {
+    return new \BSUIRBot\Config\DevConfig();
 });
 
-$container->register(\BSUIRBot\Model\Util\Phrase::class, function (DIContainer $container) {
+$container->register(\BSUIRBot\Model\Util\Phrase::class, function () {
     return new \BSUIRBot\Model\Util\Phrase();
 });
 
-$container->register(\BSUIRBot\Model\Request::class, function (DIContainer $container) {
+$container->register(\BSUIRBot\Model\Request::class, function () {
     return new \BSUIRBot\Model\Request();
 });
 
-$container->register(\BSUIRBot\Model\Database\Redis::class, function (DIContainer $container) {
-    return new BSUIRBot\Model\Database\Redis();
+$container->register(\BSUIRBot\Model\Database\Redis::class, function () {
+    return new \BSUIRBot\Model\Database\Redis();
 });
 
 $container->register(\BSUIRBot\Model\Bot\Telegram::class, function(DIContainer $container) {
@@ -38,10 +41,6 @@ $container->register(Bugsnag\Client::class, function (DIContainer $container) {
    return Bugsnag\Client::make($key);
 });
 
-$container->register(\BSUIRBot\Model\Util\Phrase::class, function (DIContainer $container) {
-   return new \BSUIRBot\Model\Util\Phrase();
-});
-
-$container->register(\BSUIRBot\Model\Util\CommandParseHelper::class, function (DIContainer $container) {
+$container->register(\BSUIRBot\Model\Util\CommandParseHelper::class, function () {
    return new CommandParseHelper();
 });

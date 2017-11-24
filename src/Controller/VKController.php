@@ -57,42 +57,6 @@ class VKController extends Controller
         }
     }
 
-    public function messageNewAction()
-    {
-        $reply = [
-            'reply' => 'Команда не найдена. Лист доступных команд: '.PHP_EOL.'/today '. PHP_EOL . ' /tomorrow '. PHP_EOL . '/about',
-            'keyboard' => []
-        ];
-        $action = 'noAction';
-
-        preg_match("/[\w]+/", $this->message->text, $matches);
-        if (!empty($matches[0])){
-            $action = $matches[0];
-            $getQuery = preg_replace("/\/$action/", "$2 $1", $this->message->text);
-        }
-
-
-        if (!empty($getQuery))
-            $params = explode(' ', trim($getQuery));
-
-        if (method_exists($this, $action.'Action')){
-
-            if (!empty($params) && count($params) == 2)
-            {
-                list($argument1, $argument2) = $params;
-                 $reply = $this->{$action.'Action'}($argument1, $argument2);
-            } else
-                $reply = $this->{$action.'Action'}();
-        }
-
-        return (object) [
-            'chat' => $this->message->user_id,
-            'reply' => $reply['reply'],
-            'keyboard' => $reply['keyboard'],
-            'message' => $this->message
-        ];
-    }
-
     public function wallPostNewAction()
     {
        $post = $this->Redis->getLatestVKPost();

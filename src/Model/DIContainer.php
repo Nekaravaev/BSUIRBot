@@ -17,7 +17,9 @@ class DIContainer {
     public function register($name, callable $factory) {
         if (!isset($this->_registeredFactories[$name])) {
             $this->_registeredFactories[$name] = $factory;
+            return true;
         }
+        throw new DependencyException("{$name} already defined");
     }
 
     public function get($name) {

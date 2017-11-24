@@ -7,7 +7,7 @@
      */
 
 namespace BSUIRBot\Model\Database;
-
+use BSUIRBot\Exception\GroupNotFoundException;
 use BSUIRBot\Model\User;
 
 class Redis
@@ -99,9 +99,9 @@ class Redis
     public function getGroup($uid)
     {
         if ($this->redis->hExists("user:$uid", 'username')) {
-            $group = $this->redis->hGet("user:$uid", 'group_id');
+            return $this->redis->hGet("user:$uid", 'group_id');
         }
-        return ($group) ? $group : false;
+        throw new GroupNotFoundException();
     }
 
     public function updateUser(User $user): bool
@@ -124,7 +124,14 @@ class Redis
         $post = (object) $this->redis->hGetAll('latestVKPost');
 
         return ($post) ? $post : false;
+    }
 
+    /**
+     * @param int $id
+     * @return boolean
+     */
+    public function switchDatabase(int $id) {
+        return $this->redis->select($id);
     }
 
     public function setLatestVKPost($params)

@@ -14,7 +14,6 @@ use BSUIRBot\Model\Database\Redis;
 use BSUIRBot\Model\Type\Type;
 use BSUIRBot\Model\User;
 use BSUIRBot\Model\Util\CommandParseHelper;
-use BSUIRBot\Model\Util\CommandParser;
 use BSUIRBot\Model\Util\Phrase;
 
 class Controller
@@ -51,9 +50,9 @@ class Controller
     protected $phrases;
 
     /**
-     * @var int|string $groupId string
+     * @var int $groupId string
      */
-    public $groupId = 'temp';
+    public $groupId = 0;
 
     /**
      * @var CommandParseHelper $parser
@@ -69,15 +68,20 @@ class Controller
     /** @var \Bugsnag\Client; */
     protected $logger;
 
-    public function parseMessage()
+
+    public function __construct(Type $command, Bot $bot, User $user, BSUIR $scheduleInstance, Phrase $phrase, CommandParseHelper $parser)
     {
-        $botUsername = $this->bot->getUsername();
-        $text = ($this->message_type === 'callback_query') ? $this->command->{$this->message_type}->getData() : $this->command->{$this->message_type}->getText();
-        $text = str_replace("@{$botUsername}", '', $text);
+        $this->bot      = $bot;
+        $this->schedule = $scheduleInstance;
+        $this->user     = $user;
+        $this->groupId  = $user->getGroupId();
+        $this->command  = $command;
+        $this->parser   = $parser;
+        $this->message_type = $this->command->getObjectType();
+        $this->phrases = $phrase;
+    }
 
-        if (!$this->user->checkPermissions($text))
-            throw new \Error('Нет доступа к данной функции на этом этапе.');
-
+    public function searchAndFireAction($text) {
         $reply = [
             'reply' => 'Команда не найдена.',
             'keyboard' => []
@@ -121,5 +125,39 @@ class Controller
 
     public function setLogger(\Bugsnag\Client $logger) {
         $this->logger = $logger;
+    }
+
+    public function groupAssign($group_id)
+    {
+
+        if ($this->schedule->isGroupIsset($group_id)) {
+            $this->user->setStatus($this->user::ALMOST_USER_STATUS_CODE);
+            $this->user->setGroupId($group_id);
+
+            return [
+                'reply' => $this->phrases->getPhrase('groupSaved'),
+                'keyboard' => ['force_reply' => true]
+            ];
+
+        } else {
+            if ($this->logger) {
+                $this->logger->notifyError('Group not found', "gid: $group_id");
+            }
+
+            return [
+                'reply' => $this->phrases->getPhrase('group404'),
+                'keyboard' => []
+            ];
+        }
+    }
+
+    public function cronAssign($cron)
+    {
+        $this->user->setCron($cron);
+        $this->user->setStatus($this->user::REGISTERED_USER_STATUS_CODE);
+        return [
+            'reply' => $this->phrases->getPhrase('settingsSaved'),
+            'keyboard' => []
+        ];
     }
 }

@@ -1,15 +1,14 @@
 <?php
 date_default_timezone_set("Europe/Minsk");
 require_once 'di.php';
-use BSUIRBot\Model\Type\Type;
-use BSUIRBot\Model\User;
-
-$bugsnag = $container->get(Bugsnag\Client::class);
-
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+use BSUIRBot\Model\Type\Type;
+use BSUIRBot\Model\User;
+use BSUIRBot\Exception\BreakException;
 
+$bugsnag = $container->get(Bugsnag\Client::class);
 
 $input = file_get_contents( 'php://input' );
 $input = json_decode($input);
@@ -39,12 +38,11 @@ $bot = $container->get(\BSUIRBot\Model\Bot\Telegram::class);
 $schedule = $container->get(\BSUIRBot\Model\BSUIR::class);
 $phrases = $container->get(\BSUIRBot\Model\Util\Phrase::class);
 
-
 try {
     $Controller  = new \BSUIRBot\Controller\TelegramController( $command, $bot, $user, $schedule, $phrases, $parser );
     $Controller->setLogger($bugsnag);
     $Controller->execute();
-} catch (\BreakException $breakException) {
+} catch (BreakException $breakException) {
     exit($breakException->returnMessage());
 } catch (\Exception $e) {
     $reply = 'Идет апдейт бота, обратитесь чуть позже.'.PHP_EOL.'Дебаг инфо: '.$e->getMessage();
@@ -55,11 +53,3 @@ try {
     $bugsnag->notifyException($error);
     $bot->sendMessage($user->getId(), $reply);
 }
-//
-//$tgDebugToken = $container->get(\BSUIRBot\Config\ProdConfig::class)->getTGDebugToken();
-//$bot = new Bot($tgDebugToken);
-//
-//$message = (object) $bot->returnMessageInfo( $input , (!empty($input->callback_query)) ? 'callback' : 'message' );
-//$bot->sendMessage($message->user_id, $reply);
-//$bot->forwardMessage($message->chat, $message->message_id, $reply);
-//$debugBot->sendMessage($bot->debugchat, json_encode($message->message_raw, JSON_UNESCAPED_UNICODE));

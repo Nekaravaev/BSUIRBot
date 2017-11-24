@@ -39,7 +39,7 @@ class User {
     /**
      * @var int
      */
-    protected $group_id = 'temp';
+    protected $group_id = 0;
 
     /**
      * @var string
@@ -65,12 +65,12 @@ class User {
     protected $type;
 
     /**
-     * @var $db
+     * @var Redis $db
      */
     private $db;
 
     /**
-     * @var $permissions
+     * @var array $commandList
      */
     private $commandList;
 
@@ -124,7 +124,6 @@ class User {
     public function checkPermissions($text)
     {
         $commands = $this->getAvailableCommands();
-        $methods = null;
         $type = null;
 
         switch ($text) {
@@ -320,6 +319,11 @@ class User {
     public function getAvailableCommands(): array
     {
         return array_merge($this->commandList[$this->status], $this->commandList[static::ALL_USERS_STATUS_CODE]);
+    }
+
+    public function getUsersCount(): int
+    {
+        return $this->db->getUsersCount();
     }
 
 

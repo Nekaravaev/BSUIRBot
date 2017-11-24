@@ -42,9 +42,7 @@ class BSUIR
 
         $differenceBeforeDates = $requestDate->diff($today);
 
-        $response = json_decode($this->request->send('http://students.bsuir.by/api/v1/studentGroup/schedule?studentGroup=581062'));
-
-        $currentWeekNumber = (int) $response->currentWeekNumber;
+        $currentWeekNumber = (int) $this->request->send('http://students.bsuir.by/api/v1/week');
 
         if ($differenceBeforeDates->days > 0) {
             $currentWeekDay = (int) $today->format('w');
@@ -60,8 +58,8 @@ class BSUIR
         $dayNumber = (int) $requestDate->format('w');
 
         return [
-            'day' => $currentWeekNumber,
-            'week'  => $dayNumber
+            'day' => $dayNumber,
+            'week'  => $currentWeekNumber
         ];
     }
 
@@ -72,7 +70,7 @@ class BSUIR
      * @return string day name
      */
 
-    public function getDayNameByNumber(int $dayNumber): string
+    public function getDayNameByNumber(int $dayNumber)
     {
         $weekDays = ['Понедельник', 'Вторник', 'Среда',
             'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
@@ -164,11 +162,13 @@ class BSUIR
     public function buildInlineKeyboard($day, $week)
     {
         $buttons = [];
-        for ($counterDay = $day ; $counterDay < 7; $counterDay++)
+        for ($counterDay = 0 ; $counterDay < 7; $counterDay++)
         {
             $bsuirDay = (int) $counterDay + 1;
+            $text = ($day == $bsuirDay) ? "🔥" : '';
+            $text.= $this->getDayNameByNumber($counterDay);
             $buttons[] = [
-                ['text' => $this->getDayNameByNumber($counterDay), 'callback_data' => '/get '. $bsuirDay .' '.$week]
+                ['text' => $text, 'callback_data' => '/get '. $bsuirDay .' '.$week]
             ];
         }
         return $buttons;

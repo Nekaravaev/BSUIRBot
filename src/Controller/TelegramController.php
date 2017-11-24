@@ -17,16 +17,16 @@ use BSUIRBot\Model\Util\Phrase;
 class TelegramController extends Controller
 {
 
-    public function __construct(Type $command, Bot $bot, User $user, BSUIR $scheduleInstance, Phrase $phrase, CommandParseHelper $parser)
+    public function parseMessage()
     {
-            $this->bot      = $bot;
-            $this->schedule = $scheduleInstance;
-            $this->user     = $user;
-            $this->groupId  = $user->getGroupId();
-            $this->command  = $command;
-            $this->parser   = $parser;
-            $this->message_type = $this->command->getObjectType();
-            $this->phrases = $phrase;
+        $botUsername = $this->bot->getUsername();
+        $text = ($this->message_type === 'callback_query') ? $this->command->{$this->message_type}->getData() : $this->command->{$this->message_type}->getText();
+        $text = str_replace("@{$botUsername}", '', $text);
+
+        if (!$this->user->checkPermissions($text))
+            throw new \Error('Нет доступа к данной функции на этом этапе.');
+
+        return $this->searchAndFireAction($text);
     }
 
     public function execute() {
@@ -54,7 +54,7 @@ class TelegramController extends Controller
 
     public function startAction()
     {
-        if ($this->user->getGroupId() == 'temp')
+        if ($this->user->getGroupId() === 0 || $this->user->getGroupId() == 'temp')
         {
            return [
                'reply' => "Привет, <b>".$this->user->getDisplayName()."</b>!" . PHP_EOL . "Введи номер группы. 👆",
@@ -133,7 +133,7 @@ class TelegramController extends Controller
     public function resetAction()
     {
         $this->user->setStatus($this->user::NEW_USER_STATUS_CODE);
-        $this->user->setGroupId('temp');
+        $this->user->setGroupId(0);
         $this->user->setCron(false);
 
         return [
@@ -145,7 +145,7 @@ class TelegramController extends Controller
     public function aboutAction()
     {
         return [
-            'reply' => 'Запилил Андрей М. ( @Karavay )' . PHP_EOL . 'Пользователей: <strong>' . $this->Redis->getUsersCount().'</strong>',
+            'reply' => 'Запилил Андрей М. ( @Karavay )' . PHP_EOL . 'Пользователей: <strong>' . $this->user->getUsersCount().'</strong>',
             'keyboard' => []
         ];
     }
@@ -155,40 +155,6 @@ class TelegramController extends Controller
         $date = $this->schedule->getDayAndWeekByDate(time() + 864000);
         return [
             'reply' => $date['week'] . " " .$date['day'],
-            'keyboard' => []
-        ];
-    }
-
-    public function groupAssign($group_id)
-    {
-
-        if ($this->schedule->isGroupIsset($group_id)) {
-            $this->user->setStatus($this->user::ALMOST_USER_STATUS_CODE);
-            $this->user->setGroupId($group_id);
-
-            return [
-                'reply' => $this->phrases->getPhrase('groupSaved'),
-                'keyboard' => ['force_reply' => true]
-            ];
-
-        } else {
-            if ($this->logger) {
-                $this->logger->notifyError('Group not found', "gid: $group_id");
-            }
-
-            return [
-                'reply' => $this->phrases->getPhrase('group404'),
-                'keyboard' => []
-            ];
-        }
-    }
-
-    public function cronAssign($cron)
-    {
-        $this->user->setCron($cron);
-        $this->user->setStatus($this->user::REGISTERED_USER_STATUS_CODE);
-        return [
-            'reply' => $this->phrases->getPhrase('settingsSaved'),
             'keyboard' => []
         ];
     }

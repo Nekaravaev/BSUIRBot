@@ -5,7 +5,7 @@
  * Date: 15.03.17
  * Time: 11:51 AM
  */
-namespace Unit;
+namespace tests\unit;
 
 use BSUIRBot\Model\BSUIR;
 use Fixtures\BSUIRRequestMock;
