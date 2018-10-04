@@ -28,13 +28,9 @@ abstract class Config
         3 => ['/today', '/get', '/tomorrow', '/start', '/schedule']
     ];
 
-    /** @var string $VKtoken */
-    protected $VKtoken = '';
+
     /** @var string $TGtoken */
     protected $TGtoken = '';
-
-    /** @var string $VKConfirmationCode */
-    protected $VKConfirmationCode = '';
 
     /** @var string $TGBotUsername */
     protected $TGBotUsername = '';
@@ -68,19 +64,7 @@ abstract class Config
 
     /**
      * @return string token
-     * @throws BreakException if VK token not filled
-     */
-    public function getVKtoken():string
-    {
-        if ($this->VKtoken)
-            return $this->VKtoken;
-
-        throw new BreakException('No VK token found');
-    }
-
-    /**
-     * @return string token
-     * @throws BreakException if VK token not filled
+     * @throws BreakException if TG token not filled
      */
     public function getTGtoken():string
     {
@@ -88,18 +72,6 @@ abstract class Config
             return $this->TGtoken;
 
         throw new BreakException('No Telegram token found');
-    }
-
-    /**
-     * @return string
-     * @throws BreakException if VK confirmation code not filled
-     */
-    public function getVKConfirmationCode(): string
-    {
-        if ($this->VKConfirmationCode)
-            return $this->VKConfirmationCode;
-
-        throw new BreakException('No VK confirmation code found');
     }
 
     /**
