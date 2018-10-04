@@ -8,6 +8,8 @@
 
 namespace BSUIRBot\Model\Type;
 
+use BSUIRBot\Model\Type\CallbackQuery\TelegramCallbackQuery;
+use BSUIRBot\Model\Type\Message\Message;
 use BSUIRBot\Exception\InvalidInputException;
 
 class Type {
@@ -20,7 +22,11 @@ class Type {
     /** @var array $safe_types */
     private $safe_types = ['int', 'integer', 'string', 'boolean', 'stdClass', 'bool'];
 
-    protected $message;
+    /** @var Message $message */
+    public $message;
+
+    /** @var TelegramCallbackQuery $callback_query */
+    public $callback_query;
 
     public function __construct($input, $api = 'telegram')
     {

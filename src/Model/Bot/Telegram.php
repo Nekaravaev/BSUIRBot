@@ -12,6 +12,14 @@ namespace BSUIRBot\Model\Bot;
 class Telegram extends Bot
 {
     protected $api = 'telegram';
+    protected $username;
+
+    public function __construct($token, $requestClass, $botUsername)
+    {
+        $this->username = $botUsername;
+        parent::__construct($token, $requestClass);
+    }
+
 
     public function sendSticker($chat, $sticker)
     {
@@ -82,8 +90,6 @@ class Telegram extends Bot
     }
 
     public function getUsername() {
-        $response = $this->sendRequest($this->api, ['method' => 'getMe', 'token' => $this->token]);
-
-        return $response->result->username;
+        return $this->username;
     }
 }

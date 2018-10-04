@@ -1,8 +1,5 @@
 <?php
 require_once '../vendor/autoload.php';
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 use BSUIRBot\Model\DIContainer;
 use BSUIRBot\Model\Util\CommandParseHelper;
 
@@ -26,10 +23,16 @@ $container->register(\BSUIRBot\Model\Database\Redis::class, function () {
     return new \BSUIRBot\Model\Database\Redis();
 });
 
+$container->register(\BSUIRBot\Model\Botan::class, function (DIContainer $container) {
+   $token = $container->get('config')->getBotanAPI();
+   return new \BSUIRBot\Model\Botan($token);
+});
+
 $container->register(\BSUIRBot\Model\Bot\Telegram::class, function(DIContainer $container) {
    $token = $container->get('config')->getTGtoken();
+   $username = $container->get('config')->getTGBotUsername();
    $requestClass = $container->get(\BSUIRBot\Model\Request::class);
-   return new \BSUIRBot\Model\Bot\Telegram($token, $requestClass);
+   return new \BSUIRBot\Model\Bot\Telegram($token, $requestClass, $username);
 });
 
 $container->register(\BSUIRBot\Model\BSUIR::class, function (DIContainer $container) {

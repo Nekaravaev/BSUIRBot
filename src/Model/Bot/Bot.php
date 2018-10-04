@@ -8,8 +8,6 @@
 
 namespace BSUIRBot\Model\Bot;
 
-use BSUIRBot\Model\Request;
-
 abstract class Bot
 {
     protected $token;

@@ -20,6 +20,7 @@
      },
     "require-dev": {
         "bugsnag/bugsnag": "^3.0",
-        "monolog/monolog": "^1.23"
+        "monolog/monolog": "^1.23",
+        "phpunit/phpunit": "^6.4"
     }
 }

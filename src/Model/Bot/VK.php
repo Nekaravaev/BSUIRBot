@@ -10,10 +10,6 @@ namespace BSUIRBot\Model\Bot;
 
 class VK extends Bot
 {
-    public function __construct($token)
-    {
-        parent::__construct($token);
-    }
 
     public function returnMessageInfo($message)
     {

@@ -36,6 +36,34 @@ abstract class Config
     /** @var string $VKConfirmationCode */
     protected $VKConfirmationCode = '';
 
+    /** @var string $TGBotUsername */
+    protected $TGBotUsername = '';
+
+    /** @var string $bugSnagAPI */
+    protected $bugSnagAPI = '';
+
+    /** @var string $botanAPI */
+    protected  $botanAPI = '';
+
+
+    /**
+     * @return string
+     */
+    public function getBotanAPI()
+    {
+        return $this->botanAPI;
+    }
+
+
+
+    /**
+     * @return string
+     */
+    public function getBugSnagAPI(): string
+    {
+        return $this->bugSnagAPI;
+    }
+
     /**
      * @return string
      */
@@ -86,5 +114,17 @@ abstract class Config
             return $this->VKConfirmationCode;
 
         throw new BreakException('No VK confirmation code found');
+    }
+
+    /**
+     * @return string
+     * @throws BreakException if bot username not filled
+     */
+    public function getTGBotUsername(): string
+    {
+        if ($this->TGBotUsername)
+            return $this->TGBotUsername;
+
+        throw new BreakException('No TG bot username found');
     }
 }

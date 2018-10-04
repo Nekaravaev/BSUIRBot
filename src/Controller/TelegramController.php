@@ -158,4 +158,9 @@ class TelegramController extends Controller
             'keyboard' => []
         ];
     }
+
+    public function trackAnalytics(string $action) {
+        $message = ($this->message_type === 'callback_query') ? $this->command->{$this->message_type}->getMessage()->attributes() : $this->command->{$this->message_type}->attributes();
+        $this->analytics->track($message, $action);
+    }
 }
