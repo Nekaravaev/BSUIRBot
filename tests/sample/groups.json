@@ -1,0 +1,4902 @@
+[
+  {
+    "name": "444501",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20243,
+    "specialityName": null,
+    "course": 4,
+    "id": 21542,
+    "calendarId": "ptv6jkh219994np505cb5dfgmg@group.calendar.google.com"
+  },
+  {
+    "name": "444601",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20244,
+    "specialityName": null,
+    "course": 4,
+    "id": 21543,
+    "calendarId": "q9dsn9qbck3oo647kaf4v04r88@group.calendar.google.com"
+  },
+  {
+    "name": "544601",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20244,
+    "specialityName": null,
+    "course": 3,
+    "id": 21544,
+    "calendarId": "v7rr62b8jfdi0etvkmfngf52d0@group.calendar.google.com"
+  },
+  {
+    "name": "481064",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 4,
+    "id": 21641,
+    "calendarId": "8un86mtdkm68l7i9ko86gtnoo0@group.calendar.google.com"
+  },
+  {
+    "name": "581065",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 3,
+    "id": 21642,
+    "calendarId": "dkb514gj9an1lfmofkr2j8gecg@group.calendar.google.com"
+  },
+  {
+    "name": "222431",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20067,
+    "specialityName": null,
+    "course": 6,
+    "id": 20629,
+    "calendarId": "n8a8g0p45kkd0omr8lpn7vvgos@group.calendar.google.com"
+  },
+  {
+    "name": "250531",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20068,
+    "specialityName": null,
+    "course": 6,
+    "id": 20630,
+    "calendarId": "afub1mipf6sinf2dmmcv1kpi0c@group.calendar.google.com"
+  },
+  {
+    "name": "524402",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20203,
+    "specialityName": null,
+    "course": 3,
+    "id": 21666,
+    "calendarId": "k94f4le6p4dlfngspjp5nt4pbg@group.calendar.google.com"
+  },
+  {
+    "name": "482471",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20233,
+    "specialityName": null,
+    "course": 4,
+    "id": 21697,
+    "calendarId": "ns85plj6si13i3d601qsfn0u9c@group.calendar.google.com"
+  },
+  {
+    "name": "482473",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20234,
+    "specialityName": null,
+    "course": 4,
+    "id": 21699,
+    "calendarId": "t2kofjo042itdflllnltscogkc@group.calendar.google.com"
+  },
+  {
+    "name": "481071",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20209,
+    "specialityName": null,
+    "course": 4,
+    "id": 21700,
+    "calendarId": "4ochcphpigcao71u1feg2ssrbg@group.calendar.google.com"
+  },
+  {
+    "name": "481072",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20209,
+    "specialityName": null,
+    "course": 4,
+    "id": 21701,
+    "calendarId": "61kjvif7gt2tn55heq4of0pttg@group.calendar.google.com"
+  },
+  {
+    "name": "481073",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20209,
+    "specialityName": null,
+    "course": 4,
+    "id": 21702,
+    "calendarId": "ee4grtithactc3bv477rokuksc@group.calendar.google.com"
+  },
+  {
+    "name": "480971",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20204,
+    "specialityName": null,
+    "course": 4,
+    "id": 21703,
+    "calendarId": "hfer4spjbkv16c0ic7uhv8i1gk@group.calendar.google.com"
+  },
+  {
+    "name": "481971",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20230,
+    "specialityName": null,
+    "course": 4,
+    "id": 21704,
+    "calendarId": "pb1paqn3gbj25cuongv1jhocog@group.calendar.google.com"
+  },
+  {
+    "name": "483371",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20231,
+    "specialityName": null,
+    "course": 4,
+    "id": 21705,
+    "calendarId": "47abnflvs5875odu5g50u44070@group.calendar.google.com"
+  },
+  {
+    "name": "483871",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20229,
+    "specialityName": null,
+    "course": 4,
+    "id": 21706,
+    "calendarId": "95st34c46vd8jc7ilea5p6d1pg@group.calendar.google.com"
+  },
+  {
+    "name": "483971",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20232,
+    "specialityName": null,
+    "course": 4,
+    "id": 21707,
+    "calendarId": "kc9qeh7gale5513sj56jrjsjhs@group.calendar.google.com"
+  },
+  {
+    "name": "651001",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 2,
+    "id": 21798,
+    "calendarId": "q01jg2en7avqtvebq8thdohl38@group.calendar.google.com"
+  },
+  {
+    "name": "651002",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 2,
+    "id": 21799,
+    "calendarId": "meipqnk3115veg8mchtrc9rjc0@group.calendar.google.com"
+  },
+  {
+    "name": "651003",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 2,
+    "id": 21800,
+    "calendarId": "pf7l0evto0iu289nfn92v9vbhg@group.calendar.google.com"
+  },
+  {
+    "name": "651004",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 2,
+    "id": 21802,
+    "calendarId": "na0drbq5hn5k16el8hvp5sam6o@group.calendar.google.com"
+  },
+  {
+    "name": "651005",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 2,
+    "id": 21804,
+    "calendarId": "ir2aegssjfu552pg6dsqmvru9k@group.calendar.google.com"
+  },
+  {
+    "name": "651006",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 2,
+    "id": 21805,
+    "calendarId": "14a1tmqhrdcmbqiqgncg81o0h8@group.calendar.google.com"
+  },
+  {
+    "name": "650501",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 2,
+    "id": 21806,
+    "calendarId": "p4ict6s446hkplpku8lb0d0u24@group.calendar.google.com"
+  },
+  {
+    "name": "650502",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 2,
+    "id": 21807,
+    "calendarId": "dla8vgkme6547ks8gr03uekkm8@group.calendar.google.com"
+  },
+  {
+    "name": "650503",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 2,
+    "id": 21808,
+    "calendarId": "jev2d08uk05m4tpbfefkjdoo50@group.calendar.google.com"
+  },
+  {
+    "name": "650504",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 2,
+    "id": 21809,
+    "calendarId": "h28d651ke3ervr709qcsfplnrg@group.calendar.google.com"
+  },
+  {
+    "name": "650505",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 2,
+    "id": 21810,
+    "calendarId": "ejnt01el9cgh04u5tjtfg4q3p4@group.calendar.google.com"
+  },
+  {
+    "name": "662101",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20100,
+    "specialityName": null,
+    "course": 2,
+    "id": 21811,
+    "calendarId": "ag45a14n4ji2fauebrsgna8sbk@group.calendar.google.com"
+  },
+  {
+    "name": "644101",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20095,
+    "specialityName": null,
+    "course": 2,
+    "id": 21813,
+    "calendarId": "ij8j2ao93m64unbf61jbkpscp8@group.calendar.google.com"
+  },
+  {
+    "name": "661401",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20030,
+    "specialityName": null,
+    "course": 2,
+    "id": 21814,
+    "calendarId": "s67c3o1p6iorrbupuofg71fo2k@group.calendar.google.com"
+  },
+  {
+    "name": "630501",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20259,
+    "specialityName": null,
+    "course": 2,
+    "id": 21815,
+    "calendarId": "5e5r708m389e8ev63jserb1ulo@group.calendar.google.com"
+  },
+  {
+    "name": "653501",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 2,
+    "id": 21816,
+    "calendarId": "ms8p8v7hahrsi1gb895phadkec@group.calendar.google.com"
+  },
+  {
+    "name": "653502",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 2,
+    "id": 21817,
+    "calendarId": "er2ae32vif1heejrg2cubr2uao@group.calendar.google.com"
+  },
+  {
+    "name": "653503",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 2,
+    "id": 21818,
+    "calendarId": "o1p9g9njirguaei29rj0q3vv2c@group.calendar.google.com"
+  },
+  {
+    "name": "653504",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 2,
+    "id": 21819,
+    "calendarId": "gc0b1hq32vj7t0f1ec71f680dk@group.calendar.google.com"
+  },
+  {
+    "name": "653505",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 2,
+    "id": 21820,
+    "calendarId": "sgb5qotthvot20sn1st3rl8sc8@group.calendar.google.com"
+  },
+  {
+    "name": "674001",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 2,
+    "id": 21821,
+    "calendarId": "bc4on8vs6c5l938dd0cngua7f4@group.calendar.google.com"
+  },
+  {
+    "name": "674002",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 2,
+    "id": 21822,
+    "calendarId": "od3hi6lk1nvs327og96qjgoroo@group.calendar.google.com"
+  },
+  {
+    "name": "674003",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 2,
+    "id": 21823,
+    "calendarId": "2g0rsasbmh75gcdnhiv66kd5t8@group.calendar.google.com"
+  },
+  {
+    "name": "674004",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 2,
+    "id": 21824,
+    "calendarId": "opkuhg5ikdahcmvcdhuf70peeo@group.calendar.google.com"
+  },
+  {
+    "name": "610901",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20010,
+    "specialityName": null,
+    "course": 2,
+    "id": 21830,
+    "calendarId": "s0j2l8ilhgq6bh19vnqf7mun90@group.calendar.google.com"
+  },
+  {
+    "name": "642801",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20026,
+    "specialityName": null,
+    "course": 2,
+    "id": 21831,
+    "calendarId": "o6l8fnk24bfv10446kbfeq71e8@group.calendar.google.com"
+  },
+  {
+    "name": "614301",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20138,
+    "specialityName": null,
+    "course": 2,
+    "id": 21832,
+    "calendarId": "22uf4ci49f7rl1osv1i4lu3dq4@group.calendar.google.com"
+  },
+  {
+    "name": "614302",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20138,
+    "specialityName": null,
+    "course": 2,
+    "id": 21833,
+    "calendarId": "ov8bjaki9jnhjb2ah69fj8n9k4@group.calendar.google.com"
+  },
+  {
+    "name": "650701",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20147,
+    "specialityName": null,
+    "course": 2,
+    "id": 21834,
+    "calendarId": "ph9oa9aokjqgm6sshhod1m0rc4@group.calendar.google.com"
+  },
+  {
+    "name": "660801",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20103,
+    "specialityName": null,
+    "course": 2,
+    "id": 21836,
+    "calendarId": "sdvde7bjtju880877d0b578kbk@group.calendar.google.com"
+  },
+  {
+    "name": "660802",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20103,
+    "specialityName": null,
+    "course": 2,
+    "id": 21837,
+    "calendarId": "j8vij6rsf5sqvb6tq5ljvf553k@group.calendar.google.com"
+  },
+  {
+    "name": "672301",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 2,
+    "id": 21846,
+    "calendarId": "lf4aa6fkv2o7ja9s0cs7bo2ou8@group.calendar.google.com"
+  },
+  {
+    "name": "672302",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 2,
+    "id": 21847,
+    "calendarId": "2256b838gl1jvl4ut93q2fo26c@group.calendar.google.com"
+  },
+  {
+    "name": "672303",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 2,
+    "id": 21848,
+    "calendarId": "rmasi1rjphbhtqpl9ote4ui4n0@group.calendar.google.com"
+  },
+  {
+    "name": "673901",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 2,
+    "id": 21849,
+    "calendarId": "7qr1a6a7ce5mdeqbjknl0kad00@group.calendar.google.com"
+  },
+  {
+    "name": "673902",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 2,
+    "id": 21850,
+    "calendarId": "0c86c36mlbna8vm75gttl3p4sg@group.calendar.google.com"
+  },
+  {
+    "name": "673903",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 2,
+    "id": 21851,
+    "calendarId": "a3s58ldf3tn0h37emaareufa58@group.calendar.google.com"
+  },
+  {
+    "name": "673904",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 2,
+    "id": 21852,
+    "calendarId": "s5hml6t3i47ffj30bqkl5msslc@group.calendar.google.com"
+  },
+  {
+    "name": "610101",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20011,
+    "specialityName": null,
+    "course": 2,
+    "id": 21853,
+    "calendarId": "8i0v3dp4an84daqmqd1v0kheck@group.calendar.google.com"
+  },
+  {
+    "name": "634201",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20130,
+    "specialityName": null,
+    "course": 2,
+    "id": 21854,
+    "calendarId": "t778a0od5hbtum325f8kmu27to@group.calendar.google.com"
+  },
+  {
+    "name": "633701",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20129,
+    "specialityName": null,
+    "course": 2,
+    "id": 21855,
+    "calendarId": "57qpq1qdv4nu81bdu1q805uk5c@group.calendar.google.com"
+  },
+  {
+    "name": "633702",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20129,
+    "specialityName": null,
+    "course": 2,
+    "id": 21856,
+    "calendarId": "j7hk7b87d7n4qjlql9jleck8mo@group.calendar.google.com"
+  },
+  {
+    "name": "663101",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20101,
+    "specialityName": null,
+    "course": 2,
+    "id": 21857,
+    "calendarId": "dt0ocdecp43p37cgc2r5inkdk4@group.calendar.google.com"
+  },
+  {
+    "name": "663102",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20101,
+    "specialityName": null,
+    "course": 2,
+    "id": 21858,
+    "calendarId": "rv6s1dmlg3t40aupafomemgh6g@group.calendar.google.com"
+  },
+  {
+    "name": "673601",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20070,
+    "specialityName": null,
+    "course": 2,
+    "id": 21859,
+    "calendarId": "sgv2cfmvjbjosrsi8u74bnb07k@group.calendar.google.com"
+  },
+  {
+    "name": "673602",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20070,
+    "specialityName": null,
+    "course": 2,
+    "id": 21860,
+    "calendarId": "q14kmg92ak8845j46pjra5q8k8@group.calendar.google.com"
+  },
+  {
+    "name": "640301",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20024,
+    "specialityName": null,
+    "course": 2,
+    "id": 21861,
+    "calendarId": "7qqvpumkmpr3q2n9irvvupm1jk@group.calendar.google.com"
+  },
+  {
+    "name": "622401",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 2,
+    "id": 21862,
+    "calendarId": "r0219np6vder3ie28bf4tlk4ug@group.calendar.google.com"
+  },
+  {
+    "name": "622102",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 2,
+    "id": 21863,
+    "calendarId": "vuu89dcai8m05p6mc8f8l1sbbk@group.calendar.google.com"
+  },
+  {
+    "name": "622403",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 2,
+    "id": 21864,
+    "calendarId": "v2h9ctfopg4065688e78jl7er8@group.calendar.google.com"
+  },
+  {
+    "name": "624401",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20203,
+    "specialityName": null,
+    "course": 2,
+    "id": 21865,
+    "calendarId": "qsne7vsk2jo7o71qe52gotup2o@group.calendar.google.com"
+  },
+  {
+    "name": "624402",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20203,
+    "specialityName": null,
+    "course": 2,
+    "id": 21866,
+    "calendarId": "m20gb3d48qt87e4hosccr55uu0@group.calendar.google.com"
+  },
+  {
+    "name": "643201",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20025,
+    "specialityName": null,
+    "course": 2,
+    "id": 21867,
+    "calendarId": "pchnt1iqfpcthjsmn8qncfd9l4@group.calendar.google.com"
+  },
+  {
+    "name": "621901",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20005,
+    "specialityName": null,
+    "course": 2,
+    "id": 21868,
+    "calendarId": "5b64kbs5tbcab8ls8eg4fd8nhc@group.calendar.google.com"
+  },
+  {
+    "name": "620601",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 2,
+    "id": 21870,
+    "calendarId": "m3nns7s7cvr4il14nr77re47oo@group.calendar.google.com"
+  },
+  {
+    "name": "620602",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 2,
+    "id": 21871,
+    "calendarId": "2m236qqe26vsqanhb2fkab7neg@group.calendar.google.com"
+  },
+  {
+    "name": "620603",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 2,
+    "id": 21872,
+    "calendarId": "b334d51vq5nnajfcj9ou24mlec@group.calendar.google.com"
+  },
+  {
+    "name": "620604",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 2,
+    "id": 21873,
+    "calendarId": "ggj528iptkkfal5pvlq1o1mae8@group.calendar.google.com"
+  },
+  {
+    "name": "641301",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20028,
+    "specialityName": null,
+    "course": 2,
+    "id": 21874,
+    "calendarId": "qi1jjpmkcsif1d7g02kp1u3ao0@group.calendar.google.com"
+  },
+  {
+    "name": "640401",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20094,
+    "specialityName": null,
+    "course": 2,
+    "id": 21875,
+    "calendarId": "6igukisp06abgk6unttfukdm30@group.calendar.google.com"
+  },
+  {
+    "name": "621701",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20004,
+    "specialityName": null,
+    "course": 2,
+    "id": 21876,
+    "calendarId": "kec6phh68s3auirq0am6engut4@group.calendar.google.com"
+  },
+  {
+    "name": "621702",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20004,
+    "specialityName": null,
+    "course": 2,
+    "id": 21877,
+    "calendarId": "dbr4gho66s1q2tn1r5dk2jhb24@group.calendar.google.com"
+  },
+  {
+    "name": "622402",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 2,
+    "id": 21907,
+    "calendarId": "6ge2b42569ct6k8fnpiq7812fg@group.calendar.google.com"
+  },
+  {
+    "name": "642791",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20023,
+    "specialityName": null,
+    "course": 2,
+    "id": 21908,
+    "calendarId": "b90klocq1p530dj09srfrmnom0@group.calendar.google.com"
+  },
+  {
+    "name": "641591",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20096,
+    "specialityName": null,
+    "course": 2,
+    "id": 21909,
+    "calendarId": "5vbrv7etjsuavddqgcj8gbo6jo@group.calendar.google.com"
+  },
+  {
+    "name": "641291",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20029,
+    "specialityName": null,
+    "course": 2,
+    "id": 21910,
+    "calendarId": "gj3b1r15itbn101igaum67gb5g@group.calendar.google.com"
+  },
+  {
+    "name": "644691",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20244,
+    "specialityName": null,
+    "course": 2,
+    "id": 21911,
+    "calendarId": "kau2fr5608ql2qipj4kasadl0g@group.calendar.google.com"
+  },
+  {
+    "name": "644692",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20244,
+    "specialityName": null,
+    "course": 2,
+    "id": 21912,
+    "calendarId": "60a95veonpsdcsnv3908b9htsk@group.calendar.google.com"
+  },
+  {
+    "name": "611801",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20012,
+    "specialityName": null,
+    "course": 2,
+    "id": 21914,
+    "calendarId": "l6kbqg2t8tferp7haff2tikjgg@group.calendar.google.com"
+  },
+  {
+    "name": "611101",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20140,
+    "specialityName": null,
+    "course": 2,
+    "id": 21915,
+    "calendarId": "ehuqdm4fbqcr9pao1d1bag5uts@group.calendar.google.com"
+  },
+  {
+    "name": "610201",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20139,
+    "specialityName": null,
+    "course": 2,
+    "id": 21916,
+    "calendarId": "232minme8l6mrprtfnllha2gmc@group.calendar.google.com"
+  },
+  {
+    "name": "612601",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20013,
+    "specialityName": null,
+    "course": 2,
+    "id": 21917,
+    "calendarId": "hl2uci5p1uht1smq8h29ck749s@group.calendar.google.com"
+  },
+  {
+    "name": "613301",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20018,
+    "specialityName": null,
+    "course": 2,
+    "id": 21918,
+    "calendarId": "gp47l3irnvgo1v5d6scf49b1g8@group.calendar.google.com"
+  },
+  {
+    "name": "613801",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20082,
+    "specialityName": null,
+    "course": 2,
+    "id": 21919,
+    "calendarId": "3e4sjl6vvnf7n80fg6mog1785g@group.calendar.google.com"
+  },
+  {
+    "name": "613802",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20082,
+    "specialityName": null,
+    "course": 2,
+    "id": 21920,
+    "calendarId": "mgdddlmntc73n7u02euo09itak@group.calendar.google.com"
+  },
+  {
+    "name": "600541",
+    "facultyId": 20034,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20037,
+    "specialityName": null,
+    "course": 2,
+    "id": 21921,
+    "calendarId": "us4cj7o2css8gsma4l24u1nvd4@group.calendar.google.com"
+  },
+  {
+    "name": "680561",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20197,
+    "specialityName": null,
+    "course": 2,
+    "id": 21941,
+    "calendarId": "qorgmt4mgdb54f0oibephbvgto@group.calendar.google.com"
+  },
+  {
+    "name": "680562",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20197,
+    "specialityName": null,
+    "course": 2,
+    "id": 21942,
+    "calendarId": "943sgj194vkekbd8to4vadni24@group.calendar.google.com"
+  },
+  {
+    "name": "680961",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20198,
+    "specialityName": null,
+    "course": 2,
+    "id": 21943,
+    "calendarId": "fener8480fr1uu3ag70h3jmktk@group.calendar.google.com"
+  },
+  {
+    "name": "681061",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 2,
+    "id": 21945,
+    "calendarId": "grr74grc147sl4vtsn0snucn0s@group.calendar.google.com"
+  },
+  {
+    "name": "681062",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 2,
+    "id": 21946,
+    "calendarId": "rtp3r6hil2oodspvs358s8cd94@group.calendar.google.com"
+  },
+  {
+    "name": "681063",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 2,
+    "id": 21947,
+    "calendarId": "ejn310c2htpomlrrd25p2ntfjc@group.calendar.google.com"
+  },
+  {
+    "name": "681064",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 2,
+    "id": 21948,
+    "calendarId": "3se5796avobkgit7t906v1s0k0@group.calendar.google.com"
+  },
+  {
+    "name": "681065",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 2,
+    "id": 21949,
+    "calendarId": "0j40m1v320n9t9b89d2l42bkd0@group.calendar.google.com"
+  },
+  {
+    "name": "6М1701",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20167,
+    "specialityName": null,
+    "course": 1,
+    "id": 21984,
+    "calendarId": "vn15rgsnvtp0afcr5prb5oqpck@group.calendar.google.com"
+  },
+  {
+    "name": "6М2401",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20287,
+    "specialityName": null,
+    "course": 1,
+    "id": 21997,
+    "calendarId": "5phogmkth8k1jo8f181p4057vs@group.calendar.google.com"
+  },
+  {
+    "name": "6М2701",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20178,
+    "specialityName": null,
+    "course": 1,
+    "id": 21998,
+    "calendarId": "pgd53q7j9hc23drkfqq120p9as@group.calendar.google.com"
+  },
+  {
+    "name": "6М3501",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20191,
+    "specialityName": null,
+    "course": 1,
+    "id": 22011,
+    "calendarId": "fep0di80ogo71s1pss2uj72qrc@group.calendar.google.com"
+  },
+  {
+    "name": "350531",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20068,
+    "specialityName": null,
+    "course": 5,
+    "id": 21001,
+    "calendarId": "2im7f61lm0671vcm73dg7s18jo@group.calendar.google.com"
+  },
+  {
+    "name": "6М1901",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20220,
+    "specialityName": null,
+    "course": 1,
+    "id": 22028,
+    "calendarId": "i5fhrmr849qc0e6t88k7o1hhi8@group.calendar.google.com"
+  },
+  {
+    "name": "6М3201",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20215,
+    "specialityName": null,
+    "course": 1,
+    "id": 22035,
+    "calendarId": "95konn7l5hupfmi6le5102fpcg@group.calendar.google.com"
+  },
+  {
+    "name": "611802",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20012,
+    "specialityName": null,
+    "course": 2,
+    "id": 22046,
+    "calendarId": "qth60vnitiofu354f3rdbgmeeo@group.calendar.google.com"
+  },
+  {
+    "name": "682461",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20199,
+    "specialityName": null,
+    "course": 2,
+    "id": 22051,
+    "calendarId": "llv79e4m8sev74oln8s5alr8t8@group.calendar.google.com"
+  },
+  {
+    "name": "661402",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20030,
+    "specialityName": null,
+    "course": 2,
+    "id": 22055,
+    "calendarId": "3dqbpb64plcoqmes2kspe9n9o4@group.calendar.google.com"
+  },
+  {
+    "name": "651007",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 2,
+    "id": 22070,
+    "calendarId": "j6dakuusv2cvq6kdfj9jp3o0h8@group.calendar.google.com"
+  },
+  {
+    "name": "624403",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20203,
+    "specialityName": null,
+    "course": 2,
+    "id": 22071,
+    "calendarId": "jlnj681eomubs47biku2ojvhtg@group.calendar.google.com"
+  },
+  {
+    "name": "610202",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20139,
+    "specialityName": null,
+    "course": 2,
+    "id": 22072,
+    "calendarId": "jvqg52v89rqik092elp2rctolo@group.calendar.google.com"
+  },
+  {
+    "name": "620611",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20136,
+    "specialityName": null,
+    "course": 2,
+    "id": 22073,
+    "calendarId": "laa37gr0mo7ibdovephgrn1ovg@group.calendar.google.com"
+  },
+  {
+    "name": "322404",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 4,
+    "id": 21077,
+    "calendarId": "2dnaiuiv3i4cskov60nu53ekos@group.calendar.google.com"
+  },
+  {
+    "name": "373903",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 4,
+    "id": 21082,
+    "calendarId": "cm58a2maugv2q0v7li5bvht77s@group.calendar.google.com"
+  },
+  {
+    "name": "6М3901",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20288,
+    "specialityName": null,
+    "course": 1,
+    "id": 22107,
+    "calendarId": "mbffbs47nvl7s0rrm6vqmgmgss@group.calendar.google.com"
+  },
+  {
+    "name": "610902",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20010,
+    "specialityName": null,
+    "course": 2,
+    "id": 22137,
+    "calendarId": "hg31e1i7i9v2up2clbf8g5npq0@group.calendar.google.com"
+  },
+  {
+    "name": "353505",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 4,
+    "id": 21115,
+    "calendarId": "dk78chf2hdicj78rhge90g2ll4@group.calendar.google.com"
+  },
+  {
+    "name": "6М3509",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20191,
+    "specialityName": null,
+    "course": 1,
+    "id": 22142,
+    "calendarId": "68jhdkmps94o5105tq6a543gvk@group.calendar.google.com"
+  },
+  {
+    "name": "433701",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20129,
+    "specialityName": null,
+    "course": 4,
+    "id": 21127,
+    "calendarId": "qmv2jd11m9sqoq5g42bnljgpbk@group.calendar.google.com"
+  },
+  {
+    "name": "433702",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20129,
+    "specialityName": null,
+    "course": 4,
+    "id": 21128,
+    "calendarId": "cna13pda0ktq917jqc2b4g1urc@group.calendar.google.com"
+  },
+  {
+    "name": "450531",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20068,
+    "specialityName": null,
+    "course": 4,
+    "id": 21130,
+    "calendarId": "tc3fbn8kq9p692rj595926lrss@group.calendar.google.com"
+  },
+  {
+    "name": "540302",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20024,
+    "specialityName": null,
+    "course": 3,
+    "id": 22159,
+    "calendarId": "japmocnoeqb86gld0rl9be7tq8@group.calendar.google.com"
+  },
+  {
+    "name": "421901",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20005,
+    "specialityName": null,
+    "course": 4,
+    "id": 21137,
+    "calendarId": "5m5sj8jun2dbgqr5o3rnpmh268@group.calendar.google.com"
+  },
+  {
+    "name": "422401",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 4,
+    "id": 21138,
+    "calendarId": "2i8rsls593p9tb4pqdckv4hfig@group.calendar.google.com"
+  },
+  {
+    "name": "421701",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20004,
+    "specialityName": null,
+    "course": 4,
+    "id": 21139,
+    "calendarId": "bajsgjcddu2q7srep6si1qu6e4@group.calendar.google.com"
+  },
+  {
+    "name": "720601",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 1,
+    "id": 22163,
+    "calendarId": "jksbs59gd8h73k2aelr16gdhnk@group.calendar.google.com"
+  },
+  {
+    "name": "420601",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 4,
+    "id": 21140,
+    "calendarId": "nu5bi9urapsjrn1jp3fl17ob60@group.calendar.google.com"
+  },
+  {
+    "name": "720602",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 1,
+    "id": 22164,
+    "calendarId": "ce7qvvufvkih65oa34r5t48uis@group.calendar.google.com"
+  },
+  {
+    "name": "473901",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 4,
+    "id": 21141,
+    "calendarId": "lttbaalatccujf69e33u87tahg@group.calendar.google.com"
+  },
+  {
+    "name": "720603",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 1,
+    "id": 22165,
+    "calendarId": "1lofs4c9lm61u22g3dit5r2h3k@group.calendar.google.com"
+  },
+  {
+    "name": "474001",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 4,
+    "id": 21142,
+    "calendarId": "a5m063l94e45c7t22dh5qqi3ag@group.calendar.google.com"
+  },
+  {
+    "name": "720604",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 1,
+    "id": 22166,
+    "calendarId": "b7snqtboah2k1mu6104a5qamao@group.calendar.google.com"
+  },
+  {
+    "name": "472301",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 4,
+    "id": 21143,
+    "calendarId": "vnhi37rs5lpe031u1nn5qkpoes@group.calendar.google.com"
+  },
+  {
+    "name": "721701",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20004,
+    "specialityName": null,
+    "course": 1,
+    "id": 22167,
+    "calendarId": "b77lfnfl3ng8cqibd33ftgvvm0@group.calendar.google.com"
+  },
+  {
+    "name": "473601",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20070,
+    "specialityName": null,
+    "course": 4,
+    "id": 21144,
+    "calendarId": "tgsji3hdi695o454i4gcd9qu78@group.calendar.google.com"
+  },
+  {
+    "name": "721702",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20004,
+    "specialityName": null,
+    "course": 1,
+    "id": 22168,
+    "calendarId": "r5aqqdjop21vcqqio4casbnidg@group.calendar.google.com"
+  },
+  {
+    "name": "413301",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20018,
+    "specialityName": null,
+    "course": 4,
+    "id": 21145,
+    "calendarId": "32jgmqhn7edmgdp5hfnofph1t8@group.calendar.google.com"
+  },
+  {
+    "name": "724401",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20203,
+    "specialityName": null,
+    "course": 1,
+    "id": 22169,
+    "calendarId": "01ie52bnpdvqbsmpf512vj4om4@group.calendar.google.com"
+  },
+  {
+    "name": "724402",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20203,
+    "specialityName": null,
+    "course": 1,
+    "id": 22170,
+    "calendarId": "v0iicav6dkh6l4255b20lklc50@group.calendar.google.com"
+  },
+  {
+    "name": "724403",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20203,
+    "specialityName": null,
+    "course": 1,
+    "id": 22171,
+    "calendarId": "15tm7onds9557nd6ci6lhu0ou4@group.calendar.google.com"
+  },
+  {
+    "name": "413801",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20082,
+    "specialityName": null,
+    "course": 4,
+    "id": 21148,
+    "calendarId": "9i1qkuif7mqmf02aeuape3pmvg@group.calendar.google.com"
+  },
+  {
+    "name": "722401",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 1,
+    "id": 22172,
+    "calendarId": "nspdjlsuo0h6vqgugnp72jb6fs@group.calendar.google.com"
+  },
+  {
+    "name": "410201",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20139,
+    "specialityName": null,
+    "course": 4,
+    "id": 21149,
+    "calendarId": "qvsnvqp10ln4rf36v5gkdhloj4@group.calendar.google.com"
+  },
+  {
+    "name": "722402",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 1,
+    "id": 22173,
+    "calendarId": "r2lfavs15jvhn2lva8o7kau2bo@group.calendar.google.com"
+  },
+  {
+    "name": "412601",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20013,
+    "specialityName": null,
+    "course": 4,
+    "id": 21150,
+    "calendarId": "cqffeojphdqskj9p0elheldqr8@group.calendar.google.com"
+  },
+  {
+    "name": "722403",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 1,
+    "id": 22174,
+    "calendarId": "lu6iceauoost539k1bjtega9ec@group.calendar.google.com"
+  },
+  {
+    "name": "411801",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20012,
+    "specialityName": null,
+    "course": 4,
+    "id": 21151,
+    "calendarId": "trlr8ilvothb16746go2ffks7c@group.calendar.google.com"
+  },
+  {
+    "name": "721901",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20005,
+    "specialityName": null,
+    "course": 1,
+    "id": 22175,
+    "calendarId": "m195phanumclcvs5l766h9l8is@group.calendar.google.com"
+  },
+  {
+    "name": "410101",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20011,
+    "specialityName": null,
+    "course": 4,
+    "id": 21152,
+    "calendarId": "g3l0ciuk0eovt7e1kaffbpdcd4@group.calendar.google.com"
+  },
+  {
+    "name": "410901",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20010,
+    "specialityName": null,
+    "course": 4,
+    "id": 21153,
+    "calendarId": "88ld521cfnds89k41nsfa452do@group.calendar.google.com"
+  },
+  {
+    "name": "733701",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20129,
+    "specialityName": null,
+    "course": 1,
+    "id": 22177,
+    "calendarId": "b9t1tvf57q87focli7cg131t5g@group.calendar.google.com"
+  },
+  {
+    "name": "451001",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 4,
+    "id": 21154,
+    "calendarId": "5hai8a466qqsa5kuog3hqvm8ik@group.calendar.google.com"
+  },
+  {
+    "name": "733702",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20129,
+    "specialityName": null,
+    "course": 1,
+    "id": 22178,
+    "calendarId": "ber5d9t124e6kgbkq50l9cbv6o@group.calendar.google.com"
+  },
+  {
+    "name": "453501",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 4,
+    "id": 21155,
+    "calendarId": "576be932m57jns1gd4gi58i428@group.calendar.google.com"
+  },
+  {
+    "name": "450501",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 4,
+    "id": 21156,
+    "calendarId": "on08sasqvit52ivhnkjkd9i2ok@group.calendar.google.com"
+  },
+  {
+    "name": "773601",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20070,
+    "specialityName": null,
+    "course": 1,
+    "id": 22180,
+    "calendarId": "stu1aeib7e1eug2ta1lp4qb0p0@group.calendar.google.com"
+  },
+  {
+    "name": "444101",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20095,
+    "specialityName": null,
+    "course": 4,
+    "id": 21157,
+    "calendarId": "3gamljdnudgvva3vs9e79f9oes@group.calendar.google.com"
+  },
+  {
+    "name": "773602",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20070,
+    "specialityName": null,
+    "course": 1,
+    "id": 22181,
+    "calendarId": "okh8i9ncnhhc87tm355vl6beo8@group.calendar.google.com"
+  },
+  {
+    "name": "441201",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20029,
+    "specialityName": null,
+    "course": 4,
+    "id": 21158,
+    "calendarId": "v68u370g1031musfgt0bvbtrtk@group.calendar.google.com"
+  },
+  {
+    "name": "772301",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 1,
+    "id": 22182,
+    "calendarId": "hu00tgvd6791jchm0qhgc2e6kc@group.calendar.google.com"
+  },
+  {
+    "name": "441301",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20028,
+    "specialityName": null,
+    "course": 4,
+    "id": 21159,
+    "calendarId": "b8v8hfnrsejoed4tm5kqpj69ec@group.calendar.google.com"
+  },
+  {
+    "name": "772302",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 1,
+    "id": 22183,
+    "calendarId": "ktmajdk424095c1rnjboajahu0@group.calendar.google.com"
+  },
+  {
+    "name": "441501",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20096,
+    "specialityName": null,
+    "course": 4,
+    "id": 21160,
+    "calendarId": "ptvqu8kus2k95742rq7s5umcno@group.calendar.google.com"
+  },
+  {
+    "name": "772303",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 1,
+    "id": 22184,
+    "calendarId": "f46dmt5nemllaagfo5bg244tak@group.calendar.google.com"
+  },
+  {
+    "name": "440401",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20094,
+    "specialityName": null,
+    "course": 4,
+    "id": 21161,
+    "calendarId": "2mm2ec521vuhbenqd78qdqriq8@group.calendar.google.com"
+  },
+  {
+    "name": "774001",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 1,
+    "id": 22185,
+    "calendarId": "v50ml8rph7bhmn9ot9sb9sm0u0@group.calendar.google.com"
+  },
+  {
+    "name": "442801",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20026,
+    "specialityName": null,
+    "course": 4,
+    "id": 21162,
+    "calendarId": "e9c4plnhldd94r032nguoi2nsc@group.calendar.google.com"
+  },
+  {
+    "name": "774002",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 1,
+    "id": 22186,
+    "calendarId": "0u814v3tp1lptbl561i82kg4qs@group.calendar.google.com"
+  },
+  {
+    "name": "443201",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20025,
+    "specialityName": null,
+    "course": 4,
+    "id": 21163,
+    "calendarId": "b441u3a0v3vaclrvns3sqogimo@group.calendar.google.com"
+  },
+  {
+    "name": "774003",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 1,
+    "id": 22187,
+    "calendarId": "cufjho4k98cjhu3oaeu24o9jjs@group.calendar.google.com"
+  },
+  {
+    "name": "440301",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20024,
+    "specialityName": null,
+    "course": 4,
+    "id": 21164,
+    "calendarId": "ns7e1bc9dv1d5dh43dr72ce6cg@group.calendar.google.com"
+  },
+  {
+    "name": "774004",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 1,
+    "id": 22188,
+    "calendarId": "ucaj5o6uo0f273bfc9hb71qq6k@group.calendar.google.com"
+  },
+  {
+    "name": "442701",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20023,
+    "specialityName": null,
+    "course": 4,
+    "id": 21165,
+    "calendarId": "0jl9s8c6hlnc1vf2d9lbfonnjc@group.calendar.google.com"
+  },
+  {
+    "name": "773901",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 1,
+    "id": 22189,
+    "calendarId": "mmsplmlqf9v03nh4hdgk7su3ks@group.calendar.google.com"
+  },
+  {
+    "name": "462901",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20102,
+    "specialityName": null,
+    "course": 4,
+    "id": 21166,
+    "calendarId": "8tmgu5afkn1khlqqkjbfp5ufb0@group.calendar.google.com"
+  },
+  {
+    "name": "773902",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 1,
+    "id": 22190,
+    "calendarId": "cc8oubd52actjs4a35gedaaq50@group.calendar.google.com"
+  },
+  {
+    "name": "460801",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20103,
+    "specialityName": null,
+    "course": 4,
+    "id": 21167,
+    "calendarId": "ii0ic5me1f0bv8drr4q1ca6888@group.calendar.google.com"
+  },
+  {
+    "name": "773903",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 1,
+    "id": 22191,
+    "calendarId": "2vhf15ajgbu4hkg4r4d0k58gm8@group.calendar.google.com"
+  },
+  {
+    "name": "463101",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20101,
+    "specialityName": null,
+    "course": 4,
+    "id": 21168,
+    "calendarId": "1p5ftg4vpcunm47i49t46kbrpk@group.calendar.google.com"
+  },
+  {
+    "name": "773904",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 1,
+    "id": 22192,
+    "calendarId": "52n01p7omsus3ap02l5qb092dc@group.calendar.google.com"
+  },
+  {
+    "name": "463001",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20104,
+    "specialityName": null,
+    "course": 4,
+    "id": 21169,
+    "calendarId": "vmkb3mh35fakioolium46d470c@group.calendar.google.com"
+  },
+  {
+    "name": "710901",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20010,
+    "specialityName": null,
+    "course": 1,
+    "id": 22193,
+    "calendarId": "h3qccrrctvm5aqjfho2d5qn13s@group.calendar.google.com"
+  },
+  {
+    "name": "714301",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20138,
+    "specialityName": null,
+    "course": 1,
+    "id": 22194,
+    "calendarId": "8gcjepui6ig7snbr815mgu96fs@group.calendar.google.com"
+  },
+  {
+    "name": "462101",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20100,
+    "specialityName": null,
+    "course": 4,
+    "id": 21171,
+    "calendarId": "ghb765jvjd8ik0297an7h5saig@group.calendar.google.com"
+  },
+  {
+    "name": "714302",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20138,
+    "specialityName": null,
+    "course": 1,
+    "id": 22195,
+    "calendarId": "q44nm38auvt4t3e9f6s613e1j0@group.calendar.google.com"
+  },
+  {
+    "name": "461401",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20030,
+    "specialityName": null,
+    "course": 4,
+    "id": 21172,
+    "calendarId": "ivjf8b58o2icmst179fiv944go@group.calendar.google.com"
+  },
+  {
+    "name": "711801",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20012,
+    "specialityName": null,
+    "course": 1,
+    "id": 22197,
+    "calendarId": "d3o6j91ndpbejsf22327hp3sa4@group.calendar.google.com"
+  },
+  {
+    "name": "710201",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20139,
+    "specialityName": null,
+    "course": 1,
+    "id": 22200,
+    "calendarId": "euc6r8u2dd8g4ckl2kllng3h1s@group.calendar.google.com"
+  },
+  {
+    "name": "713801",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20082,
+    "specialityName": null,
+    "course": 1,
+    "id": 22204,
+    "calendarId": "2fujvhg3lvu8hv1asuvnnfer0s@group.calendar.google.com"
+  },
+  {
+    "name": "713802",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20082,
+    "specialityName": null,
+    "course": 1,
+    "id": 22205,
+    "calendarId": "76vrr3sor4civt9qpcdpgc0gbg@group.calendar.google.com"
+  },
+  {
+    "name": "434201",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20130,
+    "specialityName": null,
+    "course": 4,
+    "id": 21188,
+    "calendarId": "tdgsu9n1t60bead1sfnucm3qgc@group.calendar.google.com"
+  },
+  {
+    "name": "753501",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 1,
+    "id": 22212,
+    "calendarId": "o7cv7pif50n1kra09a7eprb330@group.calendar.google.com"
+  },
+  {
+    "name": "451002",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 4,
+    "id": 21189,
+    "calendarId": "711ao3dnlur9m8u3qd3akf9h14@group.calendar.google.com"
+  },
+  {
+    "name": "753502",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 1,
+    "id": 22213,
+    "calendarId": "0uplabskt5d1f8hpsbq1sipk1c@group.calendar.google.com"
+  },
+  {
+    "name": "451003",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 4,
+    "id": 21190,
+    "calendarId": "h0sntnpcfq470ft19s05srq2a4@group.calendar.google.com"
+  },
+  {
+    "name": "753503",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 1,
+    "id": 22214,
+    "calendarId": "c2nsn7r0p4rndk7e9bm4vck7ts@group.calendar.google.com"
+  },
+  {
+    "name": "451004",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 4,
+    "id": 21191,
+    "calendarId": "3ldlhiob7ienkqi3gd1avhr8ps@group.calendar.google.com"
+  },
+  {
+    "name": "753504",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 1,
+    "id": 22215,
+    "calendarId": "s9fg2n5airujjpaa1s3utbhq8k@group.calendar.google.com"
+  },
+  {
+    "name": "451005",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 4,
+    "id": 21192,
+    "calendarId": "t58pkgpv3e63kgaprqad3m0hak@group.calendar.google.com"
+  },
+  {
+    "name": "753505",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 1,
+    "id": 22216,
+    "calendarId": "pdqflks17765480a1u4egoghqs@group.calendar.google.com"
+  },
+  {
+    "name": "451006",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 4,
+    "id": 21193,
+    "calendarId": "7eco6ipg0n9ma3ha56gf3tnp64@group.calendar.google.com"
+  },
+  {
+    "name": "751001",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 1,
+    "id": 22217,
+    "calendarId": "kl3kgoeft3up1d1bjkdn2u1ch4@group.calendar.google.com"
+  },
+  {
+    "name": "450502",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 4,
+    "id": 21194,
+    "calendarId": "n8tjt1at6s97fa14134n18v3rs@group.calendar.google.com"
+  },
+  {
+    "name": "751002",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 1,
+    "id": 22218,
+    "calendarId": "ofq7rkksr3o9dme9v5s9o9ijio@group.calendar.google.com"
+  },
+  {
+    "name": "450503",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 4,
+    "id": 21195,
+    "calendarId": "e30is69ledqvi6iseu3npkbcag@group.calendar.google.com"
+  },
+  {
+    "name": "751003",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 1,
+    "id": 22219,
+    "calendarId": "428pg2e3atn804uqtkp7mvjrl0@group.calendar.google.com"
+  },
+  {
+    "name": "450504",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 4,
+    "id": 21196,
+    "calendarId": "ds98cpcb28uo2k7uei69m5crhg@group.calendar.google.com"
+  },
+  {
+    "name": "751004",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 1,
+    "id": 22220,
+    "calendarId": "lukrm3pv6kb1k973llqfhhtja4@group.calendar.google.com"
+  },
+  {
+    "name": "450505",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 3,
+    "id": 21197,
+    "calendarId": "2muuvbjc8j7tqhfo9jnnrqhr7c@group.calendar.google.com"
+  },
+  {
+    "name": "751005",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 1,
+    "id": 22221,
+    "calendarId": "bma13kad4mkga2gnqt08t204as@group.calendar.google.com"
+  },
+  {
+    "name": "751006",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 1,
+    "id": 22222,
+    "calendarId": "76n721g6ilutq5mlpeaijrfpgk@group.calendar.google.com"
+  },
+  {
+    "name": "751007",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 1,
+    "id": 22223,
+    "calendarId": "meqk92qob301p0urmchbvevt7c@group.calendar.google.com"
+  },
+  {
+    "name": "420602",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 4,
+    "id": 21200,
+    "calendarId": "3uff6prvn53lhgq53ekpnfb1sc@group.calendar.google.com"
+  },
+  {
+    "name": "750701",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20147,
+    "specialityName": null,
+    "course": 1,
+    "id": 22224,
+    "calendarId": "677ci9lbe3sn6cpplleb781kfk@group.calendar.google.com"
+  },
+  {
+    "name": "420603",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 4,
+    "id": 21201,
+    "calendarId": "q5ugue3o6o9i7fgp78lksisg28@group.calendar.google.com"
+  },
+  {
+    "name": "420604",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 4,
+    "id": 21202,
+    "calendarId": "vfb815bcvlcnim9aiesgugp4c0@group.calendar.google.com"
+  },
+  {
+    "name": "422402",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 4,
+    "id": 21203,
+    "calendarId": "r0qrpucf3c53er553hsooi9bp0@group.calendar.google.com"
+  },
+  {
+    "name": "422403",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 4,
+    "id": 21204,
+    "calendarId": "a6kqdvqqc8vvqtfo624u4au680@group.calendar.google.com"
+  },
+  {
+    "name": "421702",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20004,
+    "specialityName": null,
+    "course": 4,
+    "id": 21207,
+    "calendarId": "o6ku9h557aj0grou8h03k6r5g0@group.calendar.google.com"
+  },
+  {
+    "name": "421703",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20004,
+    "specialityName": null,
+    "course": 4,
+    "id": 21208,
+    "calendarId": "rco4f7hlpvpusi6ra0r9j6h198@group.calendar.google.com"
+  },
+  {
+    "name": "761401",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20030,
+    "specialityName": null,
+    "course": 1,
+    "id": 22232,
+    "calendarId": "vfu878958af0g1tptkqr01659k@group.calendar.google.com"
+  },
+  {
+    "name": "473902",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 4,
+    "id": 21209,
+    "calendarId": "phrj8bul5srfj3hbr1kjgqq2us@group.calendar.google.com"
+  },
+  {
+    "name": "761402",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20030,
+    "specialityName": null,
+    "course": 1,
+    "id": 22233,
+    "calendarId": "3rfuar9iae3nkbrleuhumvtbkc@group.calendar.google.com"
+  },
+  {
+    "name": "473903",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 4,
+    "id": 21210,
+    "calendarId": "7snq35ss7qk9d3lhq8uecjmaco@group.calendar.google.com"
+  },
+  {
+    "name": "762101",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20100,
+    "specialityName": null,
+    "course": 1,
+    "id": 22234,
+    "calendarId": "57o1mf9kkulakerjndlfoavnkc@group.calendar.google.com"
+  },
+  {
+    "name": "413302",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20018,
+    "specialityName": null,
+    "course": 4,
+    "id": 21211,
+    "calendarId": "95gld1vfbqbl4j8ku09mvhvkek@group.calendar.google.com"
+  },
+  {
+    "name": "763101",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20101,
+    "specialityName": null,
+    "course": 1,
+    "id": 22235,
+    "calendarId": "f2354tjqejomcrlnu1nrsvl7l4@group.calendar.google.com"
+  },
+  {
+    "name": "763102",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20101,
+    "specialityName": null,
+    "course": 1,
+    "id": 22236,
+    "calendarId": "bj4munu3bchn7be7ckcl69q4qs@group.calendar.google.com"
+  },
+  {
+    "name": "474002",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 4,
+    "id": 21213,
+    "calendarId": "fku536ffhs3leo2laotu5cp73o@group.calendar.google.com"
+  },
+  {
+    "name": "760801",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20103,
+    "specialityName": null,
+    "course": 1,
+    "id": 22237,
+    "calendarId": "9kmu9k9q5lb5fllitog5nj0d70@group.calendar.google.com"
+  },
+  {
+    "name": "474003",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 4,
+    "id": 21214,
+    "calendarId": "g9i6cmgmpigltlgbgvkn87m9b0@group.calendar.google.com"
+  },
+  {
+    "name": "760802",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20103,
+    "specialityName": null,
+    "course": 1,
+    "id": 22238,
+    "calendarId": "bkn4g29m4ip0la4j8mhn9en1cc@group.calendar.google.com"
+  },
+  {
+    "name": "472302",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 4,
+    "id": 21215,
+    "calendarId": "rvoiknienmt4n0a1kkn2cqlmq4@group.calendar.google.com"
+  },
+  {
+    "name": "472303",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 4,
+    "id": 21216,
+    "calendarId": "6ekockutsmel55nlo3fiibjnjg@group.calendar.google.com"
+  },
+  {
+    "name": "473602",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20070,
+    "specialityName": null,
+    "course": 4,
+    "id": 21218,
+    "calendarId": "dul6qnk9rmb58pvul67dv6i4p8@group.calendar.google.com"
+  },
+  {
+    "name": "7M0101",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20148,
+    "specialityName": null,
+    "course": 1,
+    "id": 22246,
+    "calendarId": "l6m372amib19656lbpoomgsud4@group.calendar.google.com"
+  },
+  {
+    "name": "7M0121",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20149,
+    "specialityName": null,
+    "course": 1,
+    "id": 22247,
+    "calendarId": "oc1jg1i2kbnbnt6o18vdc4m1bo@group.calendar.google.com"
+  },
+  {
+    "name": "413802",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20082,
+    "specialityName": null,
+    "course": 4,
+    "id": 21224,
+    "calendarId": "92botvrad367jpn7iqs1tqpkks@group.calendar.google.com"
+  },
+  {
+    "name": "7M0122",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20149,
+    "specialityName": null,
+    "course": 1,
+    "id": 22248,
+    "calendarId": "m0ianvqt1n96gullg63v6lsr0o@group.calendar.google.com"
+  },
+  {
+    "name": "7M0123",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20149,
+    "specialityName": null,
+    "course": 1,
+    "id": 22249,
+    "calendarId": "jg2f41ds6v19ahlu0ul4tre33s@group.calendar.google.com"
+  },
+  {
+    "name": "7M0111",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20148,
+    "specialityName": null,
+    "course": 1,
+    "id": 22250,
+    "calendarId": "7jmni7opltpd92rp3jgl6l0egk@group.calendar.google.com"
+  },
+  {
+    "name": "7M0131",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20149,
+    "specialityName": null,
+    "course": 1,
+    "id": 22251,
+    "calendarId": "kp6d0dmpd68kghfo19ha515vuc@group.calendar.google.com"
+  },
+  {
+    "name": "7M0132",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20149,
+    "specialityName": null,
+    "course": 1,
+    "id": 22252,
+    "calendarId": "hbtp7kibreipueb5qbr7if2a3g@group.calendar.google.com"
+  },
+  {
+    "name": "7M0201",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20150,
+    "specialityName": null,
+    "course": 1,
+    "id": 22253,
+    "calendarId": "i3u1ebpifd8l5muvsnqb9g7us4@group.calendar.google.com"
+  },
+  {
+    "name": "7M0221",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20151,
+    "specialityName": null,
+    "course": 1,
+    "id": 22255,
+    "calendarId": "vemiifnvl13uh8j9j57dsksr64@group.calendar.google.com"
+  },
+  {
+    "name": "7M0321",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20152,
+    "specialityName": null,
+    "course": 1,
+    "id": 22259,
+    "calendarId": "ioeon20ji1a9es2nab9o3jat3s@group.calendar.google.com"
+  },
+  {
+    "name": "453502",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 4,
+    "id": 21236,
+    "calendarId": "cjf7a80dgefd8a3rdkigtq1mgc@group.calendar.google.com"
+  },
+  {
+    "name": "7M0322",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20152,
+    "specialityName": null,
+    "course": 1,
+    "id": 22260,
+    "calendarId": "n9fvlk9v1h39mc8eo1i8jmpnj4@group.calendar.google.com"
+  },
+  {
+    "name": "453503",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 4,
+    "id": 21237,
+    "calendarId": "plhir86ceoahota55d7aav79h4@group.calendar.google.com"
+  },
+  {
+    "name": "453504",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 4,
+    "id": 21238,
+    "calendarId": "2gpv5i9sb22ph82l8ak631qvg4@group.calendar.google.com"
+  },
+  {
+    "name": "453505",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 4,
+    "id": 21239,
+    "calendarId": "p3esmmtrm9sfgg4j93krnib030@group.calendar.google.com"
+  },
+  {
+    "name": "7M0401",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20222,
+    "specialityName": null,
+    "course": 1,
+    "id": 22263,
+    "calendarId": "bhd8vldgssq7lv4rfh2qnokld8@group.calendar.google.com"
+  },
+  {
+    "name": "420611",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20136,
+    "specialityName": null,
+    "course": 4,
+    "id": 21243,
+    "calendarId": "52bc3q2a7fnuu3s7pm0k758p08@group.calendar.google.com"
+  },
+  {
+    "name": "463011",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20131,
+    "specialityName": null,
+    "course": 4,
+    "id": 21244,
+    "calendarId": "jpahja9madrnm08e9ihqlgurac@group.calendar.google.com"
+  },
+  {
+    "name": "414301",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20138,
+    "specialityName": null,
+    "course": 4,
+    "id": 21246,
+    "calendarId": "d3gmg9jkap643ue95rsg4kr41g@group.calendar.google.com"
+  },
+  {
+    "name": "411101",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20140,
+    "specialityName": null,
+    "course": 4,
+    "id": 21248,
+    "calendarId": "8gra83435v6qfu6br512sfjbfg@group.calendar.google.com"
+  },
+  {
+    "name": "7M0701",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20154,
+    "specialityName": null,
+    "course": 1,
+    "id": 22272,
+    "calendarId": "mnpsrvtm3ofvsjhprca15jdb48@group.calendar.google.com"
+  },
+  {
+    "name": "7M0721",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20155,
+    "specialityName": null,
+    "course": 1,
+    "id": 22273,
+    "calendarId": "kccjhh3jqf95dstq6hs4rnoeas@group.calendar.google.com"
+  },
+  {
+    "name": "7M0711",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20154,
+    "specialityName": null,
+    "course": 1,
+    "id": 22275,
+    "calendarId": "e1uqp6sjs1n6ke8jkgj70r422c@group.calendar.google.com"
+  },
+  {
+    "name": "414302",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20138,
+    "specialityName": null,
+    "course": 4,
+    "id": 21252,
+    "calendarId": "4lqscoksten069svr745eth250@group.calendar.google.com"
+  },
+  {
+    "name": "7M0921",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20157,
+    "specialityName": null,
+    "course": 1,
+    "id": 22279,
+    "calendarId": "ov5l9o0j3r3to5ipl54jp6mk90@group.calendar.google.com"
+  },
+  {
+    "name": "450701",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20147,
+    "specialityName": null,
+    "course": 4,
+    "id": 21257,
+    "calendarId": "psjke4nfvdbfhri9id6p2kgsc0@group.calendar.google.com"
+  },
+  {
+    "name": "7M1101",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20158,
+    "specialityName": null,
+    "course": 1,
+    "id": 22284,
+    "calendarId": "4nb3id6eqivn8uupt67p91jjmc@group.calendar.google.com"
+  },
+  {
+    "name": "7M1121",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20159,
+    "specialityName": null,
+    "course": 1,
+    "id": 22285,
+    "calendarId": "8mq3ipkjtebk71k89oo5ehs51s@group.calendar.google.com"
+  },
+  {
+    "name": "7M1201",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20160,
+    "specialityName": null,
+    "course": 1,
+    "id": 22288,
+    "calendarId": "0d7qk252jhjfkn2lov4kvj1050@group.calendar.google.com"
+  },
+  {
+    "name": "7M1501",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20163,
+    "specialityName": null,
+    "course": 1,
+    "id": 22296,
+    "calendarId": "goldr9aqctjj3ujj8vpo5qq860@group.calendar.google.com"
+  },
+  {
+    "name": "7M1521",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20164,
+    "specialityName": null,
+    "course": 1,
+    "id": 22297,
+    "calendarId": "jkajhutq7hiqpjrluif5tjl4f4@group.calendar.google.com"
+  },
+  {
+    "name": "7M1511",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20163,
+    "specialityName": null,
+    "course": 1,
+    "id": 22299,
+    "calendarId": "suuvcq927hed18ntsmbc101aps@group.calendar.google.com"
+  },
+  {
+    "name": "7M1601",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20165,
+    "specialityName": null,
+    "course": 1,
+    "id": 22300,
+    "calendarId": "vcgebioq448fogcn0sv4ldq87k@group.calendar.google.com"
+  },
+  {
+    "name": "7M1621",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20166,
+    "specialityName": null,
+    "course": 1,
+    "id": 22301,
+    "calendarId": "tqehutu1p149o01f76atinrrc8@group.calendar.google.com"
+  },
+  {
+    "name": "7M1611",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20165,
+    "specialityName": null,
+    "course": 1,
+    "id": 22302,
+    "calendarId": "5ssfv3461p2co0v165sonca2ro@group.calendar.google.com"
+  },
+  {
+    "name": "7M1701",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20167,
+    "specialityName": null,
+    "course": 1,
+    "id": 22303,
+    "calendarId": "f0o525cd02njbneupr70rnf5m0@group.calendar.google.com"
+  },
+  {
+    "name": "7M1711",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20167,
+    "specialityName": null,
+    "course": 1,
+    "id": 22305,
+    "calendarId": "39sh6ejnu9q3lc9lrakrei2fs4@group.calendar.google.com"
+  },
+  {
+    "name": "7M1801",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20169,
+    "specialityName": null,
+    "course": 1,
+    "id": 22306,
+    "calendarId": "rip67rfj97ees4b58unknq3u0o@group.calendar.google.com"
+  },
+  {
+    "name": "7M1821",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20228,
+    "specialityName": null,
+    "course": 1,
+    "id": 22307,
+    "calendarId": "2291skiblpptnadh6bhkdiitng@group.calendar.google.com"
+  },
+  {
+    "name": "7M1921",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20170,
+    "specialityName": null,
+    "course": 1,
+    "id": 22308,
+    "calendarId": "mjaah8c0f5uqn9emvq8iudhe3k@group.calendar.google.com"
+  },
+  {
+    "name": "7M1901",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20220,
+    "specialityName": null,
+    "course": 1,
+    "id": 22309,
+    "calendarId": "sbfbko1nsg250sfm7q3cdavtf8@group.calendar.google.com"
+  },
+  {
+    "name": "7M1911",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20220,
+    "specialityName": null,
+    "course": 1,
+    "id": 22310,
+    "calendarId": "rsm36ucs9bjm8b7n7kpc5j1ol0@group.calendar.google.com"
+  },
+  {
+    "name": "4М2601",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20178,
+    "specialityName": null,
+    "course": 1,
+    "id": 21287,
+    "calendarId": "ph9i2m8h97jnm9genjegjbkn04@group.calendar.google.com"
+  },
+  {
+    "name": "7M2201",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20174,
+    "specialityName": null,
+    "course": 1,
+    "id": 22316,
+    "calendarId": "jbb6hm2npan70bofdivkggjlis@group.calendar.google.com"
+  },
+  {
+    "name": "7M2221",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20175,
+    "specialityName": null,
+    "course": 1,
+    "id": 22317,
+    "calendarId": "r562laou8vinj1f6t0eb09ng20@group.calendar.google.com"
+  },
+  {
+    "name": "7M2321",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20176,
+    "specialityName": null,
+    "course": 1,
+    "id": 22319,
+    "calendarId": "qbs89qieu66k0qt61qnhs95q6s@group.calendar.google.com"
+  },
+  {
+    "name": "7M2401",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20287,
+    "specialityName": null,
+    "course": 1,
+    "id": 22324,
+    "calendarId": "3b2v6oh02c1v46pr5dq96ss81c@group.calendar.google.com"
+  },
+  {
+    "name": "7M2421",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20292,
+    "specialityName": null,
+    "course": 1,
+    "id": 22325,
+    "calendarId": "mhit7dj8hd67k5tba5m695a6rc@group.calendar.google.com"
+  },
+  {
+    "name": "7M2211",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20174,
+    "specialityName": null,
+    "course": 1,
+    "id": 22327,
+    "calendarId": "8j2cvrkbq656mpbnereqs9t8o4@group.calendar.google.com"
+  },
+  {
+    "name": "7M2231",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20175,
+    "specialityName": null,
+    "course": 1,
+    "id": 22328,
+    "calendarId": "il1bdretegecs96lujbjga6k2s@group.calendar.google.com"
+  },
+  {
+    "name": "7M2331",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20176,
+    "specialityName": null,
+    "course": 1,
+    "id": 22330,
+    "calendarId": "a0fpruid77i935qufttr964am0@group.calendar.google.com"
+  },
+  {
+    "name": "7M2701",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20178,
+    "specialityName": null,
+    "course": 1,
+    "id": 22331,
+    "calendarId": "fti620bqek15s71gobh4ft7cc4@group.calendar.google.com"
+  },
+  {
+    "name": "7M2721",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20179,
+    "specialityName": null,
+    "course": 1,
+    "id": 22332,
+    "calendarId": "uvhvfg8i84ppqdsfgl6a3q0880@group.calendar.google.com"
+  },
+  {
+    "name": "7M2801",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20180,
+    "specialityName": null,
+    "course": 1,
+    "id": 22333,
+    "calendarId": "f7ue7l5v4j6e4lhlqf1divbk6s@group.calendar.google.com"
+  },
+  {
+    "name": "7M3221",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20186,
+    "specialityName": null,
+    "course": 1,
+    "id": 22339,
+    "calendarId": "pm3prddjgflslb3i406hnkp7c8@group.calendar.google.com"
+  },
+  {
+    "name": "7M3101",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20187,
+    "specialityName": null,
+    "course": 1,
+    "id": 22340,
+    "calendarId": "102pmf2bp03ej52617na4cmli0@group.calendar.google.com"
+  },
+  {
+    "name": "7M3121",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20188,
+    "specialityName": null,
+    "course": 1,
+    "id": 22341,
+    "calendarId": "gm7ip757ba2m7req2uab2lqn6k@group.calendar.google.com"
+  },
+  {
+    "name": "7M2511",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20213,
+    "specialityName": null,
+    "course": 1,
+    "id": 22342,
+    "calendarId": "7dfpqq42usfna0hjmh5kuql4hg@group.calendar.google.com"
+  },
+  {
+    "name": "7M3201",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20215,
+    "specialityName": null,
+    "course": 1,
+    "id": 22343,
+    "calendarId": "ebphagnveeurqc8tgra931s1f8@group.calendar.google.com"
+  },
+  {
+    "name": "7M2601",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20288,
+    "specialityName": null,
+    "course": 1,
+    "id": 22344,
+    "calendarId": "vlll8l1de3c9hqnjearcmuj018@group.calendar.google.com"
+  },
+  {
+    "name": "7M2621",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20291,
+    "specialityName": null,
+    "course": 1,
+    "id": 22345,
+    "calendarId": "k7oinh1dsk0rvtmug37biu2j2k@group.calendar.google.com"
+  },
+  {
+    "name": "7M2411",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20287,
+    "specialityName": null,
+    "course": 1,
+    "id": 22346,
+    "calendarId": "m0a29241265dmbcb0ntjde2ts4@group.calendar.google.com"
+  },
+  {
+    "name": "7M2711",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20178,
+    "specialityName": null,
+    "course": 1,
+    "id": 22348,
+    "calendarId": "pv2ltj39m9cq7i52vn3kdp9fso@group.calendar.google.com"
+  },
+  {
+    "name": "7M2911",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20182,
+    "specialityName": null,
+    "course": 1,
+    "id": 22350,
+    "calendarId": "g6e9siido1uef6r0gaphvv6ctg@group.calendar.google.com"
+  },
+  {
+    "name": "7M3011",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20184,
+    "specialityName": null,
+    "course": 1,
+    "id": 22351,
+    "calendarId": "uefg0fvscf5oeaqpkbce5ouauc@group.calendar.google.com"
+  },
+  {
+    "name": "7M3211",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20215,
+    "specialityName": null,
+    "course": 1,
+    "id": 22352,
+    "calendarId": "l85q32togveup4is8bt2n5mg70@group.calendar.google.com"
+  },
+  {
+    "name": "7M3501",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20191,
+    "specialityName": null,
+    "course": 1,
+    "id": 22356,
+    "calendarId": "c580k4g38553js04ip06n8sme0@group.calendar.google.com"
+  },
+  {
+    "name": "7M3502",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20191,
+    "specialityName": null,
+    "course": 1,
+    "id": 22357,
+    "calendarId": "34u23em3a0vf457n8par7f4sfc@group.calendar.google.com"
+  },
+  {
+    "name": "7M3521",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20192,
+    "specialityName": null,
+    "course": 1,
+    "id": 22358,
+    "calendarId": "ibtkl0g30u848hhgfjafi854cc@group.calendar.google.com"
+  },
+  {
+    "name": "7M3701",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20194,
+    "specialityName": null,
+    "course": 1,
+    "id": 22361,
+    "calendarId": "91m0s6l7hr7gfe9rsr1vl490ac@group.calendar.google.com"
+  },
+  {
+    "name": "520601",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 3,
+    "id": 21343,
+    "calendarId": "ie7uacba89mck4n2k6uh3oq19k@group.calendar.google.com"
+  },
+  {
+    "name": "520602",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 3,
+    "id": 21344,
+    "calendarId": "gtsg9gcriponkduv482siiif3c@group.calendar.google.com"
+  },
+  {
+    "name": "520603",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 3,
+    "id": 21345,
+    "calendarId": "v1u66nrpqt9n077qi3rp6qo5j0@group.calendar.google.com"
+  },
+  {
+    "name": "7M2611",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20288,
+    "specialityName": null,
+    "course": 1,
+    "id": 22369,
+    "calendarId": "c142ojvu9g3rlrv1jluetb9v9s@group.calendar.google.com"
+  },
+  {
+    "name": "520604",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20002,
+    "specialityName": null,
+    "course": 3,
+    "id": 21346,
+    "calendarId": "jar3qblukmp8eqv4oqrdlc3t54@group.calendar.google.com"
+  },
+  {
+    "name": "7M2811",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20180,
+    "specialityName": null,
+    "course": 1,
+    "id": 22370,
+    "calendarId": "5v6kd275m4f8ndlr9lq1u2g320@group.calendar.google.com"
+  },
+  {
+    "name": "7M3901",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20353,
+    "specialityName": null,
+    "course": 1,
+    "id": 22371,
+    "calendarId": "cfeart1otcctbvqijfph157v9o@group.calendar.google.com"
+  },
+  {
+    "name": "522401",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 3,
+    "id": 21348,
+    "calendarId": "b4nler0bjk473s5qn1b0qqgq48@group.calendar.google.com"
+  },
+  {
+    "name": "522402",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 3,
+    "id": 21349,
+    "calendarId": "98qa6ngpu64h3j6tcunu3su5fo@group.calendar.google.com"
+  },
+  {
+    "name": "522403",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20003,
+    "specialityName": null,
+    "course": 3,
+    "id": 21350,
+    "calendarId": "kk36orkdsek06sr989l9tt65mc@group.calendar.google.com"
+  },
+  {
+    "name": "7M0133",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20149,
+    "specialityName": null,
+    "course": 1,
+    "id": 22375,
+    "calendarId": "q55m4eotpqtj6ovm99s5qg4h44@group.calendar.google.com"
+  },
+  {
+    "name": "521701",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20004,
+    "specialityName": null,
+    "course": 3,
+    "id": 21352,
+    "calendarId": "h8ea3tc93v62cig0dpc4226di0@group.calendar.google.com"
+  },
+  {
+    "name": "7M0134",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20149,
+    "specialityName": null,
+    "course": 1,
+    "id": 22376,
+    "calendarId": "n1fb4rmdro7bo3ihmj13f3fb8c@group.calendar.google.com"
+  },
+  {
+    "name": "521702",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20004,
+    "specialityName": null,
+    "course": 3,
+    "id": 21353,
+    "calendarId": "fe96fqvjvff5sui8j2vme9c3mo@group.calendar.google.com"
+  },
+  {
+    "name": "521703",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20004,
+    "specialityName": null,
+    "course": 3,
+    "id": 21354,
+    "calendarId": "4fdig6isibhvqlo42if52pqh6k@group.calendar.google.com"
+  },
+  {
+    "name": "521901",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20005,
+    "specialityName": null,
+    "course": 3,
+    "id": 21355,
+    "calendarId": "55fcsf28dkfepkoupt2btd58h4@group.calendar.google.com"
+  },
+  {
+    "name": "7M0731",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20155,
+    "specialityName": null,
+    "course": 1,
+    "id": 22380,
+    "calendarId": "iag9b75heoqkh4kabtp8s7fogc@group.calendar.google.com"
+  },
+  {
+    "name": "572301",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 3,
+    "id": 21357,
+    "calendarId": "km5tor5hv4e0q2jk6rcni6735o@group.calendar.google.com"
+  },
+  {
+    "name": "572302",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 3,
+    "id": 21358,
+    "calendarId": "pilvg8l9o78ng3pmonktefvg2s@group.calendar.google.com"
+  },
+  {
+    "name": "572303",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20007,
+    "specialityName": null,
+    "course": 3,
+    "id": 21359,
+    "calendarId": "5cbm9fqituau351apcej68ci94@group.calendar.google.com"
+  },
+  {
+    "name": "7M1131",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20159,
+    "specialityName": null,
+    "course": 1,
+    "id": 22383,
+    "calendarId": "0i66v7cbviub5btm916i4citl8@group.calendar.google.com"
+  },
+  {
+    "name": "510901",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20010,
+    "specialityName": null,
+    "course": 3,
+    "id": 21361,
+    "calendarId": "ami70e32bgmfkqjdl4o34t0c0c@group.calendar.google.com"
+  },
+  {
+    "name": "510101",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20011,
+    "specialityName": null,
+    "course": 3,
+    "id": 21362,
+    "calendarId": "pjlm5uhuj5rn92ec7io3spsut0@group.calendar.google.com"
+  },
+  {
+    "name": "511801",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20012,
+    "specialityName": null,
+    "course": 3,
+    "id": 21363,
+    "calendarId": "8uc53r5p6f3d3h7l6hdlc3h1hs@group.calendar.google.com"
+  },
+  {
+    "name": "7M1531",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20164,
+    "specialityName": null,
+    "course": 1,
+    "id": 22387,
+    "calendarId": "90b2uh3g86l437neijmiq14ejc@group.calendar.google.com"
+  },
+  {
+    "name": "512601",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20013,
+    "specialityName": null,
+    "course": 3,
+    "id": 21364,
+    "calendarId": "dk5ntu5f6e5m1eueh4ufhau7k0@group.calendar.google.com"
+  },
+  {
+    "name": "7M1731",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20168,
+    "specialityName": null,
+    "course": 1,
+    "id": 22388,
+    "calendarId": "7s874hlqjmk1nvv5toriig2peo@group.calendar.google.com"
+  },
+  {
+    "name": "550501",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 3,
+    "id": 21365,
+    "calendarId": "7o2g13pl6seml7gsut5enf7ct8@group.calendar.google.com"
+  },
+  {
+    "name": "7M1631",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20166,
+    "specialityName": null,
+    "course": 1,
+    "id": 22389,
+    "calendarId": "p0kb0s7tl7mi80up3qf1cevv18@group.calendar.google.com"
+  },
+  {
+    "name": "550502",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 3,
+    "id": 21366,
+    "calendarId": "i6teqtgc4vunhp1q8at6du26qg@group.calendar.google.com"
+  },
+  {
+    "name": "7M1811",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20169,
+    "specialityName": null,
+    "course": 1,
+    "id": 22390,
+    "calendarId": "q2kks7gtl6nq813287kupvd58g@group.calendar.google.com"
+  },
+  {
+    "name": "550503",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 3,
+    "id": 21367,
+    "calendarId": "oqql3o432v863uk324vlr2p514@group.calendar.google.com"
+  },
+  {
+    "name": "7M1831",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20228,
+    "specialityName": null,
+    "course": 1,
+    "id": 22391,
+    "calendarId": "phqol49k4eu3k4lijc376a5sj4@group.calendar.google.com"
+  },
+  {
+    "name": "550504",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 3,
+    "id": 21368,
+    "calendarId": "el4ss20n3tddjmn5tibgdj276g@group.calendar.google.com"
+  },
+  {
+    "name": "7M1931",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20170,
+    "specialityName": null,
+    "course": 1,
+    "id": 22392,
+    "calendarId": "guogsf5sfq2i0gi48mraaho44g@group.calendar.google.com"
+  },
+  {
+    "name": "550505",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 3,
+    "id": 21369,
+    "calendarId": "dgc87rpsnpguamvon3m6mefeuo@group.calendar.google.com"
+  },
+  {
+    "name": "7M1932",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20170,
+    "specialityName": null,
+    "course": 1,
+    "id": 22393,
+    "calendarId": "rcbfr2lo2v5j495oej5ej1dpjk@group.calendar.google.com"
+  },
+  {
+    "name": "553501",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 3,
+    "id": 21371,
+    "calendarId": "695ttaeg7jsl1ft1dfmbtsn7ng@group.calendar.google.com"
+  },
+  {
+    "name": "7M2131",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20173,
+    "specialityName": null,
+    "course": 1,
+    "id": 22395,
+    "calendarId": "ls41fm56mjc017sfaa966pru68@group.calendar.google.com"
+  },
+  {
+    "name": "553502",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 3,
+    "id": 21372,
+    "calendarId": "b7v6ck2hhjmus2jcimvhsuonf4@group.calendar.google.com"
+  },
+  {
+    "name": "7M2232",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20175,
+    "specialityName": null,
+    "course": 1,
+    "id": 22396,
+    "calendarId": "oerlf6ngfm6irrrkcol951qd8k@group.calendar.google.com"
+  },
+  {
+    "name": "553503",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 3,
+    "id": 21373,
+    "calendarId": "saa6ccs7te2u0f2rre8phri6ek@group.calendar.google.com"
+  },
+  {
+    "name": "7M2332",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20176,
+    "specialityName": null,
+    "course": 1,
+    "id": 22397,
+    "calendarId": "7iqoole2o9s0clgcb7mtvtbaag@group.calendar.google.com"
+  },
+  {
+    "name": "553504",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 3,
+    "id": 21374,
+    "calendarId": "h1pd77eir6lutgrcal8u60h1c4@group.calendar.google.com"
+  },
+  {
+    "name": "7M2431",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20292,
+    "specialityName": null,
+    "course": 1,
+    "id": 22398,
+    "calendarId": "ectf1bhd2th7on4iueipi36nbo@group.calendar.google.com"
+  },
+  {
+    "name": "553505",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20021,
+    "specialityName": null,
+    "course": 3,
+    "id": 21375,
+    "calendarId": "7e8rbm5sb9g4mv6qssb92k8h1k@group.calendar.google.com"
+  },
+  {
+    "name": "7M2432",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20292,
+    "specialityName": null,
+    "course": 1,
+    "id": 22399,
+    "calendarId": "9s0gk60vn8m7r4ko2tlgrjki08@group.calendar.google.com"
+  },
+  {
+    "name": "551001",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 3,
+    "id": 21376,
+    "calendarId": "78mtfovt21nimcl664vaan5mf4@group.calendar.google.com"
+  },
+  {
+    "name": "7M2531",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20196,
+    "specialityName": null,
+    "course": 1,
+    "id": 22400,
+    "calendarId": "tvp3lbpce4041h126v8ku8lid4@group.calendar.google.com"
+  },
+  {
+    "name": "551002",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 3,
+    "id": 21377,
+    "calendarId": "uiokt41lm4k30goubcpbg04ekg@group.calendar.google.com"
+  },
+  {
+    "name": "7M2631",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20291,
+    "specialityName": null,
+    "course": 1,
+    "id": 22401,
+    "calendarId": "4ng2v8352frfd9k6034f4qrh9g@group.calendar.google.com"
+  },
+  {
+    "name": "551003",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 3,
+    "id": 21378,
+    "calendarId": "i6jslil3omofptm20am81laem0@group.calendar.google.com"
+  },
+  {
+    "name": "7M2632",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20291,
+    "specialityName": null,
+    "course": 1,
+    "id": 22402,
+    "calendarId": "4b4s35cfn8l41t1qkucg9k3eig@group.calendar.google.com"
+  },
+  {
+    "name": "551004",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 3,
+    "id": 21379,
+    "calendarId": "rjfk7d7b8iduv7pq2ku85kqnio@group.calendar.google.com"
+  },
+  {
+    "name": "7M2731",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20179,
+    "specialityName": null,
+    "course": 1,
+    "id": 22403,
+    "calendarId": "00be1h020nu19boko760lvt1mk@group.calendar.google.com"
+  },
+  {
+    "name": "551005",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 3,
+    "id": 21380,
+    "calendarId": "flfo37u608t4tc1cvtgrhqmb2g@group.calendar.google.com"
+  },
+  {
+    "name": "551006",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20022,
+    "specialityName": null,
+    "course": 3,
+    "id": 21381,
+    "calendarId": "7squkahjeta6o3clu72oggh83o@group.calendar.google.com"
+  },
+  {
+    "name": "540301",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20024,
+    "specialityName": null,
+    "course": 3,
+    "id": 21383,
+    "calendarId": "spnd7sptl9eqongpte5oii0lp8@group.calendar.google.com"
+  },
+  {
+    "name": "542801",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20026,
+    "specialityName": null,
+    "course": 3,
+    "id": 21385,
+    "calendarId": "5a0ga21eems3rgpk9d8stosn38@group.calendar.google.com"
+  },
+  {
+    "name": "541301",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20028,
+    "specialityName": null,
+    "course": 3,
+    "id": 21386,
+    "calendarId": "tcc7kll3qpdi7tda0lgsaja3b4@group.calendar.google.com"
+  },
+  {
+    "name": "541201",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20029,
+    "specialityName": null,
+    "course": 3,
+    "id": 21387,
+    "calendarId": "fl8qbnnaj4g98955bmb17pquro@group.calendar.google.com"
+  },
+  {
+    "name": "7M3511",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20191,
+    "specialityName": null,
+    "course": 1,
+    "id": 22411,
+    "calendarId": "rnutvkukek2ni5ruk7ap3ck59k@group.calendar.google.com"
+  },
+  {
+    "name": "561401",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20030,
+    "specialityName": null,
+    "course": 3,
+    "id": 21388,
+    "calendarId": "0qv8bmonkv7566fmrdgnt64h3k@group.calendar.google.com"
+  },
+  {
+    "name": "7M3512",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20191,
+    "specialityName": null,
+    "course": 1,
+    "id": 22412,
+    "calendarId": "ouh75qa6ri9iogduh8btd0gnf4@group.calendar.google.com"
+  },
+  {
+    "name": "7M3231",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20186,
+    "specialityName": null,
+    "course": 1,
+    "id": 22413,
+    "calendarId": "she6j80leog3mkfronhnouftkg@group.calendar.google.com"
+  },
+  {
+    "name": "7M3531",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20192,
+    "specialityName": null,
+    "course": 1,
+    "id": 22414,
+    "calendarId": "i35bo9igrv1h4osts6p27ovuq8@group.calendar.google.com"
+  },
+  {
+    "name": "7M4011",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20355,
+    "specialityName": null,
+    "course": 1,
+    "id": 22415,
+    "calendarId": "b6iqno518pvtbp4qmp95svveao@group.calendar.google.com"
+  },
+  {
+    "name": "7M4031",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20356,
+    "specialityName": null,
+    "course": 1,
+    "id": 22416,
+    "calendarId": "nbc47cci37mo6av1itutg8i4dc@group.calendar.google.com"
+  },
+  {
+    "name": "573601",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20070,
+    "specialityName": null,
+    "course": 3,
+    "id": 21393,
+    "calendarId": "ff0hk1sl9r9u2ncr0sbhm85np4@group.calendar.google.com"
+  },
+  {
+    "name": "573602",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20070,
+    "specialityName": null,
+    "course": 3,
+    "id": 21394,
+    "calendarId": "fouq19a9r88f4gago6db1jkrmk@group.calendar.google.com"
+  },
+  {
+    "name": "573901",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 3,
+    "id": 21395,
+    "calendarId": "rfev6iem1cqgigp8975airefh8@group.calendar.google.com"
+  },
+  {
+    "name": "573902",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 3,
+    "id": 21396,
+    "calendarId": "ato1q4nqfhekrla2lvrm5as57c@group.calendar.google.com"
+  },
+  {
+    "name": "573903",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20071,
+    "specialityName": null,
+    "course": 3,
+    "id": 21397,
+    "calendarId": "2o8dp7hi8a19jpge65r9sdcdl8@group.calendar.google.com"
+  },
+  {
+    "name": "7M3711",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20194,
+    "specialityName": null,
+    "course": 1,
+    "id": 22421,
+    "calendarId": "dknbutmh2da15o53de73rsh8h4@group.calendar.google.com"
+  },
+  {
+    "name": "574001",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 3,
+    "id": 21399,
+    "calendarId": "nfum4dqn9g9cskr1d58v5hkt94@group.calendar.google.com"
+  },
+  {
+    "name": "574002",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 3,
+    "id": 21400,
+    "calendarId": "putbs4gnjvig3j26ls2a5dqpfg@group.calendar.google.com"
+  },
+  {
+    "name": "574003",
+    "facultyId": 20012,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20072,
+    "specialityName": null,
+    "course": 3,
+    "id": 21401,
+    "calendarId": "h8s9bglg7o93ql7vjg02hsuda8@group.calendar.google.com"
+  },
+  {
+    "name": "7M1632",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20166,
+    "specialityName": null,
+    "course": 1,
+    "id": 22425,
+    "calendarId": "e2cm507917lhr3d900mrc5tjjg@group.calendar.google.com"
+  },
+  {
+    "name": "513801",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20082,
+    "specialityName": null,
+    "course": 3,
+    "id": 21402,
+    "calendarId": "q2brmpt4huuaouk5sb96atmmbc@group.calendar.google.com"
+  },
+  {
+    "name": "513802",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20082,
+    "specialityName": null,
+    "course": 3,
+    "id": 21403,
+    "calendarId": "a5ga4o1ea68m7j5pcjvbqdodqs@group.calendar.google.com"
+  },
+  {
+    "name": "711101",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20140,
+    "specialityName": null,
+    "course": 1,
+    "id": 22427,
+    "calendarId": "rltresmrsi4otdh93m84lsjqi8@group.calendar.google.com"
+  },
+  {
+    "name": "540401",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20094,
+    "specialityName": null,
+    "course": 3,
+    "id": 21404,
+    "calendarId": "4p8cf3omrokmc40m2fme86hab0@group.calendar.google.com"
+  },
+  {
+    "name": "710902",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20010,
+    "specialityName": null,
+    "course": 1,
+    "id": 22428,
+    "calendarId": "jtllec2o2a5lblbkdi2l9pq78k@group.calendar.google.com"
+  },
+  {
+    "name": "544101",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20095,
+    "specialityName": null,
+    "course": 3,
+    "id": 21405,
+    "calendarId": "g93bf3haj23ulkkn39ta0uvo58@group.calendar.google.com"
+  },
+  {
+    "name": "710101",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20011,
+    "specialityName": null,
+    "course": 1,
+    "id": 22429,
+    "calendarId": "lvscog1nn7mhbqan1tr2ieo5a4@group.calendar.google.com"
+  },
+  {
+    "name": "541501",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20096,
+    "specialityName": null,
+    "course": 3,
+    "id": 21406,
+    "calendarId": "4l2rco1abo4ghmmpcu589ib3ag@group.calendar.google.com"
+  },
+  {
+    "name": "711802",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20012,
+    "specialityName": null,
+    "course": 1,
+    "id": 22430,
+    "calendarId": "l1ud33rdrrs69d16ooillm82ak@group.calendar.google.com"
+  },
+  {
+    "name": "712601",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20013,
+    "specialityName": null,
+    "course": 1,
+    "id": 22431,
+    "calendarId": "31ls524srik7endp4tud3jf5n4@group.calendar.google.com"
+  },
+  {
+    "name": "562101",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20100,
+    "specialityName": null,
+    "course": 3,
+    "id": 21408,
+    "calendarId": "uov7d9cfaejc51nb64cf9evvac@group.calendar.google.com"
+  },
+  {
+    "name": "710202",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20139,
+    "specialityName": null,
+    "course": 1,
+    "id": 22432,
+    "calendarId": "pholfq7ns864m9q2r7l4deqnu8@group.calendar.google.com"
+  },
+  {
+    "name": "563101",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20101,
+    "specialityName": null,
+    "course": 3,
+    "id": 21409,
+    "calendarId": "degckoneu6qlp6gh60qnuiquu0@group.calendar.google.com"
+  },
+  {
+    "name": "713301",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20018,
+    "specialityName": null,
+    "course": 1,
+    "id": 22433,
+    "calendarId": "dbgll5594cjbg3o11lmo8132fs@group.calendar.google.com"
+  },
+  {
+    "name": "562901",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20102,
+    "specialityName": null,
+    "course": 3,
+    "id": 21410,
+    "calendarId": "g5gju2bbhdih0unooh1lot8t7g@group.calendar.google.com"
+  },
+  {
+    "name": "740301",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20024,
+    "specialityName": null,
+    "course": 1,
+    "id": 22434,
+    "calendarId": "uertd00ctcj6hfr4rusl9c7oas@group.calendar.google.com"
+  },
+  {
+    "name": "560801",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20103,
+    "specialityName": null,
+    "course": 3,
+    "id": 21411,
+    "calendarId": "or83q3bk2s09tq4h4a0d15psc0@group.calendar.google.com"
+  },
+  {
+    "name": "743201",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20025,
+    "specialityName": null,
+    "course": 1,
+    "id": 22435,
+    "calendarId": "j0nhlg5fj40v5pdrrffvhqdrk0@group.calendar.google.com"
+  },
+  {
+    "name": "563001",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20104,
+    "specialityName": null,
+    "course": 3,
+    "id": 21412,
+    "calendarId": "pokrdrvnrt9q96j629iuoqad7k@group.calendar.google.com"
+  },
+  {
+    "name": "741301",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20028,
+    "specialityName": null,
+    "course": 1,
+    "id": 22436,
+    "calendarId": "bqkptqv6j8g38vfsj8g9gqatoo@group.calendar.google.com"
+  },
+  {
+    "name": "740401",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20094,
+    "specialityName": null,
+    "course": 1,
+    "id": 22437,
+    "calendarId": "791t8a5g1qdqbfbp42o6ge1qn8@group.calendar.google.com"
+  },
+  {
+    "name": "744101",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20095,
+    "specialityName": null,
+    "course": 1,
+    "id": 22438,
+    "calendarId": "c7imh6vs6ac0cmlgd5sb9nscmo@group.calendar.google.com"
+  },
+  {
+    "name": "744691",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20244,
+    "specialityName": null,
+    "course": 1,
+    "id": 22439,
+    "calendarId": "tck1ttvvd7a3ca7arog7h9i9mk@group.calendar.google.com"
+  },
+  {
+    "name": "533701",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20129,
+    "specialityName": null,
+    "course": 3,
+    "id": 21416,
+    "calendarId": "2uha9r7i5u8st5oboqlk8500n0@group.calendar.google.com"
+  },
+  {
+    "name": "533702",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20129,
+    "specialityName": null,
+    "course": null,
+    "id": 21417,
+    "calendarId": null
+  },
+  {
+    "name": "780561",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20197,
+    "specialityName": null,
+    "course": 1,
+    "id": 22441,
+    "calendarId": "4a4uvc87omsq41u6blmf4jog48@group.calendar.google.com"
+  },
+  {
+    "name": "534201",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20130,
+    "specialityName": null,
+    "course": 3,
+    "id": 21418,
+    "calendarId": "2r9u14s22t5b9jk76atr6055fc@group.calendar.google.com"
+  },
+  {
+    "name": "563011",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20131,
+    "specialityName": null,
+    "course": 3,
+    "id": 21419,
+    "calendarId": "qlc44ao0k1onvks7noo9qh6d78@group.calendar.google.com"
+  },
+  {
+    "name": "780961",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20198,
+    "specialityName": null,
+    "course": 1,
+    "id": 22443,
+    "calendarId": "eou57obq7pe133n0gl2k6o8eig@group.calendar.google.com"
+  },
+  {
+    "name": "782461",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20199,
+    "specialityName": null,
+    "course": 1,
+    "id": 22444,
+    "calendarId": "bp8d47a731ksismahmo60q47ks@group.calendar.google.com"
+  },
+  {
+    "name": "514301",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20138,
+    "specialityName": null,
+    "course": 3,
+    "id": 21421,
+    "calendarId": "670jgmbc7vr3csu6sm5r38k1fs@group.calendar.google.com"
+  },
+  {
+    "name": "781061",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 1,
+    "id": 22445,
+    "calendarId": "n6lt742s92irnerjjrg8rgdbho@group.calendar.google.com"
+  },
+  {
+    "name": "514302",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20138,
+    "specialityName": null,
+    "course": 3,
+    "id": 21422,
+    "calendarId": "vvq01q6hm2aocgbrejsea666ho@group.calendar.google.com"
+  },
+  {
+    "name": "781062",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 1,
+    "id": 22446,
+    "calendarId": "28c8p1ot7lctaol8jotc9h8g7k@group.calendar.google.com"
+  },
+  {
+    "name": "781063",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 1,
+    "id": 22447,
+    "calendarId": "cq52cnrkp9n8s8udlei1crvuuo@group.calendar.google.com"
+  },
+  {
+    "name": "511101",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20140,
+    "specialityName": null,
+    "course": 3,
+    "id": 21424,
+    "calendarId": "bjvt8f7pt0brfaq0ipe6u445bk@group.calendar.google.com"
+  },
+  {
+    "name": "781064",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 1,
+    "id": 22448,
+    "calendarId": "5j93i9ikqfk2qmjcgp72uja9ug@group.calendar.google.com"
+  },
+  {
+    "name": "550701",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20147,
+    "specialityName": null,
+    "course": 3,
+    "id": 21426,
+    "calendarId": "9o4glcgdh5s6s8q4ja20cm3b5c@group.calendar.google.com"
+  },
+  {
+    "name": "743202",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20025,
+    "specialityName": null,
+    "course": 1,
+    "id": 22450,
+    "calendarId": "in3vl1ao97jscsp5c74gp6f13c@group.calendar.google.com"
+  },
+  {
+    "name": "510201",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20139,
+    "specialityName": null,
+    "course": 3,
+    "id": 21427,
+    "calendarId": "cfgbj29i0atemlpf3meviqs7c4@group.calendar.google.com"
+  },
+  {
+    "name": "734201",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20130,
+    "specialityName": null,
+    "course": 1,
+    "id": 22451,
+    "calendarId": "1vs7d7fr9c0c7ncjg7qlu2dhqg@group.calendar.google.com"
+  },
+  {
+    "name": "513301",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20018,
+    "specialityName": null,
+    "course": 3,
+    "id": 21428,
+    "calendarId": "cof8do3a9aeim2l10qsfujlhn8@group.calendar.google.com"
+  },
+  {
+    "name": "740302",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20024,
+    "specialityName": null,
+    "course": 1,
+    "id": 22452,
+    "calendarId": "2hfpr32375qlmthsdcomjp275o@group.calendar.google.com"
+  },
+  {
+    "name": "741291",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20029,
+    "specialityName": null,
+    "course": 1,
+    "id": 22453,
+    "calendarId": "qmp2glqci702oe6eoj4goet1ps@group.calendar.google.com"
+  },
+  {
+    "name": "543201",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20025,
+    "specialityName": null,
+    "course": 3,
+    "id": 21430,
+    "calendarId": "i1cpatli4dgp4fv8tsiarj40lc@group.calendar.google.com"
+  },
+  {
+    "name": "742801",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20026,
+    "specialityName": null,
+    "course": 1,
+    "id": 22454,
+    "calendarId": "ua9jusa4tpfettueegvcdudums@group.calendar.google.com"
+  },
+  {
+    "name": "524401",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20203,
+    "specialityName": null,
+    "course": 3,
+    "id": 21431,
+    "calendarId": "a1bbo2l7i5b2rbimnfg1qkcob0@group.calendar.google.com"
+  },
+  {
+    "name": "750501",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 1,
+    "id": 22455,
+    "calendarId": "nl5hso1r0b23mvfq4ck83hse78@group.calendar.google.com"
+  },
+  {
+    "name": "581061",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 3,
+    "id": 21432,
+    "calendarId": "7u9m8hb3cqs31bn4vln19gk58c@group.calendar.google.com"
+  },
+  {
+    "name": "581062",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 3,
+    "id": 21433,
+    "calendarId": "8lgao6cgt7a9bcgj7d6rbb93lk@group.calendar.google.com"
+  },
+  {
+    "name": "581063",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 3,
+    "id": 21434,
+    "calendarId": "ct3u4nkqvh4tmgl5bek5q94rd0@group.calendar.google.com"
+  },
+  {
+    "name": "742791",
+    "facultyId": 20035,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20023,
+    "specialityName": null,
+    "course": 1,
+    "id": 22458,
+    "calendarId": "b40pii0ctd75estt8bbh3bk470@group.calendar.google.com"
+  },
+  {
+    "name": "581064",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 3,
+    "id": 21435,
+    "calendarId": "n2kcnu50knusqvudh8ou6882u4@group.calendar.google.com"
+  },
+  {
+    "name": "730501",
+    "facultyId": 20000,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20259,
+    "specialityName": null,
+    "course": 1,
+    "id": 22459,
+    "calendarId": "kd92a73vd94diun4l4sl8ering@group.calendar.google.com"
+  },
+  {
+    "name": "580961",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20198,
+    "specialityName": null,
+    "course": 3,
+    "id": 21437,
+    "calendarId": "65b0pnlumlihaum7j9l333gmes@group.calendar.google.com"
+  },
+  {
+    "name": "580561",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20197,
+    "specialityName": null,
+    "course": 3,
+    "id": 21438,
+    "calendarId": "827l9sua4si8bh8rva1fbno5r0@group.calendar.google.com"
+  },
+  {
+    "name": "580562",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20197,
+    "specialityName": null,
+    "course": 3,
+    "id": 21439,
+    "calendarId": "h1ollsv8cknjhmndjoder1qojg@group.calendar.google.com"
+  },
+  {
+    "name": "481061",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 4,
+    "id": 21440,
+    "calendarId": "prsu5kece1m1oocbemmblpg824@group.calendar.google.com"
+  },
+  {
+    "name": "481062",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 4,
+    "id": 21441,
+    "calendarId": "upg555f2unp9h7pn0vlanap82g@group.calendar.google.com"
+  },
+  {
+    "name": "481063",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 4,
+    "id": 21442,
+    "calendarId": "m0augqfcu97tvpuqn87fsveis8@group.calendar.google.com"
+  },
+  {
+    "name": "480561",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20197,
+    "specialityName": null,
+    "course": 4,
+    "id": 21443,
+    "calendarId": "d74t37pkg07906nh5rf7e9tlek@group.calendar.google.com"
+  },
+  {
+    "name": "480562",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20197,
+    "specialityName": null,
+    "course": 4,
+    "id": 21444,
+    "calendarId": "35u64ura54i7tbia3p3ih2mjmg@group.calendar.google.com"
+  },
+  {
+    "name": "790541",
+    "facultyId": 20034,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20037,
+    "specialityName": null,
+    "course": 1,
+    "id": 22470,
+    "calendarId": "3njpugs3jvn8r4aaimojen2pos@group.calendar.google.com"
+  },
+  {
+    "name": "793041",
+    "facultyId": 20034,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20107,
+    "specialityName": null,
+    "course": 1,
+    "id": 22471,
+    "calendarId": "ppnqbbqo3ajkutsb4cji8cpuus@group.calendar.google.com"
+  },
+  {
+    "name": "790841",
+    "facultyId": 20034,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20108,
+    "specialityName": null,
+    "course": 1,
+    "id": 22472,
+    "calendarId": "q5041t020j3b1r3v7g758qes00@group.calendar.google.com"
+  },
+  {
+    "name": "792441",
+    "facultyId": 20034,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20040,
+    "specialityName": null,
+    "course": 1,
+    "id": 22473,
+    "calendarId": "hsu8runcrq69kt1dmdln5lq9vc@group.calendar.google.com"
+  },
+  {
+    "name": "790241",
+    "facultyId": 20034,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20141,
+    "specialityName": null,
+    "course": 1,
+    "id": 22474,
+    "calendarId": "puit5qpg16j5tfdk1i636444uc@group.calendar.google.com"
+  },
+  {
+    "name": "790441",
+    "facultyId": 20034,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20116,
+    "specialityName": null,
+    "course": 1,
+    "id": 22475,
+    "calendarId": "6p123hqdn2tlecuv30u4ksh13k@group.calendar.google.com"
+  },
+  {
+    "name": "793341",
+    "facultyId": 20034,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20052,
+    "specialityName": null,
+    "course": 1,
+    "id": 22477,
+    "calendarId": "33qtdln6reenh0dpdrjh6ul1h4@group.calendar.google.com"
+  },
+  {
+    "name": "750502",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 1,
+    "id": 22478,
+    "calendarId": "8910lqv6j5ssdp1am9r7pjcv20@group.calendar.google.com"
+  },
+  {
+    "name": "750503",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 1,
+    "id": 22479,
+    "calendarId": "fggh7gpuk7i4ut16c0m6mfmmgo@group.calendar.google.com"
+  },
+  {
+    "name": "750504",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 1,
+    "id": 22480,
+    "calendarId": "oo817o9n20a21ujpv13aeasnlc@group.calendar.google.com"
+  },
+  {
+    "name": "750505",
+    "facultyId": 20026,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20019,
+    "specialityName": null,
+    "course": 1,
+    "id": 22481,
+    "calendarId": "q9s35vp1u9a25on8ua9a3v23g4@group.calendar.google.com"
+  },
+  {
+    "name": "721703",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20004,
+    "specialityName": null,
+    "course": 1,
+    "id": 22482,
+    "calendarId": "ms14osg42t2r6ssrgvkuddf9g8@group.calendar.google.com"
+  },
+  {
+    "name": "610102",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20011,
+    "specialityName": null,
+    "course": 2,
+    "id": 22483,
+    "calendarId": "2j8ku2q31468ajh4lhhhduq1sk@group.calendar.google.com"
+  },
+  {
+    "name": "581066",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 3,
+    "id": 22484,
+    "calendarId": "5e7f2ahtu3fn7u2phltiacmmhk@group.calendar.google.com"
+  },
+  {
+    "name": "780971",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20204,
+    "specialityName": null,
+    "course": 1,
+    "id": 22488,
+    "calendarId": "rp9a6q9pbihj9rno3l8204rr9c@group.calendar.google.com"
+  },
+  {
+    "name": "780972",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20204,
+    "specialityName": null,
+    "course": 1,
+    "id": 22489,
+    "calendarId": "nfkiq1md3gcvtq9r7sasm182i8@group.calendar.google.com"
+  },
+  {
+    "name": "782371",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20208,
+    "specialityName": null,
+    "course": 1,
+    "id": 22492,
+    "calendarId": "7cop6f58v5jm4ekp714igar85s@group.calendar.google.com"
+  },
+  {
+    "name": "781071",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20209,
+    "specialityName": null,
+    "course": 1,
+    "id": 22493,
+    "calendarId": "pshvie42ss2eia16rmbkmsa8r4@group.calendar.google.com"
+  },
+  {
+    "name": "781072",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20209,
+    "specialityName": null,
+    "course": 1,
+    "id": 22494,
+    "calendarId": "gnhlium7ddagqgi5j7m8ssqlrc@group.calendar.google.com"
+  },
+  {
+    "name": "781073",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20209,
+    "specialityName": null,
+    "course": 1,
+    "id": 22495,
+    "calendarId": "gv251gv3ogh0pb4a1g5map0flg@group.calendar.google.com"
+  },
+  {
+    "name": "781074",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20209,
+    "specialityName": null,
+    "course": 1,
+    "id": 22496,
+    "calendarId": "1ag1hv970pab7df621b9ij2p7o@group.calendar.google.com"
+  },
+  {
+    "name": "781075",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20209,
+    "specialityName": null,
+    "course": 1,
+    "id": 22497,
+    "calendarId": "5dromlisur28i58t1p4e8rsj4o@group.calendar.google.com"
+  },
+  {
+    "name": "783871",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20229,
+    "specialityName": null,
+    "course": 1,
+    "id": 22498,
+    "calendarId": "qdgpr71p17bgmj2ag3pot1u01c@group.calendar.google.com"
+  },
+  {
+    "name": "781971",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20230,
+    "specialityName": null,
+    "course": 1,
+    "id": 22499,
+    "calendarId": "s5mv6hnbfbh5uja46mdmedg3e0@group.calendar.google.com"
+  },
+  {
+    "name": "781972",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20230,
+    "specialityName": null,
+    "course": 0,
+    "id": 22500,
+    "calendarId": "9m684suah17fffilnishsmb0ic@group.calendar.google.com"
+  },
+  {
+    "name": "783371",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20231,
+    "specialityName": null,
+    "course": 1,
+    "id": 22501,
+    "calendarId": "15nj2pslhg0iipptr2uc8ef1fo@group.calendar.google.com"
+  },
+  {
+    "name": "783372",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20231,
+    "specialityName": null,
+    "course": 1,
+    "id": 22502,
+    "calendarId": "0acpbccd1jfvkjs230h71h4648@group.calendar.google.com"
+  },
+  {
+    "name": "783373",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20231,
+    "specialityName": null,
+    "course": 0,
+    "id": 22503,
+    "calendarId": "8l41ilrktqiggj397e4qtg3lsk@group.calendar.google.com"
+  },
+  {
+    "name": "783971",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20232,
+    "specialityName": null,
+    "course": 1,
+    "id": 22504,
+    "calendarId": "le68d8dkvk7db6po8ha1cat1p8@group.calendar.google.com"
+  },
+  {
+    "name": "782471",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20233,
+    "specialityName": null,
+    "course": 1,
+    "id": 22505,
+    "calendarId": "55pi8p0i0kve3dsmdsd7mmmtu4@group.calendar.google.com"
+  },
+  {
+    "name": "782472",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20233,
+    "specialityName": null,
+    "course": 1,
+    "id": 22506,
+    "calendarId": "ik6fb6rh518ij8isek2p3vvkpg@group.calendar.google.com"
+  },
+  {
+    "name": "782473",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20234,
+    "specialityName": null,
+    "course": 0,
+    "id": 22507,
+    "calendarId": "hd23k2d12o5naglqi890irh5eo@group.calendar.google.com"
+  },
+  {
+    "name": "720611",
+    "facultyId": 20005,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20136,
+    "specialityName": null,
+    "course": 1,
+    "id": 22508,
+    "calendarId": "ltn4ie6nhjebvev6q88827aoro@group.calendar.google.com"
+  },
+  {
+    "name": "761411",
+    "facultyId": 20040,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20132,
+    "specialityName": null,
+    "course": 1,
+    "id": 22509,
+    "calendarId": "6klpt5hd4n9feema5crlgmp19k@group.calendar.google.com"
+  },
+  {
+    "name": "714303",
+    "facultyId": 20017,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20138,
+    "specialityName": null,
+    "course": 1,
+    "id": 22510,
+    "calendarId": "ov0clqki9jnsq0a3fv1532kces@group.calendar.google.com"
+  },
+  {
+    "name": "784371",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20359,
+    "specialityName": null,
+    "course": 1,
+    "id": 22511,
+    "calendarId": "6ghn61app1dv1l33mft7ns6h1o@group.calendar.google.com"
+  },
+  {
+    "name": "7M2433",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20292,
+    "specialityName": null,
+    "course": 1,
+    "id": 22512,
+    "calendarId": "a9qf1kjgs6hkq9lfjfvqmun1fk@group.calendar.google.com"
+  },
+  {
+    "name": "7M3522",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20192,
+    "specialityName": null,
+    "course": 1,
+    "id": 22514,
+    "calendarId": "l6ubgc42a7bou9u69c16h4i81s@group.calendar.google.com"
+  },
+  {
+    "name": "7M3532",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20192,
+    "specialityName": null,
+    "course": 1,
+    "id": 22515,
+    "calendarId": "r89b99hc8fh9vh0r9jtd30dq5g@group.calendar.google.com"
+  },
+  {
+    "name": "7M2322",
+    "facultyId": 20054,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20176,
+    "specialityName": null,
+    "course": 1,
+    "id": 22516,
+    "calendarId": "j811qpa5a9euqstcmqr7t7hk8c@group.calendar.google.com"
+  }
+]

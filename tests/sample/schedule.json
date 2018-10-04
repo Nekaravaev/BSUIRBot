@@ -1,0 +1,1326 @@
+{
+  "employee": null,
+  "studentGroup": {
+    "name": "581062",
+    "facultyId": 20033,
+    "facultyName": null,
+    "specialityDepartmentEducationFormId": 20207,
+    "specialityName": null,
+    "course": 3,
+    "id": 21433,
+    "calendarId": "8lgao6cgt7a9bcgj7d6rbb93lk@group.calendar.google.com"
+  },
+  "schedules": [
+    {
+      "weekDay": "Понедельник",
+      "schedule": [
+        {
+          "weekNumber": [
+            2
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 1,
+          "auditory": [
+            "702-7"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "МОптим",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Вадим",
+              "lastName": "Журавлев",
+              "middleName": "Игоревич",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "m9goqtutpu7svvbojev2quclco@group.calendar.google.com",
+              "academicDepartment": [
+                "ЗИ"
+              ],
+              "id": 500838,
+              "fio": "Журавлев В. И."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            3
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "216а-5"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "ВТ",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Андрей",
+              "lastName": "Матвеев",
+              "middleName": "Владимирович",
+              "rank": null,
+              "photoLink": "https://docs.google.com/uc?id=0B0dPxnW7H2iCNmhuNTdtSE91ams&export=download",
+              "calendarId": "9r0sfhhsg6pb2m7nuk2sh4eoic@group.calendar.google.com",
+              "academicDepartment": [
+                "ПРЭ"
+              ],
+              "id": 507948,
+              "fio": "Матвеев А. В."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            4
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 2,
+          "auditory": [
+            "702-7"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "МОптим",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Вадим",
+              "lastName": "Журавлев",
+              "middleName": "Игоревич",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "m9goqtutpu7svvbojev2quclco@group.calendar.google.com",
+              "academicDepartment": [
+                "ЗИ"
+              ],
+              "id": 500838,
+              "fio": "Журавлев В. И."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            2
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 1,
+          "auditory": [
+            "608-7"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "СПП",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Иван",
+              "lastName": "Калитеня",
+              "middleName": "Леонидович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "go6evjvmfc62pcev5sv1ocgjig@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 510704,
+              "fio": "Калитеня И. Л."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            4
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 1,
+          "auditory": [
+            "320-5"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "ЦОС",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Наталья",
+              "lastName": "Бахур",
+              "middleName": "Ивановна",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "b0r1qccl003kfbrpui6hd6cvh0@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 511893,
+              "fio": "Бахур Н. И."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            2
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 2,
+          "auditory": [
+            "320-5"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "ЦОС",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Наталья",
+              "lastName": "Бахур",
+              "middleName": "Ивановна",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "b0r1qccl003kfbrpui6hd6cvh0@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 511893,
+              "fio": "Бахур Н. И."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            4
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 2,
+          "auditory": [
+            "608-7"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "СПП",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Иван",
+              "lastName": "Калитеня",
+              "middleName": "Леонидович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "go6evjvmfc62pcev5sv1ocgjig@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 510704,
+              "fio": "Калитеня И. Л."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        }
+      ]
+    },
+    {
+      "weekDay": "Вторник",
+      "schedule": [
+        {
+          "weekNumber": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "04-4"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "ЦОС",
+          "note": "",
+          "lessonType": "ЛК",
+          "employee": [
+            {
+              "firstName": "Георгий",
+              "lastName": "Сечко",
+              "middleName": "Владимирович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "lh00e69kjkk86lijbg0bb56oh4@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 507941,
+              "fio": "Сечко Г. В."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            1,
+            3
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "04-4"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "ОЗИ",
+          "note": "",
+          "lessonType": "ЛК",
+          "employee": [
+            {
+              "firstName": "Георгий",
+              "lastName": "Сечко",
+              "middleName": "Владимирович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "lh00e69kjkk86lijbg0bb56oh4@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 507941,
+              "fio": "Сечко Г. В."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            2,
+            4
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "04-4"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "МиАПР",
+          "note": "",
+          "lessonType": "ЛК",
+          "employee": [
+            {
+              "firstName": "Юрий",
+              "lastName": "Скудняков",
+              "middleName": "Александрович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "3nf4u3raijgcqvhcek363fmk9s@group.calendar.google.com",
+              "academicDepartment": [
+                "ПРЭ"
+              ],
+              "id": 508328,
+              "fio": "Скудняков Ю. А."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        }
+      ]
+    },
+    {
+      "weekDay": "Среда",
+      "schedule": [
+        {
+          "weekNumber": [
+            1
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "322б-5"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "ЦОС",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Наталья",
+              "lastName": "Бахур",
+              "middleName": "Ивановна",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "b0r1qccl003kfbrpui6hd6cvh0@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 511893,
+              "fio": "Бахур Н. И."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            2
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 1,
+          "auditory": [
+            "207а-5"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "МиАПР",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Юрий",
+              "lastName": "Скудняков",
+              "middleName": "Александрович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "3nf4u3raijgcqvhcek363fmk9s@group.calendar.google.com",
+              "academicDepartment": [
+                "ПРЭ"
+              ],
+              "id": 508328,
+              "fio": "Скудняков Ю. А."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            3
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "702-7"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "СПП",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Иван",
+              "lastName": "Калитеня",
+              "middleName": "Леонидович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "go6evjvmfc62pcev5sv1ocgjig@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 510704,
+              "fio": "Калитеня И. Л."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            4
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 2,
+          "auditory": [
+            "207а-5"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "МиАПР",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Юрий",
+              "lastName": "Скудняков",
+              "middleName": "Александрович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "3nf4u3raijgcqvhcek363fmk9s@group.calendar.google.com",
+              "academicDepartment": [
+                "ПРЭ"
+              ],
+              "id": 508328,
+              "fio": "Скудняков Ю. А."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            1
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "207а-5"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "МиАПР",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Юрий",
+              "lastName": "Скудняков",
+              "middleName": "Александрович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "3nf4u3raijgcqvhcek363fmk9s@group.calendar.google.com",
+              "academicDepartment": [
+                "ПРЭ"
+              ],
+              "id": 508328,
+              "fio": "Скудняков Ю. А."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            2
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "515-4"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "ОЗИ",
+          "note": "",
+          "lessonType": "ПЗ",
+          "employee": [
+            {
+              "firstName": "Георгий",
+              "lastName": "Сечко",
+              "middleName": "Владимирович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "lh00e69kjkk86lijbg0bb56oh4@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 507941,
+              "fio": "Сечко Г. В."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            3
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "608-7"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "МОптим",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Вадим",
+              "lastName": "Журавлев",
+              "middleName": "Игоревич",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "m9goqtutpu7svvbojev2quclco@group.calendar.google.com",
+              "academicDepartment": [
+                "ЗИ"
+              ],
+              "id": 500838,
+              "fio": "Журавлев В. И."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        }
+      ]
+    },
+    {
+      "weekDay": "Четверг",
+      "schedule": [
+        {
+          "weekNumber": [
+            1,
+            3
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "206-3"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "РПОдМП",
+          "note": "",
+          "lessonType": "ЛК",
+          "employee": [
+            {
+              "firstName": "Иван",
+              "lastName": "Калитеня",
+              "middleName": "Леонидович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "go6evjvmfc62pcev5sv1ocgjig@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 510704,
+              "fio": "Калитеня И. Л."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            2,
+            4
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "206-3"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "ВТ",
+          "note": "",
+          "lessonType": "ЛК",
+          "employee": [
+            {
+              "firstName": "Владимир",
+              "lastName": "Драгомирецкий",
+              "middleName": "Иванович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "ab9ssjj9ip2jeehubjkne10f2g@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 520642,
+              "fio": "Драгомирецкий В. И."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            1,
+            3
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "206-3"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "МОптим",
+          "note": "",
+          "lessonType": "ЛК",
+          "employee": [
+            {
+              "firstName": "Вадим",
+              "lastName": "Журавлев",
+              "middleName": "Игоревич",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "m9goqtutpu7svvbojev2quclco@group.calendar.google.com",
+              "academicDepartment": [
+                "ЗИ"
+              ],
+              "id": 500838,
+              "fio": "Журавлев В. И."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            2,
+            4
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "206-3"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "АКГ",
+          "note": "",
+          "lessonType": "ЛК",
+          "employee": [
+            {
+              "firstName": "Ирина",
+              "lastName": "Коренская",
+              "middleName": "Николаевна",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "ar3pmmo0porclbpmnbd9ae11cs@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 500307,
+              "fio": "Коренская И. Н."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        }
+      ]
+    },
+    {
+      "weekDay": "Пятница",
+      "schedule": [
+        {
+          "weekNumber": [
+            1,
+            2,
+            3
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "209-4"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "СПП",
+          "note": "",
+          "lessonType": "ЛК",
+          "employee": [
+            {
+              "firstName": "Оксана",
+              "lastName": "Бакунова",
+              "middleName": "Михайловна",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "tdsa0jt9hvba0uhdfrfakmmnho@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 507932,
+              "fio": "Бакунова О. М."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            4
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "209-4"
+          ],
+          "lessonTime": "18:45-20:20",
+          "startLessonTime": "18:45",
+          "endLessonTime": "20:20",
+          "subject": "РПОдМП",
+          "note": "",
+          "lessonType": "ЛК",
+          "employee": [
+            {
+              "firstName": "Иван",
+              "lastName": "Калитеня",
+              "middleName": "Леонидович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "go6evjvmfc62pcev5sv1ocgjig@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 510704,
+              "fio": "Калитеня И. Л."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            2
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 1,
+          "auditory": [
+            "224-5"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "ВТ",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Андрей",
+              "lastName": "Матвеев",
+              "middleName": "Владимирович",
+              "rank": null,
+              "photoLink": "https://docs.google.com/uc?id=0B0dPxnW7H2iCNmhuNTdtSE91ams&export=download",
+              "calendarId": "9r0sfhhsg6pb2m7nuk2sh4eoic@group.calendar.google.com",
+              "academicDepartment": [
+                "ПРЭ"
+              ],
+              "id": 507948,
+              "fio": "Матвеев А. В."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            4
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 2,
+          "auditory": [
+            "224-5"
+          ],
+          "lessonTime": "20:25-22:00",
+          "startLessonTime": "20:25",
+          "endLessonTime": "22:00",
+          "subject": "ВТ",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Андрей",
+              "lastName": "Матвеев",
+              "middleName": "Владимирович",
+              "rank": null,
+              "photoLink": "https://docs.google.com/uc?id=0B0dPxnW7H2iCNmhuNTdtSE91ams&export=download",
+              "calendarId": "9r0sfhhsg6pb2m7nuk2sh4eoic@group.calendar.google.com",
+              "academicDepartment": [
+                "ПРЭ"
+              ],
+              "id": 507948,
+              "fio": "Матвеев А. В."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        }
+      ]
+    },
+    {
+      "weekDay": "Суббота",
+      "schedule": [
+        {
+          "weekNumber": [
+            1
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 1,
+          "auditory": [
+            "608-7"
+          ],
+          "lessonTime": "08:00-09:35",
+          "startLessonTime": "08:00",
+          "endLessonTime": "09:35",
+          "subject": "АКГ",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Ирина",
+              "lastName": "Коренская",
+              "middleName": "Николаевна",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "ar3pmmo0porclbpmnbd9ae11cs@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 500307,
+              "fio": "Коренская И. Н."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            3
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 1,
+          "auditory": [
+            "702-7"
+          ],
+          "lessonTime": "08:00-09:35",
+          "startLessonTime": "08:00",
+          "endLessonTime": "09:35",
+          "subject": "РПОдМП",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Иван",
+              "lastName": "Калитеня",
+              "middleName": "Леонидович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "go6evjvmfc62pcev5sv1ocgjig@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 510704,
+              "fio": "Калитеня И. Л."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            1
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "608-7"
+          ],
+          "lessonTime": "09:45-11:20",
+          "startLessonTime": "09:45",
+          "endLessonTime": "11:20",
+          "subject": "АКГ",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Ирина",
+              "lastName": "Коренская",
+              "middleName": "Николаевна",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "ar3pmmo0porclbpmnbd9ae11cs@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 500307,
+              "fio": "Коренская И. Н."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            3
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "702-7"
+          ],
+          "lessonTime": "09:45-11:20",
+          "startLessonTime": "09:45",
+          "endLessonTime": "11:20",
+          "subject": "РПОдМП",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Иван",
+              "lastName": "Калитеня",
+              "middleName": "Леонидович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "go6evjvmfc62pcev5sv1ocgjig@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 510704,
+              "fio": "Калитеня И. Л."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            1
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 2,
+          "auditory": [
+            "608-7"
+          ],
+          "lessonTime": "11:40-13:15",
+          "startLessonTime": "11:40",
+          "endLessonTime": "13:15",
+          "subject": "АКГ",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Ирина",
+              "lastName": "Коренская",
+              "middleName": "Николаевна",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "ar3pmmo0porclbpmnbd9ae11cs@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 500307,
+              "fio": "Коренская И. Н."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            3
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 0,
+          "auditory": [
+            "702-7"
+          ],
+          "lessonTime": "11:40-13:15",
+          "startLessonTime": "11:40",
+          "endLessonTime": "13:15",
+          "subject": "СПП",
+          "note": "",
+          "lessonType": "ПЗ",
+          "employee": [
+            {
+              "firstName": "Иван",
+              "lastName": "Калитеня",
+              "middleName": "Леонидович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "go6evjvmfc62pcev5sv1ocgjig@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 510704,
+              "fio": "Калитеня И. Л."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        },
+        {
+          "weekNumber": [
+            3
+          ],
+          "studentGroup": [
+            "581062"
+          ],
+          "numSubgroup": 2,
+          "auditory": [
+            "702-7"
+          ],
+          "lessonTime": "13:25-15:00",
+          "startLessonTime": "13:25",
+          "endLessonTime": "15:00",
+          "subject": "РПОдМП",
+          "note": "",
+          "lessonType": "ЛР",
+          "employee": [
+            {
+              "firstName": "Иван",
+              "lastName": "Калитеня",
+              "middleName": "Леонидович",
+              "rank": null,
+              "photoLink": null,
+              "calendarId": "go6evjvmfc62pcev5sv1ocgjig@group.calendar.google.com",
+              "academicDepartment": [
+                "ИСиТ"
+              ],
+              "id": 510704,
+              "fio": "Калитеня И. Л."
+            }
+          ],
+          "studentGroupModelList": null,
+          "zaoch": false
+        }
+      ]
+    }
+  ],
+  "examSchedules": [
+  ],
+  "todayDate": "19.10.2017",
+  "todaySchedules": [
+    {
+      "weekNumber": [
+        4
+      ],
+      "studentGroup": [
+        "581062"
+      ],
+      "numSubgroup": 0,
+      "auditory": [
+        "206-3"
+      ],
+      "lessonTime": "18:45-20:20",
+      "startLessonTime": "18:45",
+      "endLessonTime": "20:20",
+      "subject": "ВТ",
+      "note": "",
+      "lessonType": "ЛК",
+      "employee": [
+        {
+          "firstName": "Владимир",
+          "lastName": "Драгомирецкий",
+          "middleName": "Иванович",
+          "rank": null,
+          "photoLink": null,
+          "calendarId": "ab9ssjj9ip2jeehubjkne10f2g@group.calendar.google.com",
+          "academicDepartment": [
+            "ИСиТ"
+          ],
+          "id": 520642,
+          "fio": "Драгомирецкий В. И."
+        }
+      ],
+      "studentGroupModelList": null,
+      "zaoch": false
+    },
+    {
+      "weekNumber": [
+        4
+      ],
+      "studentGroup": [
+        "581062"
+      ],
+      "numSubgroup": 0,
+      "auditory": [
+        "206-3"
+      ],
+      "lessonTime": "20:25-22:00",
+      "startLessonTime": "20:25",
+      "endLessonTime": "22:00",
+      "subject": "АКГ",
+      "note": "",
+      "lessonType": "ЛК",
+      "employee": [
+        {
+          "firstName": "Ирина",
+          "lastName": "Коренская",
+          "middleName": "Николаевна",
+          "rank": null,
+          "photoLink": null,
+          "calendarId": "ar3pmmo0porclbpmnbd9ae11cs@group.calendar.google.com",
+          "academicDepartment": [
+            "ИСиТ"
+          ],
+          "id": 500307,
+          "fio": "Коренская И. Н."
+        }
+      ],
+      "studentGroupModelList": null,
+      "zaoch": false
+    }
+  ],
+  "tomorrowDate": "20.10.2017",
+  "tomorrowSchedules": [
+    {
+      "weekNumber": [
+        4
+      ],
+      "studentGroup": [
+        "581062"
+      ],
+      "numSubgroup": 0,
+      "auditory": [
+        "209-4"
+      ],
+      "lessonTime": "18:45-20:20",
+      "startLessonTime": "18:45",
+      "endLessonTime": "20:20",
+      "subject": "РПОдМП",
+      "note": "",
+      "lessonType": "ЛК",
+      "employee": [
+        {
+          "firstName": "Иван",
+          "lastName": "Калитеня",
+          "middleName": "Леонидович",
+          "rank": null,
+          "photoLink": null,
+          "calendarId": "go6evjvmfc62pcev5sv1ocgjig@group.calendar.google.com",
+          "academicDepartment": [
+            "ИСиТ"
+          ],
+          "id": 510704,
+          "fio": "Калитеня И. Л."
+        }
+      ],
+      "studentGroupModelList": null,
+      "zaoch": false
+    },
+    {
+      "weekNumber": [
+        4
+      ],
+      "studentGroup": [
+        "581062"
+      ],
+      "numSubgroup": 2,
+      "auditory": [
+        "224-5"
+      ],
+      "lessonTime": "20:25-22:00",
+      "startLessonTime": "20:25",
+      "endLessonTime": "22:00",
+      "subject": "ВТ",
+      "note": "",
+      "lessonType": "ЛР",
+      "employee": [
+        {
+          "firstName": "Андрей",
+          "lastName": "Матвеев",
+          "middleName": "Владимирович",
+          "rank": null,
+          "photoLink": "https://docs.google.com/uc?id=0B0dPxnW7H2iCNmhuNTdtSE91ams&export=download",
+          "calendarId": "9r0sfhhsg6pb2m7nuk2sh4eoic@group.calendar.google.com",
+          "academicDepartment": [
+            "ПРЭ"
+          ],
+          "id": 507948,
+          "fio": "Матвеев А. В."
+        }
+      ],
+      "studentGroupModelList": null,
+      "zaoch": false
+    }
+  ],
+  "currentWeekNumber": 4
+}

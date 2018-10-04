@@ -2,6 +2,8 @@
 
 [![Code Climate](https://codeclimate.com/github/Nekaravaev/BSUIRBot/badges/gpa.svg)](https://codeclimate.com/github/Nekaravaev/BSUIRBot)
 [![Build Status](https://travis-ci.org/Nekaravaev/BSUIRBot.svg?branch=master)](https://travis-ci.org/Nekaravaev/BSUIRBot)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Nekaravaev/BSUIRBot/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Nekaravaev/BSUIRBot/?branch=master)
+
 
 Bot for BSUIR's students. Display schedule by date.
 
@@ -24,3 +26,8 @@ Bot for BSUIR's students. Display schedule by date.
 * Now use redis;
 * Latest version 1.0;
 * Demo available [@BSUIRBot] (https://telegram.me/BSUIRbot)
+
+### RoadMap ###
+* fix VK bot
+* fix picking day and week number by date
+* move all texts to phrases
