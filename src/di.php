@@ -23,11 +23,6 @@ $container->register(\BSUIRBot\Model\Database\Redis::class, function () {
     return new \BSUIRBot\Model\Database\Redis();
 });
 
-$container->register(\BSUIRBot\Model\Botan::class, function (DIContainer $container) {
-   $token = $container->get('config')->getBotanAPI();
-   return new \BSUIRBot\Model\Botan($token);
-});
-
 $container->register(\BSUIRBot\Model\Bot\Telegram::class, function(DIContainer $container) {
    $token = $container->get('config')->getTGtoken();
    $username = $container->get('config')->getTGBotUsername();

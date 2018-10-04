@@ -9,7 +9,6 @@
 namespace BSUIRBot\Controller;
 
 use BSUIRBot\Model\Bot\Bot;
-use BSUIRBot\Model\Botan;
 use BSUIRBot\Model\BSUIR;
 use BSUIRBot\Model\Database\Redis;
 use BSUIRBot\Model\Type\Type;
@@ -69,9 +68,6 @@ class Controller
     /** @var \Bugsnag\Client; */
     protected $logger;
 
-    /** @var mixed |Botan $analytics */
-    protected $analytics;
-
 
     public function __construct(Type $command, Bot $bot, User $user, BSUIR $scheduleInstance, Phrase $phrase, CommandParseHelper $parser)
     {
@@ -118,10 +114,6 @@ class Controller
                 $reply = $this->cronAssign($this->parser->isYes($text));
         }
 
-        if ($this->analytics) {
-            $this->trackAnalytics($action);
-        }
-
         return (object) [
             'chat' => $this->user->getId(),
             'reply' => $reply['reply'],
@@ -132,10 +124,6 @@ class Controller
 
     public function setLogger(\Bugsnag\Client $logger) {
         $this->logger = $logger;
-    }
-
-    public function setAnalytics($analytics) {
-        $this->analytics = $analytics;
     }
 
     public function groupAssign($group_id)
