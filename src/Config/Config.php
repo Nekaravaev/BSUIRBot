@@ -42,20 +42,6 @@ abstract class Config
     /** @var string $bugSnagAPI */
     protected $bugSnagAPI = '';
 
-    /** @var string $botanAPI */
-    protected  $botanAPI = '';
-
-
-    /**
-     * @return string
-     */
-    public function getBotanAPI()
-    {
-        return $this->botanAPI;
-    }
-
-
-
     /**
      * @return string
      */

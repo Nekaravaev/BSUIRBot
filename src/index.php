@@ -9,7 +9,6 @@ use BSUIRBot\Model\User;
 use BSUIRBot\Exception\BreakException;
 
 $bugsnag = $container->get(Bugsnag\Client::class);
-$botan = $container->get(\BSUIRBot\Model\Botan::class);
 
 $input = file_get_contents( 'php://input' );
 $input = json_decode($input);
@@ -41,7 +40,6 @@ $phrases = $container->get(\BSUIRBot\Model\Util\Phrase::class);
 
 try {
     $Controller  = new \BSUIRBot\Controller\TelegramController( $command, $bot, $user, $schedule, $phrases, $parser );
-    $Controller->setAnalytics($botan);
     $Controller->setLogger($bugsnag);
     $Controller->execute();
 } catch (BreakException $breakException) {

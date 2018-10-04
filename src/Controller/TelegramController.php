@@ -54,7 +54,7 @@ class TelegramController extends Controller
 
     public function startAction()
     {
-        if ($this->user->getGroupId() === 0 || $this->user->getGroupId() == 'temp')
+        if ($this->user->getGroupId() == 0 || $this->user->getGroupId() == 'temp')
         {
            return [
                'reply' => "Привет, <b>".$this->user->getDisplayName()."</b>!" . PHP_EOL . "Введи номер группы. 👆",
