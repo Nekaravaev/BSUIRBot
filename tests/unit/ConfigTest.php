@@ -20,11 +20,6 @@ class ConfigTest extends TestCase {
         $this->config = new TestConfig();
     }
 
-    public function testGetVKtoken() {
-        $token = $this->config->getVKtoken();
-        $this->assertEquals('VK', $token);
-    }
-
     public function testGetTGtoken() {
         $token = $this->config->getTGtoken();
         $this->assertEquals('TG', $token);
@@ -34,11 +29,5 @@ class ConfigTest extends TestCase {
         $permissions = $this->config->getPermissions();
         $this->assertTrue(is_array($permissions));
     }
-
-    /**
-     * @expectedException \BSUIRBot\Exception\BreakException
-     */
-    public function testGetNullField() {
-        $this->config->getVKConfirmationCode();
-    }
+    
 }
