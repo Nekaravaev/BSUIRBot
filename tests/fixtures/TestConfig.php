@@ -13,10 +13,6 @@ class TestConfig extends Config
 {
     /** @var string $TGtoken */
     protected $TGtoken = 'TG';
-    /** @var string $VKtoken */
-    protected $VKtoken = 'VK';
 
     public $environment = 'testing';
-
-    protected $VKConfirmationCode = null;
 }
