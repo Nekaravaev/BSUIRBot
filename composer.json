@@ -11,6 +11,9 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "ext-json": "*",
+        "ext-redis": "*",
+        "ext-curl": "*"
     },
      "autoload": {
          "psr-4": {
@@ -19,8 +22,8 @@
          }
      },
     "require-dev": {
-        "bugsnag/bugsnag": "^3.0",
-        "monolog/monolog": "^1.23",
-        "phpunit/phpunit": "^6.4"
+        "bugsnag/bugsnag": ">=3.0 <4.0.0",
+        "phpunit/phpunit": "^6.4",
+        "monolog/monolog": ">=1.23 <2.0.0"
     }
 }
