@@ -60,31 +60,6 @@ class Redis
         return (object) $currentUser;
     }
 
-    /**
-     * Obtain list of people, who want to receive
-     * wall posts directly to messages.
-     *
-     * @return array list of users (display_name, user_id)
-     */
-    public function getFollowersVKUpdates(): array
-    {
-        return $this->redis->sGetMembers('VKUpdates');
-    }
-
-
-    public function removeFromFollowersVKGroup($userId) {
-        //$this->redis->sRem("VKUpdates", "VKUser:$userId");
-        $this->redis->delete("VKUser:$userId");
-        return true;
-    }
-
-    public function addToUpdatesVKGroup($userId, $userParams)
-    {
-        $this->redis->hMset("VKUser:$userId", $userParams);
-        $this->redis->sAdd("VKUpdates", "VKUser:$userId");
-        return true;
-    }
-
     public function getCronUsers()
     {
         return $this->redis->sGetMembers('cron');
@@ -119,13 +94,6 @@ class Redis
         return true;
     }
 
-    public function getLatestVKPost()
-    {
-        $post = (object) $this->redis->hGetAll('latestVKPost');
-
-        return ($post) ? $post : false;
-    }
-
     /**
      * @param int $id
      * @return boolean
@@ -134,10 +102,26 @@ class Redis
         return $this->redis->select($id);
     }
 
-    public function setLatestVKPost($params)
-    {
-        $post = (array) $params;
-        $post['message_raw'] = (array) $params->message_raw;
-        return $this->redis->hMset('latestVKPost', $post);
+    public function setBSUIRGroups(array $list) {
+
+        foreach ($list as $group) {
+            $this->redis->hMSet("group:{$group['name']}", $group);
+
+            $this->redis->sAdd("groups", "group:{$group['name']}");
+        }
+
+        return true;
+    }
+
+    public function getBSUIRGroups(): array {
+
+        $groups = [];
+        $groupsDBList = $this->redis->sMembers('groups');
+
+        foreach ($groupsDBList as $groupName) {
+            $groups[] = $this->redis->hGetAll($groupName);
+        }
+
+        return $groups;
     }
 }

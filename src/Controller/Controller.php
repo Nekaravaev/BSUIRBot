@@ -69,7 +69,7 @@ class Controller
     protected $logger;
 
 
-    public function __construct(Type $command, Bot $bot, User $user, BSUIR $scheduleInstance, Phrase $phrase, CommandParseHelper $parser)
+    public function __construct(Type $command, Bot $bot, User $user, BSUIR $scheduleInstance, Phrase $phrase, CommandParseHelper $parser, Redis $db)
     {
         $this->bot      = $bot;
         $this->schedule = $scheduleInstance;
@@ -79,6 +79,7 @@ class Controller
         $this->parser   = $parser;
         $this->message_type = $this->command->getObjectType();
         $this->phrases = $phrase;
+        $this->db = $db;
     }
 
     public function searchAndFireAction($text) {
