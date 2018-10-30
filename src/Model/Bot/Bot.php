@@ -8,14 +8,19 @@
 
 namespace BSUIRBot\Model\Bot;
 
+use BSUIRBot\Model\Request;
+
 abstract class Bot
 {
     protected $token;
+    /** @var Request */
+
     protected $request;
+
     protected $api;
 
     /* init, set token  */
-    public function __construct($token, $requestClass)
+    public function __construct(string $token, Request $requestClass)
     {
         $this->token = $token;
         $this->request = $requestClass;
@@ -23,7 +28,7 @@ abstract class Bot
 
     abstract public function sendMessage($chat, $reply, $keyboardLayout = []);
 
-    abstract public function forwardMessage($fromChatId, $messageId, $reply);
+    abstract public function forwardMessage($fromChatId, $toChatId, $messageId, $reply);
 
     /**
      * Sends request uses Request class

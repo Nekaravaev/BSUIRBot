@@ -56,8 +56,9 @@ class TelegramController extends Controller
     {
         if ($this->user->getGroupId() == 0 || $this->user->getGroupId() == 'temp')
         {
+           $keyboard = $this->buildGroupsKeyboard();
            return [
-               'reply' => "Привет, <b>".$this->user->getDisplayName()."</b>!" . PHP_EOL . "Введи номер группы. 👆",
+               'reply' => "Привет, <b>".$this->user->getDisplayName()."</b>!" . PHP_EOL . "Выбери номер группы. 👆",
                'keyboard' => ['force_reply' => true]
                ];
         }
@@ -159,8 +160,16 @@ class TelegramController extends Controller
         ];
     }
 
-    public function trackAnalytics(string $action) {
-        $message = ($this->message_type === 'callback_query') ? $this->command->{$this->message_type}->getMessage()->attributes() : $this->command->{$this->message_type}->attributes();
-        $this->analytics->track($message, $action);
+    public function buildGroupsKeyboard(): array {
+        $groups = $this->db->getBSUIRGroups();
+        $buttons = [];
+
+        foreach ($groups as $group) {
+            $buttons[] = [
+                ['text' => $group['name'], 'callback_data' => $group['name']]
+            ];
+        }
+
+        return $buttons;
     }
 }

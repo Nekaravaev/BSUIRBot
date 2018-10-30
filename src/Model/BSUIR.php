@@ -173,4 +173,13 @@ class BSUIR
         }
         return $buttons;
     }
+
+    public function getGroupsList(): array
+    {
+        $groupsJson = $this->request->send('https://students.bsuir.by/api/v1/groups');
+
+        $groupsList = json_decode($groupsJson, true);
+
+        return $groupsList;
+    }
 }

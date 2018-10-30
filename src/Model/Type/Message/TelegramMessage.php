@@ -40,6 +40,7 @@ class TelegramMessage extends Type implements Message {
     /** @var MessageEntity[] $entities */
     protected $entities;
 
+    //todo: check for message validation
     public function __construct(\stdClass $input) {
 //        if (!$this->validateMessage($input))
 //            throw new InvalidInputException('Комманда не валидна.');
