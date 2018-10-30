@@ -78,10 +78,10 @@ class Telegram extends Bot
 
     }
 
-    public function forwardMessage($fromChatId, $messageId, $reply)
+    public function forwardMessage($fromChatId, $toChatId, $messageId, $reply)
     {
         $res = [
-            'chat_id' => $this->debugchat,
+            'chat_id' => $toChatId,
             'from_chat_id' => $fromChatId,
             'message_id' => $messageId
         ];

@@ -1,6 +1,7 @@
 <?php
 date_default_timezone_set("Europe/Minsk");
 require_once 'di.php';
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -39,7 +40,7 @@ $schedule = $container->get(\BSUIRBot\Model\BSUIR::class);
 $phrases = $container->get(\BSUIRBot\Model\Util\Phrase::class);
 
 try {
-    $Controller  = new \BSUIRBot\Controller\TelegramController( $command, $bot, $user, $schedule, $phrases, $parser );
+    $Controller  = new \BSUIRBot\Controller\TelegramController( $command, $bot, $user, $schedule, $phrases, $parser, $database );
     $Controller->setLogger($bugsnag);
     $Controller->execute();
 } catch (BreakException $breakException) {
