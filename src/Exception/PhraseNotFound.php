@@ -11,11 +11,5 @@ namespace BSUIRBot\Exception;
 
 class PhraseNotFound extends \Exception
 {
-    /**
-     * @return string
-     */
-    public function returnMessage(): string
-    {
-        return $this->getMessage('Phrase not found: '. $this->getMessage());
-    }
+   
 }
