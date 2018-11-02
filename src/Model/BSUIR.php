@@ -17,6 +17,10 @@ class BSUIR
     protected $request;
 
 
+    /** @var string */
+    protected $uri = 'https://journal.bsuir.by';
+
+
     public function __construct($requestObject)
     {
         $this->request = $requestObject;
@@ -42,7 +46,7 @@ class BSUIR
 
         $differenceBeforeDates = $requestDate->diff($today);
 
-        $currentWeekNumber = (int) $this->request->send('http://students.bsuir.by/api/v1/week');
+        $currentWeekNumber = (int) $this->request->send("{$this->getUri()}/api/v1/week");
 
         if ($differenceBeforeDates->days > 0) {
             $currentWeekDay = (int) $today->format('w');
@@ -90,7 +94,7 @@ class BSUIR
     public function getGroupSchedule(string $groupId, int $day, int $week): array
     {
         $todaySubjects = [];
-        $json = $this->request->send("http://students.bsuir.by/api/v1/studentGroup/schedule?studentGroup=$groupId");
+        $json = $this->request->send("{$this->getUri()}/api/v1/studentGroup/schedule?studentGroup=$groupId");
         $schedules = json_decode($json);
 
         if (!$schedules)
@@ -130,7 +134,7 @@ class BSUIR
 
     public function getScheduleLastUpdateDate(string $gid): string
     {
-        $response = $this->request->send("https://students.bsuir.by/api/v1/studentGroup/lastUpdateDate?studentGroup=$gid");
+        $response = $this->request->send("{$this->getUri()}/api/v1/studentGroup/lastUpdateDate?studentGroup=$gid");
 
         if (!$response)
             throw new \Exception('Group not found');
@@ -176,10 +180,27 @@ class BSUIR
 
     public function getGroupsList(): array
     {
-        $groupsJson = $this->request->send('https://students.bsuir.by/api/v1/groups');
+        $groupsJson = $this->request->send("{$this->getUri()}/api/v1/groups");
 
         $groupsList = json_decode($groupsJson, true);
 
         return $groupsList;
     }
+
+    /**
+     * @return string
+     */
+    public function getUri()
+    {
+        return $this->uri;
+    }
+
+    /**
+     * @param string $uri
+     */
+    public function setUri($uri)
+    {
+        $this->uri = $uri;
+    }
+
 }
